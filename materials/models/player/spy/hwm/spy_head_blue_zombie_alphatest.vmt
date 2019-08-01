@@ -1,0 +1,16 @@
+"Patch"
+{
+	include "materials/models/player/spy/hwm/spy_head_base.vmt"
+	
+	insert
+	{
+		"$basetexture" "models/player/spy/spy_head_blue_zombie"
+		"$compress"    "models/player/spy/spy_head_blue_zombie"
+		"$stretch"     "models/player/spy/spy_head_blue_zombie"
+		"$bumpmap"     "models/player/spy/hwm/spy_head_phongmask"
+		"$basemapalphaphongmask" "0"
+		"$alphatest" "1"
+		"$nodecal" "1"
+		"$nocull" "1"
+	}
+}

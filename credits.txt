@@ -64,6 +64,9 @@ Menu and promotional art:
 Gibus Cat
 iiboharz
 
+Valve.bik Intro:
+Meta
+
 In-game menu logo concept:
 HDMineFace
 
@@ -84,7 +87,8 @@ Music:
 Magnus
 MrModez
 Thoopje
-Jacodemon (Wiseau Theme [Guitar])
+Meta
+Withered Rose
 
 Maps:
 Hambooga (The Bad Place, The Longest Yard, Aerowalk, Blood Covenant)
@@ -116,6 +120,7 @@ Msalinas -  Enabled Nav Mesh and implemented of_navmesh_spawns
 Occune - Russian translation
 Technochips - French translation
 Amy (@OctoGril1) - Female Merc design + Easter egg drawing on legacy
+Tyler McVicker - For streaming Open Fortress and offering to be an announcer
 
 Open Fortress - Special thanks:
 Trotim (for helping KaidemonLP with programming)
@@ -129,5 +134,4 @@ Obsidian Conflict team (for the grappling hook stuff)
 Half Life 2 Comunity Edition ( for the original Alien Swarm UI port )
 tonysergi (for MP Gravity Gun carried objects fix)
 [Cosmetic Set "Top Fragger" - The Boomer Bucket/Lovecrafted Carapace/Earth Quakers by Drew, Yikes, Makkon and Hotrod McCoolguy, used with permission]
-Tyler McVicker - For streaming Open Fortress and offering to be an announcer
 SuperBigBoy (food)

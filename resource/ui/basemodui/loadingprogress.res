@@ -22,7 +22,7 @@
 		"xpos"					"r158" [$WIN32]
 		"xpos"					"r158" [$X360HIDEF]
 		"xpos"					"r140" [$X360LODEF]
-		"ypos"					"r45"
+		"ypos"					"r36"
 		"wide"					"135" [$WIN32]
 		"wide"					"135" [$X360HIDEF]
 		"wide"					"120" [$X360LODEF]
@@ -42,11 +42,11 @@
 	{
 		"ControlName"			"ImagePanel"
 		"fieldName"				"Logo"
-		"xpos"					"0"
-		"ypos"					"r60"
+		"xpos"					"20"
+		"ypos"					"r56"
 		"zpos"					"5"
-		"wide"					"290"
-		"tall"					"56"
+		"wide"					"260"
+		"tall"					"50"
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
@@ -59,8 +59,8 @@
 	{
 		"ControlName"			"Label"
 		"fieldName"				"LoadingText"
-		"xpos"					"r223"
-		"ypos"					"r55"
+		"xpos"					"r225"
+		"ypos"					"r48"
 		"zpos"					"5"
 		"wide"					"200"
 		"tall"					"20"
@@ -69,7 +69,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
-		"Font"					"DefaultBold"
+		"Font"					"MainMenuFont"
 		"labelText"				"#GameUI_Loading"
 		"textAlignment"			"east"
 		"fgcolor_override"		"255 255 255 255"
@@ -150,9 +150,9 @@
 	{
 		"ControlName"			"EditablePanel"
 		"fieldName"			"LoadingTipPanel"
-		"xpos"				"0"
-		"ypos"				"150"
-		"wide"				"450"
+		"xpos"				"20"
+		"ypos"				"r140"
+		"wide"				"360"
 		"tall"				"80"
 		"visible"			"1"
 		"enabled"			"1"

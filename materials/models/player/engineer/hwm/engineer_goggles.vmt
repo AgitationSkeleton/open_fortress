@@ -1,0 +1,11 @@
+"Patch"
+{
+	include "materials/models/player/engineer/hwm/engineer_head_base.vmt"
+	
+	insert
+	{
+		"$phongboost" "2"
+		"$phongexponenttexture" ""
+		"$phongexponent" "10"
+	}
+}

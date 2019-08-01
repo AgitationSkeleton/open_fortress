@@ -1,6 +1,0 @@
-"vertexlitgeneric"
-{
-	"$basetexture" "cstrike16/player/Chrome1"
-	"$envmap" "cstrike16/player/Chrome1"
-"$halflambert" "1"
-}

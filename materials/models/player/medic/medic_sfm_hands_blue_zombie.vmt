@@ -1,0 +1,9 @@
+"Patch"
+{
+	include "materials/models/player/medic/medic_sfm_hands_base.vmt"
+	
+	insert
+	{
+		"$baseTexture" "models/player/medic/medic_sfm_hands_blue_zombie"
+	}
+}

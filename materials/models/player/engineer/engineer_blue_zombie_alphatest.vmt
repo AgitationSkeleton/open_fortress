@@ -1,0 +1,11 @@
+"Patch"
+{
+	include "materials/models/player/engineer/engineer_base.vmt"
+	
+	insert
+	{
+		"$baseTexture" "models/player/engineer/engineer_blue_zombie"
+		"$alphatest" "1"
+		"$nodecal" "1"
+	}
+}

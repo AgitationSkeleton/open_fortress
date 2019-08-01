@@ -1,0 +1,12 @@
+"Patch"
+{
+	include "materials/models/player/shared/invun_blue.vmt"
+	
+	insert
+	{
+		"$basetexture" "models/player/spy/spy_head_blue_zombie"
+		"$selfillum" "0"
+		"$alphatest" "1"
+		"$nocull" "1"
+	}
+}

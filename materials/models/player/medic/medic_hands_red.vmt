@@ -1,29 +1,9 @@
-"VertexLitGeneric"
+"Patch"
 {
-	"$basetexture" "models\player\medic\medic_hands_red"
-	"$basemapalphaphongmask" "1"
-
-	"$phong" "1"
-	"$phongexponent" "15"
-	"$phongboost" ".4"		
-	"$lightwarptexture" "models\player\engineer\engineer_hands_lightwarp"
-	"$phongfresnelranges"	"[.3 1 8]"
-	"$halflambert" "0"
-	"$phongwarptexture" "models\player\engineer\engineer_hands_lightwarp"
+	include "materials/models/player/medic/medic_hands_base.vmt"
 	
-	// Rim lighting parameters
-	"$rimlight" "1"												// To enable rim lighting (requires phong)
-	"$rimlightexponent" "4"										// Exponent for phong component of rim lighting	
-	"$rimlightboost" "2"										// Boost for ambient cube component of rim lighting
-
-	"$cloakPassEnabled" "1"
-	"Proxies"
+	insert
 	{
-		"spy_invis"
-		{
-		}
+		"$baseTexture" "models/player/medic/medic_hands_red"
 	}
 }
-
-
-

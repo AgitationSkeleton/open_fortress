@@ -1,0 +1,10 @@
+"Patch"
+{
+	include "materials/models/player/shared/invun_red.vmt"
+	
+	insert
+	{
+		// fallback to normal heads as those have no alpha channel, which is needed so the invun textures don't look ugly
+		"$baseTexture" "models/player/engineer/engineer_head"
+	}
+}

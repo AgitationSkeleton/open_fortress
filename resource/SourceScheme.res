@@ -43,6 +43,17 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"MainMenuFontBIG"
+		{
+			"1"	[$WIN32]
+			{
+				"name"		"TF2"
+				"tall"		"25"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"MenuLarge"
 		{
 			"1"	[$X360]

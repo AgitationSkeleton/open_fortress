@@ -1,0 +1,59 @@
+"VertexLitGeneric"
+{
+    // hwm head texture is worse somehow, using default texture instead
+	"$basetexture" "models/player/demo/demoman_head"
+	"$compress"    "models/player/demo/hwm/demoman_head_compress"
+	"$stretch"     "models/player/demo/hwm/demoman_head_stretch"
+	"$bumpmap"     "models/player/demo/hwm/demoman_head_phongmask"
+
+	"$detail" "effects/tiledfire/fireLayeredSlowTiled512.vtf"	
+	"$detailscale" "5"
+	"$detailblendfactor" .0
+	"$detailblendmode" 6
+
+	"$phong" "1"
+	"$phongexponenttexture" "models/player/demo/hwm/demoman_head_exponent"
+	"$phongboost" "1"	
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$phongfresnelranges"	"[0.007 0.4 5]"
+	"$halflambert" "0"
+
+	// Rim lighting parameters
+	"$rimlight" "1"												// To enable rim lighting (requires phong)
+	"$rimlightexponent" "2"										// Exponent for phong component of rim lighting	
+	"$rimlightboost" "1"										// Boost for ambient cube component of rim lighting
+	"$rimmask" "1"                  // Use the alpha channel of the $phongexponenttexture as a rim mask.
+
+	// Cloaking
+	"$cloakPassEnabled" "1"
+	
+	"$ambientocclusion" "1"
+
+	"$yellow" "0"
+
+	"Proxies"
+	{
+		"spy_invis"
+		{
+		}
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$detail"
+			"animatedtextureframenumvar" "$detailframe"
+			"animatedtextureframerate" 30
+		}
+		"BurnLevel"
+		{
+			"resultVar" "$detailblendfactor"
+		}
+		"YellowLevel"
+		{
+			"resultVar" "$yellow"
+		}
+		"Equals"
+		{
+			"srcVar1" "$yellow"
+			"resultVar" "$color2"
+		}
+	}
+}

@@ -1,0 +1,11 @@
+"Patch"
+{
+	include "materials/models/player/medic/hwm/medic_head_base.vmt"
+	
+	insert
+	{
+		"$basetexture" "models/player/medic/medic_head_zombie"
+		"$compress" "models/player/medic/medic_head_zombie"
+		"$stretch" "models/player/medic/medic_head_zombie"
+	}
+}

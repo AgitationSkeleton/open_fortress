@@ -1,45 +1,29 @@
-"VertexLitGeneric"
+"Patch"
 {
-	"$basetexture" "models\player\medic\medic_hands_custom"
-	"$basemapalphaphongmask" "1"
-
-	"$phong" "1"
-	"$phongexponent" "80"
-	"$phongboost" ".2"	
-	"$lightwarptexture" "models\player\engineer\engineer_hands_lightwarp"
-	"$phongfresnelranges"	"[1 5 10]"
-	"$halflambert" "1"
+	include "materials/models/player/medic/medic_hands_base.vmt"
 	
-	// Rim lighting parameters
-	"$rimlight" "1"												// To enable rim lighting (requires phong)
-	"$rimlightexponent" "4"										// Exponent for phong component of rim lighting	
-	"$rimlightboost" "2"										// Boost for ambient cube component of rim lighting
-
-	"$cloakPassEnabled" "1"
-	
-	"$blendtintbybasealpha"		"1"
-	"$blendtintcoloroverbase"		"1"
-	"$colortint_base"		"{0 0 0}"
-	"$color2"		"{180 180 180}"
-	"$colortint_tmp"		"[0 0 0]"		
-
-	"Proxies"
+	insert
 	{
-		"spy_invis"
+		"$baseTexture" "models/player/medic/medic_hands_custom"
+		
+		"$blendtintbybasealpha"		"1"
+		//"$blendtintcoloroverbase"		"1"
+		"$colortint_base"		"{0 0 0}"
+		"$color2"		"{93 72 117}"
+		"$colortint_tmp"		"[0 0 0]"	
+		
+		"Proxies"
 		{
+			"ItemTintColor"
+			{
+				"resultVar"		"$colortint_tmp"
+			}
+			"SelectFirstIfNonZero"
+			{
+				"srcVar1"		"$colortint_tmp"
+				"srcVar2"		"$colortint_base"
+				"resultVar"		"$color2"
+			}
 		}
-		"ItemTintColor"
-		{
-			"resultVar"		"$colortint_tmp"
-		}
-		"SelectFirstIfNonZero"
-		{
-			"srcVar1"		"$colortint_tmp"
-			"srcVar2"		"$colortint_base"
-			"resultVar"		"$color2"
-		}	
 	}
 }
-
-
-

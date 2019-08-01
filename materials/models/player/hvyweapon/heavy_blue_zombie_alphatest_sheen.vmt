@@ -1,0 +1,29 @@
+"Patch"
+{
+	include "materials/models/player/hvyweapon/hvyweapon_base.vmt"
+	
+	insert
+	{
+		"$baseTexture" "models/player/hvyweapon/hvyweapon_blue_zombie"
+		"$alphatest" "1"
+		"$nodecal" "1"
+		
+		"$sheenPassEnabled" "1"
+		"$sheenmap" 		"cubemaps/cubemap_sheen001"
+		"$sheenmapmask" 		"Effects/AnimatedSheen/animatedsheen0"
+		"$sheenmaptint" 		"[ 1 1 1 ]"
+		"$sheenmapmaskframe" 	"0"
+		"$sheenindex" 		"0"
+
+		"Proxies"
+		{
+
+			"AnimatedWeaponSheen"
+			{
+			"animatedtexturevar" 		"$sheenmapmask"
+			"animatedtextureframenumvar" 	"$sheenmapmaskframe"
+			"animatedtextureframerate" 		"40"
+			}
+		}
+	}
+}

@@ -1,17 +1,9 @@
-"VertexLitGeneric"
+"Patch"
 {
-	"$basetexture" "models\player\soldier\soldier_blue_gib"
-	"$bumpmap" "models\player\soldier\soldier_normal"
-
-	"$phong" "1"
-	"$phongexponenttexture" "models\player\soldier\soldier_exponent"
-	"$phongboost" "1"	
-	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
-	"$phongfresnelranges"	"[.3 1 3]"
-	"$halflambert" "1"
-
-	// Rim lighting parameters
-	"$rimlight" "1"												// To enable rim lighting (requires phong)
-	"$rimlightexponent" "4"										// Exponent for phong component of rim lighting	
-	"$rimlightboost" "2"										// Boost for ambient cube component of rim lighting
+	include "materials/models/player/soldier/soldier_base_gib.vmt"
+	
+	insert
+	{
+		"$baseTexture" "models/player/soldier/soldier_blue_gib"
+	}
 }

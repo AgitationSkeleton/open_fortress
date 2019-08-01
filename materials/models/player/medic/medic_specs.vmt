@@ -1,0 +1,54 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/player/medic/medic_specs"
+	"$basemapalphaphongmask" "1"
+	//"$bumpmap"	"models/player/medic/medic_specs_normal"
+	
+	"$detail" "effects/tiledfire/fireLayeredSlowTiled512.vtf"	
+	"$detailscale" "5"
+	"$detailblendfactor" .0
+	"$detailblendmode" 6
+	
+	"$yellow" "0"
+
+	"$envmap"	"env_cubemap"
+	"$envmaptint" "[.1 .1 .1]"
+	//phong properties
+	"$phong"	"1"
+	"$phongboost"	"1"
+	"$phongexponent"	"80"
+	"$phongfresnelranges"	"[1 2 2.5]"
+	
+	// Rim lighting parameters
+	"$rimlight" "1"												// To enable rim lighting (requires phong)
+	"$rimlightexponent" "4"										// Exponent for phong component of rim lighting	
+	"$rimlightboost" "1"										// Boost for ambient cube component of rim lighting
+
+	// Cloaking
+	"$cloakPassEnabled" "1"
+	"Proxies"
+	{
+		"spy_invis"
+		{
+		}
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$detail"
+			"animatedtextureframenumvar" "$detailframe"
+			"animatedtextureframerate" 30
+		}
+		"BurnLevel"
+		{
+			"resultVar" "$detailblendfactor"
+		}
+		"YellowLevel"
+		{
+			"resultVar" "$yellow"
+		}
+		"Equals"
+		{
+			"srcVar1" "$yellow"
+			"resultVar" "$color2"
+		}
+	}
+}

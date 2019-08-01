@@ -1,0 +1,11 @@
+"Patch"
+{
+	include "materials/models/player/shared/invun_red.vmt"
+	
+	insert
+	{
+		"$basetexture"	"models/player/demo/demoman_red_zombie"
+		"$selfillum" "0"
+		"$alphatest" "1"
+	}
+}

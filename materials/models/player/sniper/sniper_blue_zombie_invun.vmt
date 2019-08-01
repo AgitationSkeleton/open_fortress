@@ -1,0 +1,11 @@
+"Patch"
+{
+	include "materials/models/player/shared/invun_blue.vmt"
+	
+	insert
+	{
+		"$baseTexture" "models/player/sniper/sniper_blue_zombie"
+		"$selfillum" "0"
+		"$alphatest" "1"
+	}
+}
