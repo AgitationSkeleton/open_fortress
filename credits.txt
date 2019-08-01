@@ -1,7 +1,7 @@
 Open Fortress - List of developers:
 
 Project lead and programmer:
-KaidemonLP
+KaydemonLP
 
 Programming:
 Alex Episode
@@ -101,7 +101,7 @@ Fairweather (Pandora)
 Suomimes55 (Congo, DM+CTF Backfort, Boxy, Weapon devtest map, Knoxx)
 Ficool2 (DM Lumberyard)
 MacD11 (Wiseau, Range, Dead Simple, Grain, Offblast)
-KaiDemonLP (Harvest, 2Fort Weapontest [Indev], Devtest maps)
+KayDemonLP (Harvest, 2Fort Weapontest [Indev], Devtest maps)
 Lena (Cargo, Dark Zone)
 Boomsta (Sawdust)
 Gibus Cat (Indev DM_2Fort)
@@ -119,6 +119,7 @@ Cori - cl_showpos_xy and of_healonkill convars
 Msalinas -  Enabled Nav Mesh and implemented of_navmesh_spawns
 Occune - Russian translation
 Technochips - French translation
+The Engineer - Hungarian translation
 Amy (@OctoGril1) - Female Merc design + Easter egg drawing on legacy
 Tyler McVicker - For streaming Open Fortress and offering to be an announcer
 
