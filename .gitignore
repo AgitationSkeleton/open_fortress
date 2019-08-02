@@ -15,7 +15,9 @@ voice_ban.dt
 
 # debug symbols
 bin/*.dbg
+bin/*.pdb
 *.dbg
+*.pdb
 
 # crash dumps
 *.dmp
