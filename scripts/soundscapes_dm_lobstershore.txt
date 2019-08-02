@@ -1,0 +1,114 @@
+"Lobster.short"
+{
+	"dsp"	"1"
+	
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient/lair/jungle_base_loop.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient/lair/jungle_life_loop.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient/lair/jungle_wind_loop.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient/lair/jungle_insect_loop2.wav"
+	}
+	
+	
+	"playrandom"
+	{
+		"time"		"2,25"
+		"volume"	".75"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/lair/animal_call_unknown_howl1.mp3"
+			"wave"		"ambient_mp3/lair/animal_call_unknown_howl2.mp3"
+			"wave"		"ambient_mp3/lair/animal_call_unknown_howl6.mp3"
+		}
+	}
+	
+	
+	"playrandom"
+	{
+		"time"		"6,26"
+		"volume"	".6"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/lair/animal_call_bird_weird1.mp3"
+			"wave"		"ambient_mp3/lair/animal_call_bird_weird2.mp3"
+			"wave"		"ambient_mp3/lair/animal_call_bird_weird3.mp3"
+			"wave"		"ambient_mp3/lair/animal_call_bird_weird4.mp3"
+			"wave"		"ambient_mp3/lair/animal_call_bird_weird5.mp3"
+			"wave"		"ambient_mp3/lair/animal_call_bird_weird6.mp3"
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"8,20"
+		"volume"	".5"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/lair/animal_call_bird1.mp3"
+			"wave"		"ambient_mp3/lair/animal_call_bird2.mp3"
+			"wave"		"ambient_mp3/lair/animal_call_bird3.mp3"
+			"wave"		"ambient_mp3/lair/animal_call_bird4.mp3"
+			"wave"		"ambient_mp3/lair/animal_call_bird5.mp3"
+			"wave"		"ambient_mp3/lair/animal_call_bird6.mp3"
+			"wave"		"ambient_mp3/lair/animal_call_bird7.mp3"
+			"wave"		"ambient_mp3/lair/animal_call_bird8.mp3"
+			"wave"		"ambient_mp3/lair/animal_call_bird9.mp3"
+			"wave"		"ambient_mp3/lair/animal_call_bird10.mp3"
+			"wave"		"ambient_mp3/lair/animal_call_bird13.mp3"
+			"wave"		"ambient_mp3/lair/animal_call_bird14.mp3"
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"10,22"
+		"volume"	".75"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/lair/animal_call_bird_loon1.mp3"
+			"wave"		"ambient_mp3/lair/animal_call_bird_loon2.mp3"
+			"wave"		"ambient_mp3/lair/animal_call_bird_loon3.mp3"
+			"wave"		"ambient_mp3/lair/animal_call_bird_loon4.mp3"
+		}
+	}	
+	
+	"playrandom"
+	{
+		"time"		"12,25"
+		"volume"	".75"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/lair/animal_call_woodpecker1.mp3"
+			"wave"		"ambient_mp3/lair/animal_call_woodpecker2.mp3"
+			"wave"		"ambient_mp3/lair/animal_call_woodpecker3.mp3"
+			"wave"		"ambient_mp3/lair/animal_call_woodpecker4.mp3"
+			"wave"		"ambient_mp3/lair/animal_call_hunter.mp3" 
+		}
+	}
+}

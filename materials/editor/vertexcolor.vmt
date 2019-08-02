@@ -1,8 +1,0 @@
-"UnlitGeneric"
-{
-	// Original shader: vertexcolor
-	"%tooltexture" "editor/flat"
-	"$vertexcolor" 1
-}
-
-

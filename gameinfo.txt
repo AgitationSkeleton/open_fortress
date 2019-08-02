@@ -1,18 +1,18 @@
 "GameInfo"
 {
-	game 			"Open Fortress: Deathmatch"
+	game 			"Open Fortress"
 	title 			""
 	title2			""	
 	gamelogo		"1"
-	developer		"https://github.com/KaidemonLP/open_fortress/blob/master/credits.txt"
+	developer		"https://github.com/AgitationSkeleton/open_fortress/blob/master/credits.txt"
 	developer_url	"https://github.com/KaidemonLP/Open-Fortress-Source"
 	manual			""
 	
 	type			"multiplayer_only"
 	hasportals		"0" // gameui.dll
 	hashdcontent	"0" // gameui.dll
-	nomodels		"1" // gameui.dll
-	nohimodel		"1" // gameui.dll
+	nomodels		"0" // gameui.dll
+	nohimodel		"0" // gameui.dll
 	nocrosshair		"0" // gameui.dll
 	advcrosshair 	"1" // gameui.dll
 	nodifficulty	"1" // gameui.dll
@@ -30,7 +30,7 @@
 	SupportsPS3		"0" // unused
 	SupportsPS4		"0" // unused
 	icon			"resource/game"
-	GameData		"../../sourcemods/open_fortress/ofd_fic2.fgd"
+	GameData		"ofd_fic2.fgd"
 	InstancePath	"maps/instances/"
 	
 	hidden_maps
@@ -105,28 +105,30 @@
 			game+game_write+mod+mod_write+default_write_path |gameinfo_path|.
 			gamebin				|gameinfo_path|bin
 			
-			game				|all_source_engine_paths|hl2/hl2_textures.vpk
-			game				|all_source_engine_paths|hl2/hl2_sound_vo_english.vpk
-			game				|all_source_engine_paths|hl2/hl2_sound_misc.vpk
-			game				|all_source_engine_paths|hl2/hl2_misc.vpk
-			game				|all_source_engine_paths|hl2
+			// The lines below until the BREAK comment are responsible for the game resources to work properly
+			// in Hammer and other Source tools. The default setup assumes that you have everything (Steam, TF2,
+			// Source SDK and OF) in the same drive letter/partition. If you have a different storage configuration,
+			// feel free to modify the paths below between quotes (example: D:\Steam\steamapps\common\Team Fortress 2\tf).
+			game				"|all_source_engine_paths|..\Team Fortress 2\tf\tf2_misc.vpk"
+			game				"|all_source_engine_paths|..\Team Fortress 2\tf\tf2_sound_misc.vpk"
+			game				"|all_source_engine_paths|..\Team Fortress 2\tf\tf2_sound_vo_english.vpk"
+			game				"|all_source_engine_paths|..\Team Fortress 2\tf\tf2_textures.vpk"
+			game				"|all_source_engine_paths|..\Team Fortress 2\tf"
+
+			game				"|all_source_engine_paths|..\Team Fortress 2\hl2\hl2_textures.vpk"
+			game				"|all_source_engine_paths|..\Team Fortress 2\hl2\hl2_sound_vo_english.vpk"
+			game				"|all_source_engine_paths|..\Team Fortress 2\hl2\hl2_sound_misc.vpk"
 			
-			game				"|all_source_engine_paths|../Source SDK Base 2013 Singleplayer/ep2/ep2_pak.vpk"
-			game				"|all_source_engine_paths|../Source SDK Base 2013 Singleplayer/ep2"
-			
-			game				"|all_source_engine_paths|../Source SDK Base 2013 Singleplayer/episodic/ep1_pak.vpk"
-			game				"|all_source_engine_paths|../Source SDK Base 2013 Singleplayer/episodic"
-			
-			game				|all_source_engine_paths|hl2mp/sourcetest_pak.vpk
-			game				|all_source_engine_paths|hl2mp
+			// The hl2 folder here is from Source SDK Base 2013 Multiplayer.
+			game				"|all_source_engine_paths|hl2\hl2_misc.vpk"
+			game				"|all_source_engine_paths|hl2"
+			// ========== BREAK ==========
 			
 			platform			|all_source_engine_paths|platform/platform_misc.vpk
 			platform			|all_source_engine_paths|platform
 			
-			game				|all_source_engine_paths|sourcetest/sourcetest_pak.vpk
-			game				|all_source_engine_paths|sourcetest
-			
 			game+download		|gameinfo_path|download
+			
 		}
 	}
 }

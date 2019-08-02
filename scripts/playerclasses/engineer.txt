@@ -10,13 +10,20 @@ PlayerClass
 	// Models.
 	"model"				"models/player/engineer.mdl"
 	"model_hwm"			"models/player/hwm/engineer.mdl"
-	"model_bot"			"models/bots/engineer/bot_engineer.mdl"
 	"arm_model"			"models/weapons/c_models/c_engineer_arms.mdl"
+	"bot_model"			"models/bots/engineer/bot_engineer.mdl"
+	"alt_model"			"models/player/engineer.mdl"
+	"alt_arm_model"		"models/weapons/c_models/c_tfc_engineer_arms.mdl"
+	"tfc_model"			"models/player/engineer.mdl"
+	"tfc_arm_model"		"models/weapons/c_models/c_tfc_engineer_arms.mdl"
 	
 	// Stats.
 	"speed_max"			"300"
 	"health_max"		"125"
 	"armor_max"			"0"
+	"tfc_speed_max"		"300"
+	"tfc_health_max"	"80"
+	"tfc_armor_max"		"50"
 
 	// Grenades.
 	"grenade1"			"TF_GRENADE_NORMAL"
@@ -33,6 +40,15 @@ PlayerClass
 	"weapon7"			"NONE"
 	"weapon8"			"NONE"
 	"weapon9"			"NONE"
+	"tfc_weapon1"		"TF_WEAPON_PDA_ENGINEER_BUILD"   //NEEDED FOR BUILDABLES
+	"tfc_weapon2"		"TF_WEAPON_PDA_ENGINEER_DESTROY" //TO WORK PROPERLY
+	"tfc_weapon3"		"TFC_WEAPON_WRENCH"
+	"tfc_weapon4"		"TFC_WEAPON_RAILPISTOL"
+	"tfc_weapon5"		"TFC_WEAPON_SHOTGUN_DB"
+	"tfc_weapon6"		"NONE"
+	"tfc_weapon7"		"NONE"
+	"tfc_weapon8"		"NONE"
+	"tfc_weapon9"		"NONE"
 	
 	// Buildables.
 	"buildable1"		"OBJ_SENTRYGUN"
@@ -40,36 +56,15 @@ PlayerClass
 	"buildable3"		"OBJ_TELEPORTER_ENTRANCE"
 	"buildable4"		"OBJ_TELEPORTER_EXIT"
 	
-	// Ammo.
-	AmmoMax
-	{
-		"TF_AMMO_PRIMARY"			"200"
-		"TF_AMMO_SECONDARY"			"200"
-		"TF_AMMO_METAL"				"200"
-		"TF_AMMO_GRENADES1"			"1"
-		"TF_AMMO_GRENADES2"			"1"
-
-		"TF_AMMO_GRENADELAUNCHER"	"30"
-		"TF_AMMO_PIPEBOMBLAUNCHER"	"40"
-		"TF_AMMO_REVOLVER"			"24"
-		"TF_AMMO_ROCKETLAUNCHER"	"36"
-		"TF_AMMO_SNIPERRIFLE"		"25"
-		"TF_AMMO_SMG"				"75"
-		"TF_AMMO_SCATTERGUN"		"32"
-		"TF_AMMO_PISTOL"			"200"
-		"TF_AMMO_FLAMETHROWER"		"200"
-		"TF_AMMO_SYNRINGES"			"150"
-		"TF_AMMO_MINIGUN"			"200"
-		"TF_AMMO_SHOTGUN"			"32"
-		"TF_AMMO_NAILS"				"150"
-		"TF_AMMO_SUPERSHOTGUN"		"32"
-		"TF_AMMO_RAILGUN"			"25"
-		"TF_AMMO_ASSAULTRIFLE"		"90"
-	}	
-
 	// Death Sounds.
 	"sound_death"					"Engineer.Death"
 	"sound_crit_death"				"Engineer.CritDeath"
 	"sound_melee_death"				"Engineer.MeleeDeath"
 	"sound_explosion_death"			"Engineer.ExplosionDeath"	
+	
+	// Ammo.
+	AmmoMax
+	{
+		"TF_AMMO_METAL"				"200"
+	}
 }

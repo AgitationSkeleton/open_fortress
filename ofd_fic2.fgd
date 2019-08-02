@@ -1,10 +1,7 @@
 
 // == IMPORTANT == //
 
-// This FGD only works in Slartibarty's / Slammin Hammer! https://forum.facepunch.com/dev/bvenk/Slammin-Source-map-tools
-// This will not work in the stock Hammer, use ofd_fic2_stock.fgd instead if necessary. (Deprecated)
-
-
+// This FGD only works in Slartibarty's / Slammin Hammer! https://knockout.chat/thread/992/1
 
 
 //=============================================================================
@@ -12,8 +9,8 @@
 // Fully standardised general game definition file (.fgd) for Open Fortress Deathmatch
 // Does not contain HL2 entities, add ofd_fic2_hl2.fgd to Hammer's config if you want them
 // Researched and overhauled/updated by ficool2, based roughly on A Boojum Snark's FGD, seen here http://forums.tf2maps.net/showthread.php?t=4674
-// Many thanks to KaidemonLP for datamap dumps used to update this FGD
-// 14th of May 2019
+// Thanks to KaidemonLP for datamap dumps
+// 30th of July 2019
 //
 //=============================================================================
 
@@ -53,6 +50,24 @@
 
 @AutoVisGroup = "Entities"
 [
+	"Cameras"
+	[
+     	"func_monitor"
+		"game_intro_viewpoint"
+		"info_camera_link"
+		"info_observer_point"
+		"point_camera"
+		"point_commentary_viewpoint"
+		"point_devshot_camera"
+		"point_viewcontrol"
+		"sky_camera"
+	]
+	"Instances"
+	[
+		"func_instance"
+		"func_instance_parms"
+		"func_instance_origin"
+	]
 	"Lights"
 	[
 		"light"
@@ -61,6 +76,35 @@
 		"light_environment"
 		"light_glspot"
 		"light_spot"
+	]
+	"Sprites"
+	[
+		"env_sprite"
+		"env_sprite_orientated"
+		"env_glow"
+		"env_lightglow"
+	]
+	"Propper"
+	[
+		"propper_lod"
+		"propper_bodygroup"
+		"propper_physgun_interactions"
+		"propper_particles"
+		"propper_cables"
+		"propper_gibs"
+		"propper_skins"
+		"propper_model"
+		"propper_physics"
+	]
+	"Sound"
+	[
+     	"ambient_generic"	 
+		"env_microphone"
+		"env_soundscape"
+        "env_soundscape_proxy"
+        "env_soundscape_triggerable"
+		"trigger_soundscape"
+		"info_target"
 	]
 ]
 
@@ -90,13 +134,11 @@
 	    "ai_goal_lead_weapon"
 	    "ai_goal_standoff"
 	    "ai_hint"
-	    "ai_network"
 	    "ai_relationship"
 	    "ai_script_conditions"
 	    "ai_sound"
 	    "ai_speechfilter"
 	    "aiscripted_schedule"
-	    "aitesthull"
 	    "assault_assaultpoint"
 	    "assault_rallypoint"
 		"cycler_actor"
@@ -112,7 +154,6 @@
         "info_node_link"
         "info_node_link_controller"
         "info_npc_spawn_destination"
-		"instanced_scripted_scene"
 		"monster_furniture"
 		"monster_generic"
 		"monster_resource"
@@ -120,82 +161,16 @@
 		"npc_maker"
 		"npc_template_maker"
 		"npc_vehicledriver"
-		"rope_anchor"
 		"scripted_scene"
 		"scripted_sentence"
 		"scripted_sequence"
 		"scripted_target"
 	]
-	"Cameras"
-	[
-     	"func_monitor"
-		"game_intro_viewpoint"
-		"info_camera_link"
-		"info_observer_point"
-		"point_camera"
-		"point_commentary_viewpoint"
-		"point_devshot_camera"
-		"point_viewcontrol"
-		"sky_camera"
-	]
-	 "Engine"
-	[
-     	"_ballplayertoucher"	 		    
-     	"_firesmoke"	 
-     	"_plasma"	 	
-        "ai_ally_speech_manager"
-		"ai_hint"
-		"ai_network"
-		"aitesthull"
-		"beam"
-		"event_queue_saveload_proxy"
-		"funCBaseFlex"
-		"gib"
-		"grenade"
-		"hammer_updateignorelist"
-		"handle_dummy"
-		"handle_test"
-		"info_overlay_accessor"
-		"info_populator"
-		"raggib"
-		"player"
-		"player_manager"
-		"populator_internal_spawn_point"
-		"rope_anchor"
-		"scene_manager"
-		"soundent"
-		"spraycan"
-		"te_tester"
-		"test_proxytoggle"
-		"tf_bot"
-		"tf_flame"
-		"tf_flame_manager"
-		"tf_mann_vs_machine_stats"
-		"tf_objective_resource"
-		"tf_player_manager"
-		"tf_ragdoll"
-		"tf_team"
-		"tf_viewmodel"
-		"viewmodel"
-		"vote_controller"
-		"waterbullet"
-		"weapon_ifm_base"
-        "weapon_ifm_base_camera"
-        "weapon_ifm_steadycam"
-		"wearable_item"
-		"window_pane"
-		"world_items"
-    ]
 	"Logic"
 	[
 	    "commentary_auto"
-		"env_debughistory"
-		"env_particle_performance_monitor"
-        "env_player_surface_trigger"
         "filter_activator_class"
-        "filter_activator_context"
         "filter_activator_mass_greater"
-        "filter_activator_model"
         "filter_activator_name"
         "filter_activator_team"
         "filter_activator_tfteam"
@@ -205,12 +180,14 @@
         "filter_multi"
         "filter_tf_bot_has_tag"
         "filter_tf_class"
-		"filter_tf_money"
         "filter_tf_condition"
         "filter_tf_damaged_by_weapon_in_slot"
         "filter_tf_player_can_cap"
-		"func_flag_alert"
-		"func_flagdetectionzone"
+		"func_passtime_no_ball_zone"
+		"func_passtime_goalie_zone"
+		"func_passtime_goal"
+		"func_ladderendpoint"
+		"func_useableladder"
         "game_end"
         "game_forcerespawn"
         "game_gib_manager"
@@ -270,6 +247,7 @@
         "team_control_point_round"
         "team_round_timer"
         "team_train_watcher"
+		"tf_gamerules"
         "tf_halloween_minigame"
         "tf_halloween_minigame_falling_platforms"
         "tf_logic_arena"
@@ -325,65 +303,8 @@
         "trigger_transition"
         "trigger_vphysics_motion"
         "trigger_wind"
-    ]
-	"Instances"
-	[
-     	"func_instance"
-		"func_instance_parms"
 	]
-	"Physics"
-	[
-        "func_clip_vphysics"
-        "func_physbox"
-        "func_physbox_multiplayer"
-        "func_proprrespawnzone"
-        "func_pushable"
-        "func_vehicleclip"
-        "func_weight_button"
-        "info_constraint_anchor"
-        "info_mass_center"
-        "info_radial_link_controller"
-        "passtime_ball"
-        "phys_ballsocket"
-        "phys_bone_follower"
-        "phys_constraint"
-        "phys_constraintsystem"
-        "phys_convert"
-        "phys_hinge"
-        "phys_keepupright"
-        "phys_lengthconstraint"
-        "phys_magnet"
-        "phys_motor"
-        "phys_pulleyconstraint"
-        "phys_ragdollconstraint"
-        "phys_ragdollmagnet"
-        "phys_slideconstraint"
-        "phys_spring"
-        "phys_thruster"
-        "phys_torque"
-        "physics_cannister"
-        "physics_entity_solver"
-        "physics_npc_solver"
-        "physics_prop"
-        "physics_prop_ragdoll"
-        "point_enable_motion_fixup"
-        "prop_physics"
-        "prop_physics_multiplayer"
-        "prop_physics_override"
-        "prop_physics_respawnable"
-        "prop_ragdoll"
-        "prop_ragdoll_attached"
-        "prop_soccer_ball"
-        "prop_sphere"
-        "prop_vehicle"
-        "prop_vehicle_driveable"
-        "simple_physics_brush"
-        "simple_physics_prop"
-        "tf_ammo_pack"
-        "tf_dropped_weapon"
-        "tf_ragdoll"
-    ]
-	"Navigation/NextBot/TFBot"
+	"Bots/Navigation"
 	[
         "archer_proxy"
         "base_boss"
@@ -423,48 +344,24 @@
 	]
 	"Performance"
 	[
-	    "env_detail_controller"
-		"env_fog_controller"
-	    "env_particle_performance_monitor"
 		"func_areaportal"
 		"func_areaportalwindow"
-		"func_lod"
 		"func_occluder"
-		"game_gib_manager"
-		"game_ragdoll_manager"
-		"game_weapon_manager"
-	]
-	"Sound"
-	[
-     	"ai_sound"	 
-     	"ambient_generic"	 
-		"env_microphone"
-		"env_soundscape"
-        "env_soundscape_proxy"
-        "env_soundscape_triggerable"
-		"point_commentary_node"
-		"point_tesla"
-		"soundent"
-		"target_cdaudio"
-		"trigger_cdaudio"
-		"trigger_soundscape"
+		"func_viscluster"
+		"shadow_control"
+		"water_lod_control"
 	]
 	"Visual"
 	[
-        "_firesmoke"
-        "_plasma"
         "archer_proxy"
         "base_boss"
-        "beam"
         "bot_npc_archer"
-        "bot_npc_decoy"
         "color_correction"
         "color_correction_volume"
         "cycler_actor"
         "cycler_flex"
         "dynamic_prop"
         "entity_bird"
-        "entity_blocker"
         "entity_carrier"
         "entity_croc"
         "entity_medigun_shield"
@@ -472,7 +369,6 @@
         "entity_rocket"
         "entity_saucer"
         "entity_sign"
-        "entityflame"
         "env_beam"
         "env_beverage"
         "env_blood"
@@ -500,7 +396,6 @@
         "env_gunfire"
         "env_hudhint"
         "env_laser"
-        "env_laserdot"
         "env_lightglow"
         "env_message"
         "env_movieexplosion"
@@ -512,10 +407,7 @@
         "env_particlesmokegrenade"
         "env_physexplosion"
         "env_physimpact"
-        "env_physwire"
         "env_projectedtexture"
-        "env_quadraticbeam"
-        "env_ragdoll_boogie"
         "env_rockettrail"
         "env_rotorshooter"
         "env_screeneffect"
@@ -542,7 +434,6 @@
         "env_wind"
         "env_zoom"
         "eyeball_boss"
-        "fish"
         "func_breakable"
         "func_breakable_surf"
         "func_brush"
@@ -612,13 +503,11 @@
         "item_powerup_uber"
         "item_sodacan"
         "item_teamflag"
-        "item_teamflag_return_icon"
         "keyframe_rope"
         "light"
 		"light_directional"
 		"light_dynamic"
         "light_environment"
-        "light_glspot"
         "light_spot"
         "mapobj_cart_dispenser"
         "material_modify_control"
@@ -639,7 +528,6 @@
         "obj_sentrygun"
         "obj_teleporter"
         "passtime_ball"
-        "pd_dispenser"
         "phys_magnet"
         "physics_cannister"
         "physics_prop"
@@ -656,33 +544,25 @@
         "prop_physics_override"
         "prop_physics_respawnable"
         "prop_ragdoll"
-        "prop_ragdoll_attached"
         "prop_soccer_ball"
         "prop_sphere"
         "prop_vehicle"
         "prop_vehicle_driveable"
-        "rd_robot_dispenser"
         "shadow_control"
         "simple_bot"
         "simple_physics_brush"
         "simple_physics_prop"
         "spark_shower"
-        "spotlight_end"
         "tank_boss"
         "tank_destruction"
         "teleport_vortex"
         "test_effect"
         "test_traceline"
-        "tf_ammo_pack"
-        "tf_bot"
-        "tf_dropped_weapon"
         "tf_generic_bomb"
         "tf_glow"
         "tf_halloween_gift_pickup"
         "tf_halloween_pickup"
         "tf_merasmus_trick_or_treat_prop"
-        "tf_pda_expansion_dispenser"
-        "tf_pda_expansion_teleporter"
         "tf_powerup_bottle"
         "tf_projectile_arrow"
         "tf_projectile_ball_ornament"
@@ -725,7 +605,6 @@
         "tf_spell_meteorshowerspawner"
         "tf_spell_pickup"
         "tf_target_dummy"
-        "tf_taunt_prop"
         "tf_zombie"
         "training_annotation"
         "training_prop_dynamic"
@@ -1708,7 +1587,7 @@
 [
 	model(studio) : "Model" :  : "Change the model to something other than the default model." 
 	respawntime(integer) : "Respawn Time" : 10 : "Changes the time, in seconds, before the item respawns."
-	respawndelay(integer) : "Respawn Delay" : 0 : "Makes the item spawn after a initial delay."
+	respawndelay(integer) : "Initial Spawn Delay" : 0 : "Makes the item spawn after a initial delay."
 	spawn_sound(sound): "Spawn Sound" : "Item.Materialize" : "Sound to play when Pickup Spawns."
 	HiddenWhenRespawning(boolean) : "Hidden while Respawning?" : 1 : "Whether or not the pickup becomes hidden on pickup."	
 	AutoMaterialize(boolean) : "Auto-Materialize?" : 1 : "The pickup should automatically materialize after being picked up."
@@ -1729,7 +1608,109 @@
 // TF2 Buildings
 @BaseClass base(BaseAnimating, TeamNum) = BaseObject
 [
+	defaultupgrade(choices) : "Starting Upgrade Level" : 0 : "Starting upgrade level of the object. With higher levels, the objects gain more health/damage/recharge speed." =
+	[
+		0  : "Level 1"
+		1  : "Level 2"
+		2  : "Level 3"	
+		3  : "Level 4"
+		4  : "Level 5"	
+		5  : "Level 6"	
+		6  : "Level 7"	
+		7  : "Level 8"	
+		8  : "Level 9"	
+		9  : "Level 10"	
+		10 : "Level 11"	
+		11 : "Level 12"	
+		12 : "Level 13"
+		13 : "Level 14"	
+		14 : "Level 15"	
+		15 : "Level 16"	
+		16 : "Level 17"	
+		17 : "Level 18"	
+		18 : "Level 19"	
+		19 : "Level 20"	
+		20 : "Level 21"	
+		21 : "Level 22"
+		22 : "Level 23"	
+		23 : "Level 24"	
+		24 : "Level 25"	
+		25 : "Level 26"	
+		26 : "Level 27"	
+		27 : "Level 28"	
+		28 : "Level 29"	
+		29 : "Level 30"	
+		30 : "Level 31"
+		31 : "Level 32"	
+		32 : "Level 33"	
+		33 : "Level 34"	
+		34 : "Level 35"	
+		35 : "Level 36"	
+		36 : "Level 37"	
+		37 : "Level 38"	
+		38 : "Level 39"	
+		39 : "Level 40"
+		40 : "Level 41"	
+		41 : "Level 42"	
+		42 : "Level 43"	
+		43 : "Level 44"	
+		44 : "Level 45"	
+		45 : "Level 46"	
+		46 : "Level 47"	
+		47 : "Level 48"	
+		48 : "Level 49"
+		49 : "Level 50"	
+		50 : "Level 51"	
+		51 : "Level 52"	
+		52 : "Level 53"	
+		53 : "Level 54"	
+		54 : "Level 55"	
+		55 : "Level 56"	
+		56 : "Level 57"	
+		57 : "Level 58"
+		58 : "Level 59"	
+		59 : "Level 60"	
+		60 : "Level 61"	
+		61 : "Level 62"	
+		62 : "Level 63"	
+		63 : "Level 64"	
+		64 : "Level 65"	
+		65 : "Level 66"	
+		66 : "Level 67"
+		67 : "Level 68"	
+		68 : "Level 69"	
+		69 : "Level 70"	
+		70 : "Level 71"	
+		71 : "Level 72"	
+		72 : "Level 73"	
+		73 : "Level 74"	
+		74 : "Level 75"	
+		75 : "Level 76"
+		76 : "Level 77"	
+		77 : "Level 78"	
+		78 : "Level 79"	
+		79 : "Level 80"	
+		80 : "Level 81"	
+		81 : "Level 82"	
+		82 : "Level 83"	
+		83 : "Level 84"	
+		84 : "Level 85"
+		85 : "Level 86"	
+		86 : "Level 87"	
+		87 : "Level 88"	
+		88 : "Level 89"	
+		89 : "Level 90"	
+		90 : "Level 91"	
+	]
+	
 	SolidToPlayer(boolean) : "Solid to Player?" : 1 : "Make the object solid or non-solid to players. The builder of the object will always be solid to the object."
+	
+	spawnflags(flags) =
+	[
+		2: "Invulnerable - Can still be sapped however" : 0
+		4: "Upgradeable (does nothing)" : 0
+		8: "Infinite Ammo" : 0
+	]
 
 	input SetSolidToPlayer(bool) : "Sets the object to be solid or non-solid to players. 0 - non-solid, 1 - solid."
 	input SetHealth(integer) : "Sets the current and maximum health. If the object is upgraded, the health will scale according to the new value. Crashes if set to 0."
@@ -1797,10 +1778,9 @@
 
 @BaseClass = weaponname
 [
-	weaponname(choices) : "Weapon" : "tf_weapon_pistol_akimbo" : "The weapon to use." =
+	weaponname(choices) : "Weapon" : "tf_weapon_shotgun_mercenary" : "The weapon to use." =
 	[
 		"0"									  : "=== Deathmatch ==="
-		"tf_weapon_pistol_akimbo"             : "Akimbo Pistols"
 		"tf_weapon_assaultrifle"			  : "Assault Rifle"
 		"tf_weapon_dynamite_bundle"			  : "Dynamite Bundle"
 		"tf_weapon_flamethrower"              : "Flamethrower"
@@ -1808,25 +1788,28 @@
 		"tf_weapon_physcannon"                : "Gravity Gun"
 		"tf_weapon_grenadelauncher_mercenary" : "Grenade Launcher"
 		"tf_weapon_knife"                     : "Knife"
+		"tf_weapon_lightning_gun"             : "Lightning Gun"
 		"tf_weapon_nailgun"                   : "Nailgun"
 		"tf_weapon_railgun"                   : "Railgun"
 		"tf_weapon_revolver_mercenary"        : "Revolver"	
 		"tf_weapon_rocketlauncher_dm"         : "Rocket Launcher"
 		"tf_weapon_scattergun"                : "Scattergun"
 		"tf_weapon_shotgun_mercenary"         : "Shotgun"
-		"tf_weapon_smg_mercenary"             : "SMG"
+		"tf_weapon_smg_mercenary"             : "Combat SMG"
 		"tf_weapon_sniperrifle"               : "Sniper Rifle"
 		"tf_weapon_pipebomblauncher"          : "Stickybomb Launcher"
 	    "tf_weapon_sword"                     : "Sword"
 	    "tf_weapon_syringegun_medic"          : "Syringegun"
-		"tf_weapon_supershotgun"              : "Supershotgun"	
+		"tf_weapon_supershotgun"              : "Super Shotgun"	
 	    "tf_weapon_tommygun"                  : "Tommygun"
+		"tf_weapon_super_rocketlauncher"      : "Super Rocketlauncher"
+	    "tf_weapon_tripmine"                  : "Tripmine"
 		
 		"0"									  : "=== Do Not Use In Deathmatch ==="
-		"tf_weapon_super_rocketlauncher"      : "Super Rocketlauncher (:bastard:)"
 		"tf_weapon_grenadelauncher"           : "Grenade Launcher (Demoman)"
 		"tf_weapon_minigun"                   : "Minigun"
 		"tf_weapon_pistol_mercenary"          : "Pistol (Mercenary)"
+		"tf_weapon_pistol_akimbo"             : "Akimbo Pistols"
 		"tf_weapon_pistol"                    : "Pistol (Engineer)"
 		"tf_weapon_pistol_scout"              : "Pistol (Scout)"
 		"tf_weapon_revolver"                  : "Revolver (Spy)"
@@ -3866,6 +3849,18 @@
 	]
 ]
 
+@FilterClass base(BaseEntity, BaseFilter) iconsprite("editor-ficool2/filter_tf_class") = filter_tf_owns_weapon :
+	"A filter that filters by the amount of money you have " +
+[
+	weaponname(string) : "Weapon Name" : : "What weapon it should search for."
+]
+
+@FilterClass base(BaseEntity, BaseFilter) iconsprite("editor-ficool2/filter_tf_class") = filter_tf_active_weapon :
+	"A filter that filters by the amount of money you have " +
+[
+	weaponname(string) : "Weapon Name" : : "What weapon it should search for."
+]
+
 // Special exception: the areaportal becomes a point entity at runtime, making its brush variant Hammer internal only
 @SolidClass base(BaseEntity) color(0 255 255) = func_areaportal :
 	"A portal brush used to manage visibility in maps. Portals define areas, which are spaces " +
@@ -5233,6 +5228,16 @@
 	input EndGame(void) : "End the multiplayer game."
 ]
 
+@PointClass base(BaseEntity) iconsprite("editor-ficool2/game_forcerespawn")  = game_forcerespawn :
+	"Removes buildings, grenades, etc., from the world and forces all players to respawn, without being killed."
+[
+	input ForceRespawn(void) : "Force players to respawn and remove buildings, grenades, etc., from the world."
+	input ForceRespawnSwitchTeams(void) : "Switch all players to the opposite team, and then respawn all players (and remove buildings, grenades, etc., from the world)."
+	input ForceTeamRespawn(integer) : "Force players on a specific team to respawn. 2 for Red, 3 for Blue. This does NOT remove buildings, grenades, etc., from the world..."
+	
+	output OnForceRespawn(void) : "Sent when the entity respawns the players."	
+]
+
 @PointClass base(BaseEntity) iconsprite("editor-ficool2/game_gib_manager") = game_gib_manager : 
     "An entity to control the number of gibs in the world, for performance reasons." 
 [
@@ -5695,6 +5700,10 @@
 	input Stop(void) : "Tell the particle system to stop emitting."
 ]
 
+@PointClass base(BaseEntityPoint) studio("models/editor/playerstart.mdl") = info_player_deathmatch :
+	"This entity marks the spawn point for Half Life 2 deathmatch players. Backwards compatibility only."
+[
+]
 
 @PointClass base(BaseEntityPoint) studioprop("models/editor/playerstart.mdl") = info_player_start :
 	"This entity indicates the position and facing direction at which the player will spawn."
@@ -5805,8 +5814,8 @@
 @PointClass base(Item) studioprop() = item_healthkit_mega : 
     "Mega health kit for players (100 HP overheal)." 
 [
-	model(studio) : "Model" : "models/items/medkit_large.mdl" : "The model this entity should appear as. 128-character limit."
-	pickup_sound(sound): "Pickup Sound" : "Healthkit.Touch" : "Sound to play when picking up ammo."
+	model(studio) : "Model" : "models/pickups/megahealth.mdl" : "The model this entity should appear as. 128-character limit."
+	pickup_sound(sound): "Pickup Sound" : "HealthkitMega.Touch" : "Sound to play when picking up ammo."
 ]
 
 @PointClass base(Item) studioprop() = item_healthkit_full : 
@@ -5843,9 +5852,10 @@
 ]
 
 // item_teamflag uses prop_dynamic base in code??
-@PointClass base(prop_dynamic_base, TeamNum, EnableDisable) studioprop("models/flag/briefcase.mdl") = item_teamflag :
+@PointClass base(prop_dynamic_base, TeamNum, EnableDisable) studioprop() = item_teamflag :
     "Team Fortress 2 flag entity."
 [
+	model(studio) : "Model" : "models/flag/briefcase.mdl" : "The model this entity should appear as. 128-character limit."
 	ReturnTime(float) : "Return time (in seconds)" : 60 : "Length of time (in seconds) before dropped flag/intelligence returns to base."
 	NeutralTime(float) : "Neutral time (in seconds)" : 60 : "Length of time (in seconds) before neutral dropped flag/intelligence returns to base."
 	
@@ -7336,7 +7346,6 @@
 	
 ]
 
-
 @PointClass base(BaseEntityPoint) studioprop("models/editor/camera.mdl") = point_devshot_camera : 
 	"An entity used by the -makedevshots system, which automatically takes screenshots at the position of every point_devshot_camera in the level."
 [
@@ -7347,6 +7356,22 @@
 @PointClass base(BaseEntityPoint) iconsprite("editor-ficool2/point_enable_motion_fixup") = point_enable_motion_fixup : 
 	"An entity used to move a motion-disabled prop when it enables motion. Parent this entity to the prop, and when the prop has its motion enabled, it will immediately teleport to the origin of this entity."
 [
+]
+
+@PointClass base(BaseEntityPoint) iconsprite("editor-ficool2/point_message") sphere(radius) = point_message : 
+	"An entity that displays a text message in the world, at its origin."
+[
+	message(string) : "Entity Message" : : "Message to display."
+	radius(integer) : "Radius" : 128 : "Distance the player must be within to see this message."
+	developeronly(boolean) : "Developer Only?" : 0 : "If set, this message will only be visible when developer mode is on."
+	
+	spawnflags(flags) =
+	[
+		1: "Start Disabled?" : 0
+	]
+
+	input Enable(void) : "Start displaying the message text, if the player is within the message radius."
+	input Disable(void) : "Stop displaying the message text."
 ]
 
 @PointClass base(BaseEntityPoint) = point_entity_finder :
@@ -8274,252 +8299,6 @@
 [
 ]
 
-@PointClass base(BaseAnimatingPhysicsWeapon) studioprop("models/weapons/w_models/w_assault_rifle.mdl") = tf_weapon_assaultrifle :
-    "Weapon that can be picked up by players."
-[
-]
-
-@PointClass base(BaseAnimatingPhysicsWeapon) studioprop("models/weapons/w_models/w_bat.mdl") = tf_weapon_bat :
-    "Weapon that can be picked up by players."
-[
-]
-
-@PointClass base(BaseAnimatingPhysicsWeapon) studioprop("models/weapons/v_models/v_fist_heavy.mdl") = tf_weapon_fists :
-    "Weapon that can be picked up by players."
-[
-]
-
-@PointClass base(BaseAnimatingPhysicsWeapon) studioprop("models/weapons/w_models/w_bonesaw.mdl") = tf_weapon_bonesaw :
-    "Weapon that can be picked up by players."
-[
-]
-
-@PointClass base(BaseAnimatingPhysicsWeapon) studioprop("models/weapons/w_models/w_bottle.mdl") = tf_weapon_berserk :
-    "Weapon that can be picked up by players."
-[
-]
-
-@PointClass base(BaseAnimatingPhysicsWeapon) studioprop("models/weapons/w_models/w_toolbox.mdl") = tf_weapon_builder :
-    "Weapon that can be picked up by players."
-[
-]
-
-@PointClass base(BaseAnimatingPhysicsWeapon) studioprop("models/weapons/w_models/w_machete.mdl") = tf_weapon_club :
-    "Weapon that can be picked up by players."
-[
-]
-
-@PointClass base(BaseAnimatingPhysicsWeapon) studioprop("models/weapons/w_crowbar.mdl") = tf_weapon_crowbar :
-    "Weapon that can be picked up by players."
-[
-]
-
-@PointClass base(BaseAnimatingPhysicsWeapon) studioprop("models/weapons/w_models/w_fireaze.mdl") = tf_weapon_fireaxe :
-    "Weapon that can be picked up by players."
-[
-]
-
-@PointClass base(BaseAnimatingPhysicsWeapon) studioprop("models/weapons/v_models/v_fist_heavy.mdl") = tf_weapon_fists :
-    "Weapon that can be picked up by players."
-[
-]
-
-@PointClass base(BaseAnimatingPhysicsWeapon) studioprop("models/weapons/w_models/w_flamethrower.mdl") = tf_weapon_flamethrower :
-    "Weapon that can be picked up by players."
-[
-]
-
-@PointClass base(BaseAnimatingPhysicsWeapon) studioprop("models/weapons/w_models/w_minigun_dm.mdl") = tf_weapon_gatlinggun :
-    "Weapon that can be picked up by players."
-[
-]
-
-@PointClass base(BaseAnimatingPhysicsWeapon) studioprop("models/weapons/w_models/w_physcannon_dm.mdl") = tf_weapon_physcannon :
-    "Weapon that can be picked up by players."
-[
-]
-
-@PointClass base(BaseAnimatingPhysicsWeapon) studioprop("models/weapons/w_models/w_grenadelauncher.mdl") = tf_weapon_grenadelauncher :
-    "Weapon that can be picked up by players."
-[
-]
-
-@PointClass base(BaseAnimatingPhysicsWeapon) studioprop("models/weapons/w_models/w_grenadelauncher_dm.mdl") = tf_weapon_grenadelauncher_mercenary :
-    "Weapon that can be picked up by players."
-[
-]
-
-@PointClass base(BaseAnimatingPhysicsWeapon) studioprop("models/weapons/v_models/v_watch_spy.mdl") = tf_weapon_invis :
-    "Weapon that can be picked up by players."
-[
-]
-
-@PointClass base(BaseAnimatingPhysicsWeapon) studioprop("models/weapons/w_models/w_knife.mdl") = tf_weapon_knife :
-    "Weapon that can be picked up by players."
-[
-]
-
-@PointClass base(BaseAnimatingPhysicsWeapon) studioprop("models/weapons/w_models/w_medigun.mdl") = tf_weapon_medigun :
-    "Weapon that can be picked up by players."
-[
-]
-
-@PointClass base(BaseAnimatingPhysicsWeapon) studioprop("models/weapons/w_models/w_minigun.mdl") = tf_weapon_minigun :
-    "Weapon that can be picked up by players."
-[
-]
-
-@PointClass base(BaseAnimatingPhysicsWeapon) studioprop("models/weapons/w_nailgun.mdl") = tf_weapon_nailgun :
-    "Weapon that can be picked up by players."
-[
-]
-
-@PointClass base(BaseAnimatingPhysicsWeapon) studioprop("models/weapons/c_models/c_bet_rocketlauncher/c_bet_rocketlauncher.mdl") = tf_weapon_original :
-    "Weapon that can be picked up by players."
-[
-]
-
-@PointClass base(BaseAnimatingPhysicsWeapon) studioprop("models/weapons/w_models/w_builder.mdl") = tf_weapon_pda_engineer_build :
-    "Weapon that can be picked up by players."
-[
-]
-
-@PointClass base(BaseAnimatingPhysicsWeapon) studioprop("models/weapons/w_models/w_pda_engineer.mdl") = tf_weapon_pda_engineer_destroy :
-    "Weapon that can be picked up by players."
-[
-]
-
-@PointClass base(BaseAnimatingPhysicsWeapon) studioprop("models/weapons/w_models/w_cigarette_case.mdl") = tf_weapon_pda_spy :
-    "Weapon that can be picked up by players."
-[
-]
-
-@PointClass base(BaseAnimatingPhysicsWeapon) studioprop("models/weapons/w_models/w_stickybomb_launcher.mdl") = tf_weapon_pipebomblauncher :
-    "Weapon that can be picked up by players."
-[
-]
-
-@PointClass base(BaseAnimatingPhysicsWeapon) studioprop("models/weapons/w_models/w_pistol.mdl") = tf_weapon_pistol :
-    "Weapon that can be picked up by players."
-[
-]
-
-@PointClass base(BaseAnimatingPhysicsWeapon) studioprop("models/weapons/w_models/w_pistol_akimbo.mdl") = tf_weapon_pistol_akimbo :
-    "Weapon that can be picked up by players."
-[
-]
-
-@PointClass base(BaseAnimatingPhysicsWeapon) studioprop("models/weapons/w_models/w_pistol_mercenary.mdl") = tf_weapon_pistol_mercenary :
-    "Weapon that can be picked up by players."
-[
-]
-
-@PointClass base(BaseAnimatingPhysicsWeapon) studioprop("models/weapons/w_models/w_pistol.mdl") = tf_weapon_pistol_scout :
-    "Weapon that can be picked up by players."
-[
-]
-
-@PointClass base(BaseAnimatingPhysicsWeapon) studioprop("models/weapons/w_models/w_sniperrifle.mdl") = tf_weapon_railgun :
-    "Weapon that can be picked up by players."
-[
-]
-
-@PointClass base(BaseAnimatingPhysicsWeapon) studioprop("models/weapons/w_models/w_revolver.mdl") = tf_weapon_revolver :
-    "Weapon that can be picked up by players."
-[
-]
-
-@PointClass base(BaseAnimatingPhysicsWeapon) studioprop("models/weapons/w_models/w_revolver_dm.mdl") = tf_weapon_revolver_mercenary :
-    "Weapon that can be picked up by players."
-[
-]
-
-@PointClass base(BaseAnimatingPhysicsWeapon) studioprop("models/weapons/w_models/w_rocketlauncher.mdl") = tf_weapon_rocketlauncher :
-    "Weapon that can be picked up by players."
-[
-]
-
-@PointClass base(BaseAnimatingPhysicsWeapon) studioprop("models/weapons/w_models/w_scattergun.mdl") = tf_weapon_scattergun :
-    "Weapon that can be picked up by players."
-[
-
-]
-
-@PointClass base(BaseAnimatingPhysicsWeapon) studioprop("models/weapons/w_models/w_shotgun.mdl") = tf_weapon_shotgun_hwg :
-    "Weapon that can be picked up by players."
-[
-]
-
-@PointClass base(BaseAnimatingPhysicsWeapon) studioprop("models/weapons/w_models/w_shotgun.mdl") = tf_weapon_shotgun_mercenary :
-    "Weapon that can be picked up by players."
-[
-]
-
-@PointClass base(BaseAnimatingPhysicsWeapon) studioprop("models/weapons/w_models/w_shotgun.mdl") = tf_weapon_shotgun_primary :
-    "Weapon that can be picked up by players."
-[
-]
-
-@PointClass base(BaseAnimatingPhysicsWeapon) studioprop("models/weapons/w_models/w_shotgun.mdl") = tf_weapon_shotgun_pyro :
-    "Weapon that can be picked up by players."
-[
-]
-
-@PointClass base(BaseAnimatingPhysicsWeapon) studioprop("models/weapons/w_models/w_shotgun.mdl") = tf_weapon_shotgun_soldier :
-    "Weapon that can be picked up by players."
-[
-]
-
-@PointClass base(BaseAnimatingPhysicsWeapon) studioprop("models/weapons/w_models/w_shovel.mdl") = tf_weapon_shovel :
-    "Weapon that can be picked up by players."
-[
-]
-
-@PointClass base(BaseAnimatingPhysicsWeapon) studioprop("models/weapons/w_models/w_smg.mdl") = tf_weapon_smg :
-    "Weapon that can be picked up by players."
-[
-]
-
-@PointClass base(BaseAnimatingPhysicsWeapon) studioprop("models/weapons/w_models/w_smg_dm.mdl") = tf_weapon_smg_mercenary :
-    "Weapon that can be picked up by players."
-[
-]
-
-@PointClass base(BaseAnimatingPhysicsWeapon) studioprop("models/weapons/w_models/w_sniperrifle.mdl") = tf_weapon_sniperrifle :
-    "Weapon that can be picked up by players."
-[
-]
-
-@PointClass base(BaseAnimatingPhysicsWeapon) studioprop("models/weapons/w_models/w_scattergun.mdl") = tf_weapon_supershotgun :
-    "Weapon that can be picked up by players."
-[
-]
-
-@PointClass base(BaseAnimatingPhysicsWeapon) studioprop("models/weapons/w_models/w_syringegun.mdl") = tf_weapon_syringegun_medic :
-    "Weapon that can be picked up by players."
-[
-]
-
-@PointClass base(BaseAnimatingPhysicsWeapon) studioprop("models/weapons/w_models/w_sword.mdl") = tf_weapon_sword :
-    "Weapon that can be picked up by players."
-[
-]
-
-@PointClass base(BaseAnimatingPhysicsWeapon) studioprop("models/weapons/w_models/w_tommygun.mdl") = tf_weapon_tommygun :
-    "Weapon that can be picked up by players."
-[
-]
-
-@PointClass base(BaseAnimatingPhysicsWeapon) studioprop("models/weapons/w_models/w_umbrella.mdl") = tf_weapon_umbrella :
-    "Weapon that can be picked up by players."
-[
-]
-
-@PointClass base(BaseAnimatingPhysicsWeapon) studioprop("models/weapons/w_models/w_wrench.mdl") = tf_weapon_wrench :
-    "Weapon that can be picked up by players."
-[
-]
-
 @PointClass base(BaseEntity) iconsprite("editor-ficool2/tf_logic_arena") = tf_logic_arena :
     "Enables arena mode."
 [
@@ -8951,4 +8730,319 @@
 @PointClass = func_instance_origin : 
 	"This is the center of the instance for rotation."
 [
+]
+
+// hardcoded mess again
+
+// Purpose: Easy entity definitions for Propper. v0.3
+// Fixed for compatibility with ficool2's fgd
+// See http://developer.valvesoftware.com/wiki/Propper
+
+@BaseClass = Angles2
+[ 
+	angles(angle) : "Pitch Yaw Roll (Y Z X)" : "0 0 0" : "This entity's orientation in the world. Pitch is rotation around the Y axis, " +
+		"yaw is the rotation around the Z axis, roll is the rotation around the X axis."
+]
+
+@BaseClass = Origin2
+[ 
+	origin(origin) : "Origin (X Y Z)" : : "The position of this entity's center in the world. Rotating entities typically rotate around their origin."
+]
+
+@BaseClass = Targetname2
+[ 
+	targetname(target_source) : "Name" : : "The name that other entities refer to this entity by."
+
+]
+
+@BaseClass = Propper
+[ 
+	my_model(target_destination) : "Model to apply to" : "" : "Pick a propper_model entity for this property to apply to."
+]
+
+@PointClass base(Targetname2, Origin2, Angles2, Propper) studio("models/editor/axis_helper.mdl") = propper_attachment :
+    "An attachment is an arbitrary point you can define in a model. They have several uses."
+[
+]
+
+@SolidClass base(Propper, Origin2) = propper_lod :  
+    "A low-res version of the model to show at long distance."
+[
+	weldvertices(float) : "Welding threshold" : ".01" : "Vertices will be snapped together if within this tolerance. Larger numbers will merge vertices together, and may be useful for optimizing your model."
+	distance(integer) : "LOD switch distance" : 0 : "The distance for the LOD to appear. This is actually a combination of how far the player is from the model and their screen resolution (100*units/pixel). Bigger numbers are farther away." 
+]
+@PointClass base(Propper) iconsprite("editor/logic_case.vmt") = propper_bodygroup : 
+    "Bodygroups allow you to swap between parts of a mesh. For example, you could have a door with several different knobs and allow the mapper to pick one."
+[
+	groupname(string) : "Bodygroup name" : "" : "A name for the bodygroup. This is required."
+	body01(target_destination) : "Body Part 01" : "" : "Pick a brush entity (such as func_brush)to be the body group"
+	body02(target_destination) : "Body Part 02" : "" : "Pick a brush entity (such as func_brush)to be the body group"
+	body03(target_destination) : "Body Part 03" : "" : "Pick a brush entity (such as func_brush)to be the body group"
+	body04(target_destination) : "Body Part 04" : "" : "Pick a brush entity (such as func_brush)to be the body group"
+	body05(target_destination) : "Body Part 05" : "" : "Pick a brush entity (such as func_brush)to be the body group"
+	body06(target_destination) : "Body Part 06" : "" : "Pick a brush entity (such as func_brush)to be the body group"
+	body07(target_destination) : "Body Part 07" : "" : "Pick a brush entity (such as func_brush)to be the body group"
+	body08(target_destination) : "Body Part 08" : "" : "Pick a brush entity (such as func_brush)to be the body group"
+	body09(target_destination) : "Body Part 09" : "" : "Pick a brush entity (such as func_brush)to be the body group"
+	body10(target_destination) : "Body Part 10" : "" : "Pick a brush entity (such as func_brush)to be the body group"
+	body11(target_destination) : "Body Part 11" : "" : "Pick a brush entity (such as func_brush)to be the body group"
+	body12(target_destination) : "Body Part 12" : "" : "Pick a brush entity (such as func_brush)to be the body group"
+	body13(target_destination) : "Body Part 13" : "" : "Pick a brush entity (such as func_brush)to be the body group"
+	body14(target_destination) : "Body Part 14" : "" : "Pick a brush entity (such as func_brush)to be the body group"
+	body15(target_destination) : "Body Part 15" : "" : "Pick a brush entity (such as func_brush)to be the body group"
+	body16(target_destination) : "Body Part 16" : "" : "Pick a brush entity (such as func_brush)to be the body group"
+]
+@PointClass base(Angles2, Propper) iconsprite("editor/env_physexplosion.vmt") = propper_physgun_interactions :
+    "Defines non-standard interactions with the Gravity Gun. Used for physics props only."
+[
+	preferred_carryAngles(choices) : "Use Angles when carrying" : "0" : "The player will always carry the prop at this entity's Angles2 if possible" =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+	stick(choices) : "Stick to walls" : "0" : "" =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+	bloodsplat(choices) : "Create blood splatter" : "0" : "" =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+	break(choices) : "Always break when launched" : "0" : "" =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+	paintsplat(choices) : "Create paint splatter" : "0" : "" =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+	impale(choices) : "Impale enemies" : "0" : "" =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+	onlaunch(choices) : "Spin on launch?" : "default" : "" =
+	[
+		"default" : "Random (default behavior)"
+		"spin_none" : "no spin"
+		"spin_zaxis" : "Spin on z-axis (horizontal)"
+	]
+	explode_fire(choices) : "Ignite nearby enemies" : "0" : "When this breaks, NPCs such as combine soldiers and zombies will light on fire." =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+]
+@PointClass base(Propper)  studio("models/editor/cone_helper.mdl") = propper_particles : 
+    "Attach a particle emitter to this prop. Does not work with prop_static."
+[
+	name(string) : "Particle system" : "" : "The name of a particle system. NOT the name of a .pcf file!"
+	attachment_type(choices) : "Attachment Type" : "follow_Origin" : "'Spawn at' choices will start the particle system at the prop's position, but if the prop moves, the particle emitter stays in place. Good for short-term effects like explosions" =
+	[
+		"start_at_Origin" : "Spawn at prop Origin"
+		"start_at_attachment" : "Spawn at prop attachment"
+		"follow_Origin" : "Follow prop's Origin"
+		"follow_attachment" : "Follow prop at attachment"
+	]
+	attachment_point(string) : "Attachment point" : "" : "The attachment point at which the particle system should spawn. Use a propper_attachment for this."
+]
+@PointClass base(Propper) iconsprite("editor/multi_manager.vmt") = propper_cables :  
+    "Attach a visual cable to the selected prop. Does not work on static props."
+[
+	StartAttachment(string) : "Cable Start Point" : "" : "The name of a propper_attachment"
+	EndAttachment(string) : "Cable End Point" : "" : "The name of a propper_attachment"
+	Width(float) : "Width" : 3 : "The width of the cable in units "
+	Material(material) : "Cable material" : "" : "The VMT (material) to use. Cable materials are located in 'materials/cables'."
+	NumSegments(integer) : "Cable segments" : 4 : "The number of segments in the cable. More segments make the cable more 'smooth'. Should be increased if the cable bends a lot."
+	Length(integer) : "Cable Length" : 4 : "The length of cable between the two attachment points. If the length is shorter than the distance between the two points then the cable will remain permanently straight.  Note:	Finding the optimal length between two points can be a frustrating task. Cables can go from super tight to extremely slack within a difference of just 10 units."
+]
+@PointClass base(Propper) iconsprite("editor/gibshooter.vmt") sphere(fademindist) sphere(fademaxdist) = propper_gibs :
+    "When a prop breaks, You can cause one or more custom-made broken pieces to spawn in its place."
+[
+	model(studio) : "Gib model" : ""
+	ragdoll(choices) : "Model Type" : "model" : "If the chosen gib model supports ragdoll physics, Use this setting to enable it." =
+	[
+		"model" : "Physics"
+		"ragdoll" : "Ragdoll"
+	]
+	debris(choices) : "debris" : "1" : "Debris won't collide with the player or other dynamic objects. Use if the gib is small" =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+	burst(integer) : "Burst Strength" : 0 : "The gib will receive a force out from the center of the prop if this is set."
+	fadetime(integer) : "Fade away time" : 0 : "The gib will begin to disappear after this many seconds."
+	fademindist(integer) : "Min Fade Distance (units)" : 0 : "Gib will begin to disappear at this distance from the player"
+	fademaxdist(integer) : "Max Fade Distance (units)" : 0 : "Gib will not render at this distance from the player"
+]
+@PointClass base(Propper) iconsprite("editor/color_correction.vmt") = propper_skins : 
+    "Propper can create alternate skins by replacing a texture that is on your prop. If you have multiple textures on your model that you want to change, you can use this entity more than once."
+[
+	mat0(material) : "Material to replace" : "" : "Pick a texture that's present in the Original model. This will be skin 0."
+	mat1(material) : "Skin 1" : "" : "This texture will replace the Original when you pick skin 1."
+	mat2(material) : "Skin 2" : "" : "This texture will replace the Original when you pick skin 2."
+	mat3(material) : "Skin 3" : "" : "This texture will replace the Original when you pick skin 3."
+	mat4(material) : "Skin 4" : "" : "This texture will replace the Original when you pick skin 4."
+	mat5(material) : "Skin 5" : "" : "This texture will replace the Original when you pick skin 5."
+	mat6(material) : "Skin 6" : "" : "This texture will replace the Original when you pick skin 6."
+	mat7(material) : "Skin 7" : "" : "This texture will replace the Original when you pick skin 7."
+	mat8(material) : "Skin 8" : "" : "This texture will replace the Original when you pick skin 8."
+	mat9(material) : "Skin 9" : "" : "This texture will replace the Original when you pick skin 9."
+	mat10(material) : "Skin 10" : "" : "This texture will replace the Original when you pick skin 10."
+	mat11(material) : "Skin 11" : "" : "This texture will replace the Original when you pick skin 11."
+	mat12(material) : "Skin 12" : "" : "This texture will replace the Original when you pick skin 12."
+	mat13(material) : "Skin 13" : "" : "This texture will replace the Original when you pick skin 13."
+	mat14(material) : "Skin 14" : "" : "This texture will replace the Original when you pick skin 14."
+]
+@SolidClass base(Targetname2, Origin2) = propper_model : 
+    "This will create a model when Propper is run."
+[
+	modelname(string) : "Model Name" : "props/generated_prop"  : "The directory and name of the finished model. Relative to <yourmod>/models"
+	materialpath(string) : "Material path" : "models/props/generated_prop" : "Where the model's textures will be. Relative to <yourmod>/materials."
+	scale(float) : "Scale" : "1.0" : "Scale the model up or down by this factor."
+	surfaceprop(choices) : "Surface property" : "no_decal" : "The physical properties of the model--affects impact sounds and weight for physics props." =
+	[
+		"no_decal" : "no_decal" 
+		"boulder" : "boulder"
+		"brick" : "brick" 
+		"concrete" : "concrete" 
+		"concrete_block" : "concrete_block"
+		"gravel" : "gravel" 
+		"rock" : "rock" 
+		"metal" : "metal" 
+		"solidmetal" : "solidmetal"
+		"metalgrate" : "metalgrate"
+		"metalvent" : "metalvent"
+		"wood" : "wood" 
+		"dirt" : "dirt" 
+		"grass" : "grass"
+		"gravel" : "gravel" 
+		"mud" : "mud" 
+		"sand" : "sand"
+		"slipperyslime" : "slipperyslime" 
+		"ice" : "ice" 
+		"snow" : "snow"
+		"alienflesh" : "alienflesh" 
+		"bloodyflesh" : "bloodyflesh"
+		"flesh" : "flesh"
+		"foliage" : "foliage" 
+		"asphalt" : "asphalt"
+		"glass" : "glass"
+		"tile" : "tile" 
+		"paper" : "paper" 
+		"cardboard" : "cardboard" 
+		"plaster" : "plaster"
+		"plastic" : "plastic" 
+		"rubber" : "rubber" 
+		"carpet" : "carpet"
+		"ceiling_tile" : "ceiling_tile"
+		"computer" : "computer"
+		"pottery" : "pottery"
+	]
+	physmodel(target_destination) : "Physics mesh" : "" : "Pick any brush entity (including this one) to represent the physical shape of the model. Leave this field blank for a non-solid model. If you leave this blank while making a physics prop, Propper will automatically use this entity for collisions."
+	mass(float) : "Mass" : "0.0" : "Weight of the prop in kg. Enter zero or lower to automatically calculate mass."
+	concave(choices) : "Concave collisions" : "1" : "Used to make a concave collision model. If you choose no, the model will be 'shrink-wrapped'." =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+	smoothing(choices) : "Smoothing mode" : "1" : "Determines how vertex normals are computed for lighting" =
+	[
+		0 : "completely faceted"
+		1 : "auto-smooth"
+		2 : "Use Hammer's smoothing groups only"
+	]
+	sourcefolder(string) : "Source folder" : "c:/propsource" : "Where you want to keep your .qc and .smd files. The final directory will be <sourcefolder>/<modelname>."
+	smoothangle(integer) : "Smoothing threshold" : 45 : "If auto-smooth is enabled, Edges flatter than this angle will appear smooth. Pick from 0 to 180."
+	snaptogrid(choices) : "Snap to Hammer grid" : "0" : "Causes every vertex to be snapped to the nearest grid point." =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+	weldvertices(float) : "Welding threshold" : ".01" : "Vertices will be snapped together if within this tolerance. A value of 0 is not recommended because there may be visible gaps in the mesh. Larger numbers will merge vertices together, and may be useful for optimizing your model."
+	autocenter(choices) : "Auto-Center" : "0" : "The model's Origin point defines how it is lit and is how the prop is positioned in a map. Auto-center moves the model's Origin to the center of its bounding box and is recommended for physics props. For static props, put the Origin somewhere that lets you align the prop easily." =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+	mat_nonormal(choices) : "Disable normal mapping" : "0" : "This option removes all bump map info from the converted materials. This is useful if you wish to use -StaticPropLighting to light your props" =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+	disp_nowarp(choices) : "Don't warp displacement textures" : "0" : "In Hammer, when you move a displacement point, the texture moves with it. If you pick yes, the texture will not move." =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+]
+@PointClass base(Origin2, Propper) iconsprite("editor/phys_ballsocket.vmt") = propper_physics : 
+    "Propper configuration for physics props. Using this entity will make your prop suitable for use as prop_physics."
+[
+	base(choices) : "Health preset" : "Stone.Medium" : "Dictates how strong the prop is vs. different weapons." =
+	[
+		"Cardboard.Small" : "Cardboard.Small"
+		"Cardboard.Medium" : "Cardboard.Medium" 
+		"Cardboard.Large" : "Cardboard.Large" 
+		"Cloth.Small" : "Cloth.Small" 
+		"Cloth.Medium" : "Cloth.Medium" 
+		"Cloth.Large" : "Cloth.Large" 
+		"Wooden.Tiny" : "Wooden.Tiny" 
+		"Wooden.Small" : "Wooden.Small" 
+		"Wooden.Medium" : "Wooden.Medium" 
+		"Wooden.Large" : "Wooden.Large" 
+		"Wooden.ExtraLarge" : "Wooden.ExtraLarge" 
+		"Wooden.Huge" : "Wooden.Huge" 
+		"Stone.Small" : "Stone.Small" 
+		"Stone.Medium" : "Stone.Medium" 
+		"Stone.Large" : "Stone.Large" 
+		"Stone.Huge" : "Stone.Huge" 
+		"Glass.Small" : "Glass.Small" 
+		"Glass.Window" : "Glass.Window" 
+		"Metal.Small" : "Metal.Small" 
+		"Metal.Medium" : "Metal.Medium" 
+		"Plastic.Small" : "Plastic.Small" 
+		"Item.Small" : "Item.Small" 
+		"Plastic.Medium" : "Plastic.Medium" 
+		"Item.Medium" : "Item.Medium" 
+		"Plastic.Large" : "Plastic.Large" 
+		"Item.Large" : "Item.Large" 
+		"Pottery.Small" : "Pottery.Small" 
+		"Pottery.Medium" : "Pottery.Medium" 
+		"Pottery.Large" : "Pottery.Large" 
+		"Pottery.Huge" : "Pottery.Huge" 
+		"Flesh.Tiny" : "Flesh.Tiny" 
+		"Flesh.Small" : "Flesh.Small" 
+	]
+	health(integer) : "Health" : -1 : "Overrides the prop's health. Set this to zero to give infinite health."
+	flammable(choices) : "Flammable" : "0" : "Will it burn? Picking this enables the 'ignite' options." =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+	ignite_at_half_health(choices) : "Ignite at half-health" : "0" : "Just like those barrels in HL2." =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+	explosive_resist(choices) : "Ignite from explosions" : "0" : "Won't break right away if something explodes near it, but will ignite."=
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+	explosive_damage(float) : "Explode damage" : "0.0" : "Damage to do when breaking"
+	explosive_radius(float) : "Explode radius" : "0.0" : "Radius of explosion"
+	breakable_model(choices) : "Gibs" : "ConcreteChunks" : "Generic shards to spawn when the prop breaks" =
+	[
+		"WoodChunks" : "Wood" 
+		"GlassChunks" : "Glass"
+		"ConcreteChunks" : "Concrete"
+		"MetalChunks" : "Metal"
+	]
+	breakable_count(integer) : "Gib count" : 5 : "How many gibs?"
+	breakable_skin(integer) : "Gib skin" : 0 : "Which skin to use on the gib models, if applicable."
 ]

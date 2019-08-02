@@ -1,9 +1,0 @@
-"UnlitGeneric"
-{
-	"$basetexture"	"Effects/circle_altered"
-	"$additive"	1
-	"$vertexcolor"	1
-	"$vertexalpha"	1
-	$nocull 1
-	$DEPTHBLEND "0"   
-}

@@ -1,9 +1,0 @@
-"UnlitGeneric"
-{
-	"$basetexture"	"Effects/emp_ball1"
-	"$surfaceprop"	"no_decal"
-	"$additive"	"1"
-//	"$model"		"1"
-	"$vertexalpha"	"1"
-	"$vertexcolor"	"1"
-}

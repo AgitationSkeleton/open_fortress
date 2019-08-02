@@ -1,9 +1,0 @@
-"UnLitGeneric"
-{
-	"$basetexture" "Models/props_foliage/tree_pine01"
-	"$translucent" "1"
-	"$alphatest" "1"
-	"$color2" "[.55 .44 .58]"
-	"$nofog" "1"
-
-}

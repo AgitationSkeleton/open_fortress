@@ -1,0 +1,13 @@
+"Patch"
+{
+	include "materials/models/player/engineer/hwm/engineer_head_base.vmt"
+	
+	insert
+	{
+		"$basetexture" "models/player/engineer/engineer_head_zombie"
+		"$compress" "models/player/engineer/engineer_head_zombie"
+		"$stretch" "models/player/engineer/engineer_head_zombie"
+		"$basemapalphaphongmask" "0"
+		"$bumpmap" "models/player/engineer/hwm/engineer_head_phongmask"
+	}
+}

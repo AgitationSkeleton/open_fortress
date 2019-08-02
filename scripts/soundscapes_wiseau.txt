@@ -59,40 +59,33 @@
 //	SNDLVL_150dB	= 150,	// 0.2
 
 
-"wiseau.inside_warehouse"
-{
-	"dsp"	"17"
-	
-	"playlooping"
-	{
+"wiseau.inside_warehouse" {
+	"dsp"	"19"
+
+	"playlooping" {
 		"volume"	".6"
 		"pitch"		"100"
 		"wave"		"ambient/dm_wiseau/warehouse_interior.wav"
 	}
 
-	"playrandom"
-	{
+	"playrandom" {
 		"time"		"10,30"
 		"volume"	"0.8"
 		"pitch"		"100"
-		"rndwave"
-		{
+		"rndwave" {
 			"wave"		"ambient/dm_wiseau/factory_horn.wav"
 			"wave"		"ambient/dm_wiseau/metal_groan.wav"
 			"wave"		"ambient/dm_wiseau/metal_hit01.wav"
 			"wave"		"ambient/dm_wiseau/metal_hit02.wav"
 			"wave"		"ambient/dm_wiseau/metal_hit03.wav"
-
 		}
 	}
 
-	"playrandom"
-	{
+	"playrandom" {
 		"time"		"30,90"
 		"volume"	"0.95"
 		"pitch"		"100"
-		"rndwave"
-		{
+		"rndwave" {
 			"wave"		"ambient/dm_wiseau/forklift01.wav"
 			"wave"		"ambient/dm_wiseau/forklift02.wav"
 			"wave"		"ambient/dm_wiseau/forklift03.wav"
@@ -104,53 +97,42 @@
 			"wave"		"ambient/dm_wiseau/metal_crash01.wav"
 			"wave"		"ambient/dm_wiseau/metal_crash02.wav"
 			"wave"		"ambient/dm_wiseau/metal_crash03.wav"
-
 		}
 	}
 
-	"playrandom"
-	{
+	"playrandom" {
 		"time"		"30,60"
 		"volume"	"0.6"
 		"pitch"		"100"
-		"rndwave"
-		{
+		"rndwave" {
 			"wave"		"ambient/dm_wiseau/metal_crash01.wav"
 			"wave"		"ambient/dm_wiseau/metal_crash02.wav"
 			"wave"		"ambient/dm_wiseau/metal_crash03.wav"
-
 		}
 	}
 
 }
 
-"wiseau.outside_courtyard"
-{
+"wiseau.outside_courtyard" {
 	"dsp"	"1"
-	
-	"playlooping"
-	{
+
+	"playlooping" {
 		"volume"	"0.95"
 		"pitch"		"100"
 		"wave"		"ambient/dm_wiseau/courtyard.wav"
 	}
 
-	"dsp"	"1"
-	
-	"playlooping"
-	{
+	"playlooping" {
 		"volume"	"0.7"
 		"pitch"		"100"
 		"wave"		"ambient/dm_wiseau/distant_traffic.wav"
 	}
 
-	"playrandom"
-	{
+	"playrandom" {
 		"time"		"3,10"
 		"volume"	"0.25"
 		"pitch"		"95,100"
-		"rndwave"
-		{
+		"rndwave" {
 			"wave"		"ambient/dm_wiseau/whistle.wav"
 			"wave"		"ambient/dog1.wav"
 			"wave"		"ambient/dog2.wav"
@@ -164,17 +146,14 @@
 			"wave"		"ambient/rottenburg/dove_02.wav"
 			"wave"		"ambient/rottenburg/dove_03.wav"
 			"wave"		"ambient/rottenburg/dove_04.wav"
-
 		}
 	}
 
-	"playrandom"
-	{
+	"playrandom" {
 		"time"		"15,30"
 		"volume"	"0.25"
 		"pitch"		"100"
-		"rndwave"
-		{
+		"rndwave" {
 			"wave"		"ambient/mvm_warehouse/car_passby_01.wav"
 			"wave"		"ambient/mvm_warehouse/car_passby_02.wav"
 			"wave"		"ambient/mvm_warehouse/car_passby_03.wav"
@@ -191,28 +170,23 @@
 			"wave"		"ambient/dm_wiseau/oneshot_car_crash(nomyarm).wav"
 			"wave"		"ambient/dm_wiseau/oneshot_car_crash(myarmlouder).wav"
 			"wave"		"ambient/dm_wiseau/roadrage.wav"
-
 		}
 	}
 
-	"playrandom"
-	{
+	"playrandom" {
 		"time"		"30,60"
 		"volume"	"0.5"
 		"pitch"		"100"
 		"rndwave"
 		{
 			"wave"		"ambient/dm_wiseau/train01.wav"
-
 		}
 	}
-
 }
 
-"wiseau.inside_storage"
-{
+"wiseau.inside_storage" {
 	"dsp"	"17"
-	
+
 	"playlooping"
 	{
 		"volume"	"0.85"
@@ -220,13 +194,11 @@
 		"wave"		"ambient/dm_wiseau/storage.wav"
 	}
 
-	"playrandom"
-	{
+	"playrandom" {
 		"time"		"8,14"
 		"volume"	"0.55"
 		"pitch"		"95,100"
-		"rndwave"
-		{
+		"rndwave" {
 			"wave"		"ambient/dm_wiseau/car_muffled01.wav"
 			"wave"		"ambient/dm_wiseau/car_muffled02.wav"
 			"wave"		"ambient/dm_wiseau/car_muffled03.wav"
@@ -239,20 +211,74 @@
 			"wave"		"ambient/dm_wiseau/light_buzz01.wav"
 			"wave"		"ambient/dm_wiseau/light_buzz02.wav"
 			"wave"		"ambient/dm_wiseau/light_buzz03.wav"
-
 		}
 	}
 
-
-	"playrandom"
-	{
+	"playrandom" {
 		"time"		"60,80"
 		"volume"	"0.7"
 		"pitch"		"100"
 		"rndwave"
 		{
 			"wave"		"ambient/dm_wiseau/radio_tune.wav"
-
 		}
+	}
+}
+
+"wiseau.spytech_waitingroom" {
+	"dsp"	"1"
+
+	"playlooping" {
+		"volume"		".6"
+		"pitch"			"100"
+		"wave"			"ambient/underground.wav"
+	}
+
+	"playlooping" {
+		"volume"		".3"
+		"pitch"			"100"
+		"wave"			"ambient/machine_hum2.wav"
+	}
+
+	"playlooping" {
+		"volume"		".5"
+		"pitch"			"100"
+		"wave"			"ambient/lair/light_hum3.wav"
+	}
+
+	//position 0 - tape machines
+	"playlooping" {
+		"volume"		".4"
+		"pitch"			"100"
+		"position"		"0"
+		"attenuation"	"0.7"	
+		"wave"			"ambient/computer_tape.wav"
+	}
+
+	//position 1 - air vent 1
+	"playlooping" {
+		"volume"		".6"
+		"pitch"			"100"
+		"position"		"1"
+		"attenuation"	".85"
+		"wave"			"ambient/lair/ac_vent4.wav"
+	}
+
+	//position 2 - air vent 2
+	"playlooping" {
+		"volume"		".6"
+		"pitch"			"100"
+		"position"		"2"
+		"attenuation"	".85"
+		"wave"			"ambient/lair/ac_vent2.wav"
+	}
+
+	//position 3 - radio music
+	"playlooping" {
+		"volume"		"1"
+		"pitch"			"100"
+		"position"		"3"
+		"attenuation"	".7"
+		"wave"			"ambient/dm_wiseau/radio_loop.wav"
 	}
 }

@@ -1,0 +1,36 @@
+"unlitgeneric"
+{
+    "$baseTexture" "models\weapons\w_spytechgun\w_spytechgun_screen"
+
+    
+    "$glowcolor" "1"
+    "$cloakPassEnabled" "1"
+    "$txScale" "1"
+
+
+
+    "Proxies"
+    {    
+        "TextureScroll"
+        {
+        "texturescrollvar" "$texture2transform"
+        "texturescrollrate" -.6
+        "texturescrollangle" 0
+        }
+        "TextureScroll"
+        {
+        "texturescrollvar" "$basetexturetransform"
+        "texturescrollrate" -.1
+        "texturescrollangle" 0
+        }
+        "ModelGlowColor"
+        {
+            "resultVar" "$glowcolor"
+        }
+        "Equals"
+        {
+            "srcVar1"  "$glowcolor"
+            "resultVar" "$color2"
+        }
+
+    }

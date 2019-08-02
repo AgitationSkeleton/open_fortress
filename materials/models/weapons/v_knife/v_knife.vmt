@@ -1,12 +1,11 @@
 "VertexLitGeneric"
 {
 	"$baseTexture" "models\weapons\v_knife/v_knife"
-	$BASEMAPALPHAPHONGMASK 1
-//	"$bumpmap" "models/weapons\v_knife\v_knife_normal"
+	"$bumpmap" "models/weapons\v_knife\v_knife_normal"
 
 	"$normalmapalphaenvmapmask" 1
-	//"$envmap" "env_cubemap"
-	"$envmaptint" "[.35 .35 .35]"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.25 .25 .25]"
 
 	"$glowcolor" "1"
 	"$phong" "1"

@@ -1,18 +1,9 @@
-"VertexLitGeneric"
+"Patch"
 {
-	"$basetexture"	"models/player/demo/demoman_red_gib"
-	"$surfaceprop"	"flesh"
-	"$bumpmap" "models\player\demo\demoman_normal"
-
-	"$phong" "1"
-	"$phongexponent" "15"
-	"$phongboost" ".5"	
-	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
-	"$phongfresnelranges"	"[1 10 20]"
-	"$halflambert" "1"
+	include "materials/models/player/demo/demoman_base_gib.vmt"
 	
-	// Rim lighting parameters
-	"$rimlight" "1"												// To enable rim lighting (requires phong)
-	"$rimlightexponent" "4"										// Exponent for phong component of rim lighting	
-	"$rimlightboost" "2"										// Boost for ambient cube component of rim lighting
+	insert
+	{
+		"$baseTexture" "models/player/demo/demoman_red_gib"
+	}
 }

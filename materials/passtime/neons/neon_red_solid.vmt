@@ -1,5 +1,0 @@
-"UnlitGeneric"
-{
-	"$basetexture" "passtime/neons/neon_red_solid"
-	"$surfaceprop" "Glass" "$selfillum" 1
-}

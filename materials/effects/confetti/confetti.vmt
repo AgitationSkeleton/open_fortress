@@ -1,7 +1,0 @@
-"Spritecard"
-{
-	"$basetexture" "effects/confetti/confetti"
-	"$translucent" 1
-//	"$additive" 1
-	"$overbrightfactor" "4"
-}

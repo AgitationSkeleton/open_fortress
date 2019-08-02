@@ -16,12 +16,29 @@
 	"$rimlightexponent" "20"				
 	"$rimlightboost" ".5"
 
-
-	// Cloaking
+	
 	"$cloakPassEnabled" "1"
+	
 	"Proxies"
 	{
 		"weapon_invis"
+		{
+		}
+		"ModelGlowColor"
+		{
+			"resultVar""$glowcolor"
+		}
+		"Equals"
+		{
+			"srcVar1"	"$glowcolor"
+			"resultVar"	"$selfillumtint"
+		}
+		"Equals"
+		{
+			"srcVar1"	"$glowcolor"
+			"resultVar"	"$color2"
+		}
+		"spy_invis"
 		{
 		}
 	}

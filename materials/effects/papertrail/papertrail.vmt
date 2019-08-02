@@ -1,7 +1,0 @@
-"Spritecard"
-{
-	"$basetexture" "effects/papertrail/papertrail"
-	"$translucent" 1
-//	"$additive" 1
-	"$overbrightfactor" "4"
-}

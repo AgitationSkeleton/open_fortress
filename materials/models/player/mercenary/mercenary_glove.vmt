@@ -4,10 +4,10 @@
 	"$basemapalphaphongmask" "1"
 
 	"$phong" "1"
-	"$phongexponent" "10"
-	"$phongboost" "0.15"	
-	"$lightwarptexture" "models/lightwarps/hand_lightwarp"
-	"$phongfresnelranges"	"[.5 3 5]"
+	"$phongexponent" "5"
+	"$phongboost" "0.05"	
+	"$lightwarptexture" "models/player/engineer/engineer_hands_lightwarp"
+	"$phongfresnelranges"	"[1 5 10]"
 	"$halflambert" "1"
 	
 	// Rim lighting parameters

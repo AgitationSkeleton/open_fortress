@@ -1,0 +1,25 @@
+"VertexLitGeneric"
+{
+
+	"$basetexture" "Models/props_gameplay/cap_point_base_dm"
+	"$bumpmap" "Models/props_gameplay/cap_point_base_normal"
+
+	"$selfillum" "1"
+	
+//	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1" 
+	"$envmaptint" "[1 1 1]"
+
+
+
+	//"$rimlight" "1"
+	//"$rimlightboost" "5"
+	//"$rimlightexponent" "10"
+
+	// Use redundant self-illum in base alpha on Pre DX9 hardware
+	"<dx90_20b"
+	{
+		"$baseTexture" 	"Models/props_gameplay/cap_point_base_dm"
+	}
+	
+}

@@ -1,5 +1,0 @@
-// ### This basic VMT was written based on the D:\dev\ValveGames\tools\python\templateStrings.pyc script ###
-"VertexLitGeneric"
-{
-	$baseTexture "models/props_medieval/portcullis.vtf"
-}

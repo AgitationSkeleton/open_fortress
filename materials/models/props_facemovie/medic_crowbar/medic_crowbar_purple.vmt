@@ -27,6 +27,20 @@
 	
 	"Proxies"
 	{
+		"ModelGlowColor"
+		{
+			"resultVar""$glowcolor"
+		}
+		"Equals"
+		{
+			"srcVar1"	"$glowcolor"
+			"resultVar"	"$selfillumtint"
+		}
+		"Equals"
+		{
+			"srcVar1"	"$glowcolor"
+			"resultVar"	"$color2"
+		}
 		"spy_invis"
 		{
 		}
@@ -40,14 +54,12 @@
 			"srcVar2"		"$colortint_base"
 			"resultVar"		"$color2"
 		}
-		"ModelGlowColor"
+		"SelectFirstIfNonZero"
 		{
-			"resultVar""$glowcolor"
-		}
-		"Equals"
-		{
-			"srcVar1"	"$glowcolor"
-			"resultVar"	"$selfillumtint"
+			"srcVar1"		"$colortint_tmp"
+			"srcVar2"		"$colortint_base"
+			"resultVar"		"$cloakcolortint"
 		}
 	}
+
 }

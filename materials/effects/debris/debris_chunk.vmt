@@ -1,8 +1,0 @@
-"SpriteCard"
-{
-	"$basetexture" "effects/debris/debris_chunk"
-	"$translucent" "1"
-	"$vertexcolor" "1"
-	"$vertexalpha" "1"
-	$DEPTHBLEND "0"
-}

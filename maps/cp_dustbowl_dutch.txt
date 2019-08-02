@@ -1,5 +1,0 @@
-﻿Doel:
-Team Blue wint als het beide controleposten heeft veroverd in elk van de drie fasen, voordat de tijd om is. Team Read wint als het voorkomt dat beide controleposten worden veroverd.
-
-Verdere opmerkingen:
-Controleposten kunnen niet worden veroverd als ze zijn gesloten.

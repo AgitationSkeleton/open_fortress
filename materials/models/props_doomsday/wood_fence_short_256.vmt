@@ -1,6 +1,0 @@
-// ### This basic VMT was written based on the U:\tools\python\templateStrings.py script ###
-"VertexLitGeneric"
-{
-	$baseTexture "models/props_coalmine/wood_fence_short_256.vtf"
-	"$surfaceprop" "wood"
-}

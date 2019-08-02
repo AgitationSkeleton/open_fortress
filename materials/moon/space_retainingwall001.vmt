@@ -1,6 +1,0 @@
-"LightmappedGeneric"
-{
-	"$baseTexture" "moon/space_retainingwall001"
-	$bumpmap "moon/space_retainingwall001_SSBump"
-	$ssbump 1
-}

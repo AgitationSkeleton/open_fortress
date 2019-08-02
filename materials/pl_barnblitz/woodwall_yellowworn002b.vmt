@@ -1,8 +1,0 @@
-"LightmappedGeneric"
-{
-	"$basetexture" "pl_barnblitz/woodwall_yellowworn002b"
-	"$surfaceprop" "wood"
-	"%keywords" "tf"
-	"$bumpmap" "Wood/grain_elevator_facade_06_normal"
-
-}

@@ -31,6 +31,9 @@
 		"invis"
 		{
 		}
+		"spy_invis"
+		{
+		}
 		"AnimatedTexture"
 		{
 			"animatedtexturevar"		"$detail"
@@ -51,15 +54,6 @@
 			"srcVar2"		"$colortint_base"
 			"resultVar"		"$color2"
 		}
-		"YellowLevel"
-		{
-			"resultVar"		"$yellow"
-		}
-		"Multiply"
-		{
-			"srcVar1"		"$color2"
-			"srcVar2"		"$yellow"
-			"resultVar"		"$color2"
-		}
+
 	}
 }

@@ -1,7 +1,0 @@
-"UnlitGeneric"
-{
-	// Original shader: BaseTimesVertexColor
-	"$basetexture" "editor/GizmoAxis"
-	"$vertexcolor" 1
-	"$nocull" 1
-}

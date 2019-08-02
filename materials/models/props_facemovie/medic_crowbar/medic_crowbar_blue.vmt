@@ -17,11 +17,11 @@
 
 	"$ambientocclusion" "1"
 
-	"$cloakPassEnabled" "1"	
+	"$cloakPassEnabled" "1"
 	
 	"Proxies"
 	{
-		"spy_invis"
+		"weapon_invis"
 		{
 		}
 		"ModelGlowColor"
@@ -38,21 +38,8 @@
 			"srcVar1"	"$glowcolor"
 			"resultVar"	"$color2"
 		}
-		"ItemTintColor"
+		"spy_invis"
 		{
-			"resultVar"		"$colortint_tmp"
-		}
-		"SelectFirstIfNonZero"
-		{
-			"srcVar1"		"$colortint_tmp"
-			"srcVar2"		"$colortint_base"
-			"resultVar"		"$color2"
-		}
-		"SelectFirstIfNonZero"
-		{
-			"srcVar1"		"$colortint_tmp"
-			"srcVar2"		"$colortint_base"
-			"resultVar"		"$cloakcolortint"
 		}
 	}
 }

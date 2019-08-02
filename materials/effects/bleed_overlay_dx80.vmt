@@ -1,9 +1,0 @@
-"Modulate"
-{
-	"%keywords" "tf"
-	"$model" "1"
-	"$basetexture" "effects/red_dx8"
-//	"$additive" "1"
-	"$mod2x" "1"
-}
-

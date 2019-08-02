@@ -1,6 +1,0 @@
-"VertexLitGeneric"
-{
-	"$basetexture"	"models/props_foliage/shrub_03_card_skin2"
-//	"$translucent"	1
-	"$alphatest" 1
-}

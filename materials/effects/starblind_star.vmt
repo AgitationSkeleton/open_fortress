@@ -1,9 +1,0 @@
-"UnlitGeneric"
-{
-	"$baseTexture" "Effects/starblind_star"
-	$additive 1
-	$vertexalpha 1
-	$vertexcolor 1
-	$nocull 1
-}
-

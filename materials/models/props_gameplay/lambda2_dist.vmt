@@ -1,6 +1,0 @@
-"VertexLitGeneric"
-{
-	"$basetexture"	"models/props_gameplay/lambda2_dist"
-	"$surfaceprop"	"default"
-	"$translucent"	1
-}

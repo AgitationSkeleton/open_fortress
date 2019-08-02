@@ -1,7 +1,0 @@
-"Cable"
-{
-	"$basetexture"		"cable\pure_white"
-	"$bumpmap"			"cable\cableflatnormalmap"
-	"$nocull"			1
-}
-

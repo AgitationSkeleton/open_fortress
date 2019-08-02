@@ -41,6 +41,98 @@ VERSION 1.0
 
 DESCRIPTION INFO_OPTIONS
 {
+
+    "ofd_color_r"
+	{
+		"#TFOption_Red"
+		{ SLIDER 0 255 }
+		{ "128" }
+	}
+	"ofd_color_g"
+	{
+		"#TFOption_Green"
+		{ SLIDER 0 255 }
+		{ "0" }
+	}	
+	"ofd_color_b"
+	{
+		"#TFOption_Blue"
+		{ SLIDER 0 255 }
+		{ "128" }
+	}		
+	
+	"ofd_use_quake_rl"
+	{
+		"#TFOption_QuakeRL"
+		{ BOOL }
+		{ "1" }
+	}
+	
+	"of_mercenary_hat"
+	{
+		"#of_mercenary_hat"
+		{ LIST
+			"#of_cosmetic_none"                "0"
+			"#of_cosmetic_cap"                 "1"
+			"#of_cosmetic_helmet"                "2"
+			"#of_cosmetic_cowboy"	            	"3"
+			"#of_cosmetic_alphaboomer"             "4"
+			"#of_cosmetic_headset"             "5"
+			"#of_cosmetic_spymask"             "6"
+		}
+		{ "0" }
+	}
+	
+	"of_disable_cosmetics"
+	{
+		"#TFOption_Cosmetics"
+		{ BOOL }
+		{ "0" }
+	}
+	
+	"ofd_respawn_particle"
+	{
+		"#ofd_respawn_particle"
+		{ LIST
+			"#TF_DM_PARTICLE01" "1"
+			"#TF_DM_PARTICLE02" "2"
+			"#TF_DM_PARTICLE03" "3"
+			"#TF_DM_PARTICLE04" "4"
+			"#TF_DM_PARTICLE05" "5"
+			"#TF_DM_PARTICLE06" "6"
+			"#TF_DM_PARTICLE07" "7"
+			"#TF_DM_PARTICLE08" "8"
+			"#TF_DM_PARTICLE09" "9"
+			"#TF_DM_PARTICLE10" "10"
+			"#TF_DM_PARTICLE11" "11"
+			"#TF_DM_PARTICLE12" "12"
+			"#TF_DM_PARTICLE13" "13"
+			"#TF_DM_PARTICLE14" "14"
+			"#TF_DM_PARTICLE15" "15"
+			"#TF_DM_PARTICLE16" "16"
+			"#TF_DM_PARTICLE17" "17"
+			"#TF_DM_PARTICLE18" "18"
+			"#TF_DM_PARTICLE19" "19"
+			"#TF_DM_PARTICLE20" "20"
+			"#TF_DM_PARTICLE21" "21"
+			"#TF_DM_PARTICLE22" "22"
+			"#TF_DM_PARTICLE23" "23"
+			"#TF_DM_PARTICLE24" "24"
+			"#TF_DM_PARTICLE25" "25"
+			"#TF_DM_PARTICLE26" "26"
+			"#TF_DM_PARTICLE27" "27"
+			"#TF_DM_PARTICLE28" "28"
+			"#TF_DM_PARTICLE29" "29"
+			"#TF_DM_PARTICLE30" "30"
+			"#TF_DM_PARTICLE31" "31"
+			"#TF_DM_PARTICLE32" "32"
+			"#TF_DM_PARTICLE33" "33"
+			"#TF_DM_PARTICLE34" "34"
+			"#TF_DM_PARTICLE35" "35"
+			}
+		{ "1" }
+	}	
+	
 	"mp_decals"
 	{
 		"#Valve_Multiplayer_Decal_Limit"
@@ -72,7 +164,6 @@ DESCRIPTION INFO_OPTIONS
 	"tf_dingalingaling"
 	{
 		"#TF_Hitbeeps"
-		"#Tooltip_Hitbeeps"
 		{ BOOL }
 		{ "1" }
 	}
@@ -99,7 +190,6 @@ DESCRIPTION INFO_OPTIONS
 	"tf_dingaling_volume"
 	{
 		"#TF_Dingaling_Volume"
-		"#Tooltip_Dingaling_Volume"
 		{ SLIDER 0 1 }
 		{ "0.75" }
 	}
@@ -107,7 +197,6 @@ DESCRIPTION INFO_OPTIONS
 	"tf_dingaling_pitchmindmg"
 	{
 		"#TF_Dingaling_PitchLowDmg"
-		"#Tooltip_Dingaling_PitchLowDmg"
 		{ SLIDER 50 150 }
 		{ "125" }
 	}
@@ -115,7 +204,6 @@ DESCRIPTION INFO_OPTIONS
 	"tf_dingaling_pitchmaxdmg"
 	{
 		"#TF_Dingaling_PitchHighDmg"
-		"#Tooltip_Dingaling_PitchHighDmg"
 		{ SLIDER 50 150 }
 		{ "75" }
 	}
@@ -123,7 +211,6 @@ DESCRIPTION INFO_OPTIONS
 	"tf_dingalingaling_lasthit"
 	{
 		"#TF_LastHitbeeps"
-		"#Tooltip_Hitbeeps"
 		{ BOOL }
 		{ "0" }
 	}
@@ -150,7 +237,6 @@ DESCRIPTION INFO_OPTIONS
 	"tf_dingaling_lasthit_volume"
 	{
 		"#TF_Dingaling_LastHit_Volume"
-		"#Tooltip_Dingaling_Volume"
 		{ SLIDER 0 1 }
 		{ "0.75" }
 	}
@@ -158,7 +244,6 @@ DESCRIPTION INFO_OPTIONS
 	"tf_dingaling_lasthit_pitchmindmg"
 	{
 		"#TF_Dingaling_LastHit_PitchLowDmg"
-		"#Tooltip_Dingaling_PitchLowDmg"
 		{ SLIDER 50 150 }
 		{ "125" }
 	}
@@ -166,7 +251,6 @@ DESCRIPTION INFO_OPTIONS
 	"tf_dingaling_lasthit_pitchmaxdmg"
 	{
 		"#TF_Dingaling_LastHit_PitchHighDmg"
-		"#Tooltip_Dingaling_PitchHighDmg"
 		{ SLIDER 50 150 }
 		{ "75" }
 	}
@@ -174,7 +258,6 @@ DESCRIPTION INFO_OPTIONS
 	"hud_combattext"
 	{
 		"#TF_CombatText"
-		"#Tooltip_CombatText"
 		{ BOOL }
 		{ "1" }
 	}
@@ -182,7 +265,6 @@ DESCRIPTION INFO_OPTIONS
 	"hud_combattext_batching"
 	{
 		"#TF_CombatTextBatching"
-		"#Tooltip_CombatTextBatching"
 		{ BOOL }
 		{ "1" }
 	}
@@ -228,13 +310,6 @@ DESCRIPTION INFO_OPTIONS
 		{ BOOL }
 		{ "1" }
 	}	
-	
-	"ofd_use_quake_rl"
-	{
-		"#TFOption_QuakeRL"
-		{ BOOL }
-		{ "1" }
-	}
 
 	"ofd_tennisball"
 	{
@@ -263,25 +338,13 @@ DESCRIPTION INFO_OPTIONS
 		{ "1" }
 	}	
 	
-    "ofd_color_r"
+	"cl_fp_ragdoll"
 	{
-		"#TFOption_Red"
-		{ SLIDER 0 255 }
-		{ "128" }
-	}
-	"ofd_color_g"
-	{
-		"#TFOption_Green"
-		{ SLIDER 0 255 }
+		"#TFOption_fpragdoll"
+		{ BOOL }
 		{ "0" }
 	}	
-	"ofd_color_b"
-	{
-		"#TFOption_Blue"
-		{ SLIDER 0 255 }
-		{ "128" }
-	}	
-	
+
 	"of_idleview"
 	{
 		"#TFOption_idleview"

@@ -1,7 +1,0 @@
-"LightmappedGeneric"
-{
-	"$baseTexture" "soho/StreetFloor004"
-	"$surfaceprop" "tile"
-	"$bumpmap" "soho/StreetFloor004_normal"
-	"%keywords" "tf"
-}

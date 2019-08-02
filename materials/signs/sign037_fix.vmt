@@ -1,7 +1,7 @@
 "LightmappedGeneric"
 {
 	"$baseTexture" "signs/sign037_fix"
-    "$decal" "1"
+	"$decal" "1"
 	"$decalscale" "1"
 	"$translucent" "1"
 	"$vertexcolor" "1"

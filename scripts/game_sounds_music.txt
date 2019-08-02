@@ -13,7 +13,6 @@
 //Thank you!
 //
 //SONG LIST:
-//DeathmatchMusic.ScaryMonsters
 //DeathmatchMusic.AtFortressGate
 //DeathmatchMusic.AtFortressGate_Waiting
 //DeathmatchMusic.AtFortressGate_Ending
@@ -41,20 +40,9 @@
 //DeathmatchMusic.Healer
 //DeathmatchMusic.DMStuff
 //DeathmatchMusic.Mayann
-//
+//DeathmatchMusic.OpenHazards
 
-//Scary Monsters and Nice Sprites MIDI, author unknown, original by Skrillex
-//Included as a reference to the Doom mod "Tomb Fetus" by DrPyspy where dm_wiseau is accompanied by this track.
-"DeathmatchMusic.ScaryMonsters"
-{
-	"channel"		"CHAN_STATIC"
-	"volume"		"0.9"
-	"pitch"			"PITCH_NORM"
-	"soundlevel"	"SNDLVL_NONE"
-	"wave"			"#music/deathmatch/scarymonsters.wav"
-}
-
-//Cover of At Doom's Gate (E1M1) from DOOM, by MrModez
+//By MrModez
 "DeathmatchMusic.AtFortressGate"
 {
 	"channel"		"CHAN_STATIC"
@@ -134,7 +122,7 @@
 	"wave"			"#music/deathmatch/dm_ending.wav"
 }
 
-//Cover of Facility from Goldeneye 007, by Magnus
+//By Magnus
 "DeathmatchMusic.Facility"
 {
 	"channel"		"CHAN_STATIC"
@@ -174,7 +162,7 @@
 	"wave"			"#music/deathmatch/dmchase_ending.wav"
 }
 
-//Alternative cover of E1M1 from DOOM, by Magnus
+//By Magnus
 "DeathmatchMusic.E1M1alt"
 {
 	"channel"		"CHAN_STATIC"
@@ -184,7 +172,7 @@
 	"wave"			"#music/deathmatch/e1m1alt_loop.wav"
 }
 
-//Cover of E2M3 from Doom by Thoopje
+//By Thoopje
 "DeathmatchMusic.Intermission"
 {
 	"channel"		"CHAN_STATIC"
@@ -194,7 +182,7 @@
 	"wave"			"#music/deathmatch/intermission_ending.wav"
 }
 
-//Cover of E2M1 from DOOM, by Magnus
+//By Magnus
 "DeathmatchMusic.E2M1"
 {
 	"channel"		"CHAN_STATIC"
@@ -204,7 +192,7 @@
 	"wave"			"#music/deathmatch/e2m1_loop.wav"
 }
 
-//Running from Evil (MAP01), by Magnus
+//By Magnus
 "DeathmatchMusic.Map01"
 {
 	"channel"		"CHAN_STATIC"
@@ -214,7 +202,7 @@
 	"wave"			"#music/deathmatch/map01_loop.wav"
 }
 
-//Running from Evil (MAP01) Setup Variant, by Magnus
+//By Magnus
 "DeathmatchMusic.Map01_Waiting"
 {
 	"channel"		"CHAN_STATIC"
@@ -234,7 +222,7 @@
 	"wave"			"#music/deathmatch/orch_loop.wav"
 }
 
-//Cover of Stalker from Duke Nukem 3D, by Magnus
+//By Magnus
 "DeathmatchMusic.Stalker"
 {
 	"channel"		"CHAN_STATIC"
@@ -304,7 +292,7 @@
 	"wave"			"#music/deathmatch/lastmanstanding_loop.wav"
 }
 
-//The Healer Stalks (Doom 2 MAP02 theme cover) by Magnus
+//By Magnus
 "DeathmatchMusic.Healer"
 {
 	"channel"		"CHAN_STATIC"
@@ -314,7 +302,7 @@
 	"wave"			"#music/deathmatch/healerstalks_loop.wav"
 }
 
-//DMStuff by Magnus. Debatably a cover of "Cradle" from Goldeneye 007 but not really.
+//DMStuff by Magnus
 "DeathmatchMusic.DMStuff"
 {
 	"channel"		"CHAN_STATIC"
@@ -343,4 +331,74 @@
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"wave"			"#music/deathmatch/dm_magnumsmooth_loop.wav"
+}
+
+//Watergate music. Rise of the Living Bread from TF2
+"DeathmatchMusic.Watergate"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/watergate_loop.wav"
+}
+
+//Watergate waiting music. Dapper Cadaver from TF2
+"DeathmatchMusic.Watergate_Waiting"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/watergate_waitinfg.wav"
+}
+
+//Coaltown temp music.
+"DeathmatchMusic.Coaltown_Temp"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/coaltown_temp.wav"
+}
+
+//Deathmatch Wiseau (TEST), by Thoopje
+"DeathmatchMusic.Wiseau"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/dm_wiseau_loop.wav"
+}
+
+//Chthon Placeholder Music
+"DeathmatchMusic.Chthon"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/PlaceholderChthonMusic.wav"
+}
+
+//Harvest temp music.
+"DeathmatchMusic.Mc_Vickers_Final_Frontier"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/mc_vickers_final_frontier.wav"
+}
+
+//Open Hazards, valve.bik music extended, by Meta
+"DeathmatchMusic.OpenHazards"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/OpenHazards_Loop.wav"
 }

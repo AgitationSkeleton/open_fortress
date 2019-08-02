@@ -1,8 +1,0 @@
-"UnlitGeneric"
-{
-	"$basetexture" "detail/detailsprites_2fort"
-	"$nocull" 1
-	$translucent 1
-	"$VertexColor" 1
-	"$VertexAlpha" "1"
-}

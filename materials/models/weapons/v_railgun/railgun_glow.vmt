@@ -1,6 +1,0 @@
-"Unlitgeneric"
-{
-	"$basetexture"	"models\weapons\v_railgun\railgun_glow"
-	
-    "$model" "1"
-}

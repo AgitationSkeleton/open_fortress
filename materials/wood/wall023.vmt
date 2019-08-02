@@ -1,8 +1,0 @@
-"LightmappedGeneric"
-{
-	"$basetexture" "Wood/wall023"
-	"$detail" "Wood/wood_macro001"
-	"$detailscale" 8
-	"$surfaceprop" "wood"
-	"%keywords" "tf"
-}

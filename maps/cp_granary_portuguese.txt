@@ -1,5 +1,0 @@
-﻿Objectivo:
-Para ganhar, cada equipa deve ter todos os cinco Pontos de controlo.
-
-Outras notas:
-Os Pontos de controlo não podem ser capturados enquanto estão bloqueados.

@@ -1,5 +1,0 @@
-// ### This basic VMT was written based on the D:\dev\ValveGames\tools\python\templateStrings.py script ###
-"VertexLitGeneric"
-{
-	$baseTexture "models/props_medieval/stone_window003.vtf"
-}

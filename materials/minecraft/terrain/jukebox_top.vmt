@@ -1,6 +1,0 @@
-"LightmappedGeneric"
-{
-	"$basetexture" "minecraft/terrain/jukebox_top"
-"$surfaceprop" "metal"
-$reflectivity "[.5 .5 .5]"
-}

@@ -1,6 +1,0 @@
-"VertexLitGeneric"
-{
-	"$baseTexture" "models\items/grenade_pack"
-	"$selfillum" "1"
-	"$halflambert" "1"
-}

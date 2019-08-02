@@ -1,7 +1,0 @@
-"LightmappedGeneric"
-{
-	"$basetexture" "minecraft/terrain/mushroom_red"
-"$alphatest" "1"
-$reflectivity "[.5 .5 .5]"
-"$surfaceprop" "foliage"
-}

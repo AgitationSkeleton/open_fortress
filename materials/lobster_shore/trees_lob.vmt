@@ -1,0 +1,10 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "models\props_temple\skycard_01"
+	"$alphatest" "1"
+	"$color" "[1 1 1]"
+//	"$nofog" "1"
+	"$nocull" "1"
+	"%keywords" "tf"
+}
+

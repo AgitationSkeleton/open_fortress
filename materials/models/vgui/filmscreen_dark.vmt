@@ -1,8 +1,0 @@
-"Modulate"
-{
-	"$baseTexture" "models/vgui/filmscreen_dark"
-	"$model" "1"
-	"$additive" "1"
-	"$mod2x" "1"
-//	"$translucent" "1"
-}

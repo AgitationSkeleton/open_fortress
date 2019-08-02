@@ -1,5 +1,0 @@
-﻿Objectivo:
-Uma equipa deve controlar todos os seis territórios para vencer. Os níveis serão jogados com dois Pontos de controlo de cada vez.
-
-Outras notas:
-As rondas continuam até que uma equipa controle todas as áreas de captura.

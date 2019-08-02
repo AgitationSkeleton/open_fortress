@@ -1,0 +1,19 @@
+// ### This basic VMT was written based on the D:\dev\ValveGames\tools\python\templateStrings.pyc script ###
+"VertexLitGeneric"
+{
+	$baseTexture "models/props_medieval/torch_quake.vtf"
+ 	
+	"$glowcolor" "1"
+	"$phong" "1"
+	"$phongexponent" "5"
+	"$phongboost" "1"	
+	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
+	"$phongfresnelranges"	"[.25 .5 1]"
+
+	"$basemapalphaphongmask" "1"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "20"				
+	"$rimlightboost" ".25"
+
+}

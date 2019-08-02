@@ -1,6 +1,0 @@
-"UnlitGeneric"
-{
-	"$baseTexture" "models\props_doomsday/australium_liquid"
-	$translucent 1
-	$additive 1
-}

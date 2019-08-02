@@ -1,8 +1,0 @@
-"VertexLitGeneric"
-{
-	"$baseTexture" "models\props_coalmine/window1b"
-	"$selfillum" "1"
-	"$selfillumtint" "[.7 .6 .2]"
-	"$nodecal" "1"
-}
-

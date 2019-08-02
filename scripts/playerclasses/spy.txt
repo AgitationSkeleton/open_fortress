@@ -10,13 +10,20 @@ PlayerClass
 	// Models.
 	"model"				"models/player/spy.mdl"
 	"model_hwm"			"models/player/hwm/spy.mdl"
-	"model_bot"			"models/bots/spy/bot_spy.mdl"
 	"arm_model"			"models/weapons/c_models/c_spy_arms.mdl"
+	"bot_model"			"models/bots/spy/bot_spy.mdl"
+	"alt_model"			"models/player/spy.mdl"
+	"alt_arm_model"		"models/weapons/c_models/c_tfc_spy_arms.mdl"
+	"tfc_model"			"models/player/spy.mdl"
+	"tfc_arm_model"		"models/weapons/c_models/c_tfc_spy_arms.mdl"
 	
 	// Stats.
 	"speed_max"			"300"
 	"health_max"		"125"
 	"armor_max"			"0"
+	"tfc_speed_max"		"300"
+	"tfc_health_max"	"90"
+	"tfc_armor_max"		"100"
 
 	// Grenades.
 	"grenade1"			"TF_GRENADE_NORMAL"
@@ -33,43 +40,31 @@ PlayerClass
 	"weapon7"			"NONE"
 	"weapon8"			"NONE"
 	"weapon9"			"NONE"
+	"tfc_weapon1"		"TF_WEAPON_PDA_SPY" //NEEDED FOR SPY DISGUSE TO WORK
+	"tfc_weapon2"		"TF_WEAPON_INVIS"	//ALSO NEEDED FOR INVIS TO WORK
+	"tfc_weapon3"		"TFC_WEAPON_KNIFE"
+	"tfc_weapon4"		"NONE" //"TFC_WEAPON_TRANQ" //not implemented yet
+	"tfc_weapon5"		"TFC_WEAPON_SHOTGUN_DB"
+	"tfc_weapon6"		"TFC_WEAPON_NAILGUN"
+	"tfc_weapon7"		"NONE"
+	"tfc_weapon8"		"NONE"
+	"tfc_weapon9"		"NONE"
 	
 	// Buildables.
 	"buildable1"		"OBJ_ATTACHMENT_SAPPER"
-	"buildable2"		"NONE"
-	"buildable3"		"NONE"
-	"buildable4"		"NONE"
-	
-	// Ammo.
-	AmmoMax
-	{
-		"TF_AMMO_PRIMARY"			"200"
-		"TF_AMMO_SECONDARY"			"200"
-		"TF_AMMO_METAL"				"200"
-		"TF_AMMO_GRENADES1"			"1"
-		"TF_AMMO_GRENADES2"			"1"
-
-		"TF_AMMO_GRENADELAUNCHER"	"30"
-		"TF_AMMO_PIPEBOMBLAUNCHER"	"40"
-		"TF_AMMO_REVOLVER"			"24"
-		"TF_AMMO_ROCKETLAUNCHER"	"36"
-		"TF_AMMO_SNIPERRIFLE"		"25"
-		"TF_AMMO_SMG"				"75"
-		"TF_AMMO_SCATTERGUN"		"32"
-		"TF_AMMO_PISTOL"			"200"
-		"TF_AMMO_FLAMETHROWER"		"200"
-		"TF_AMMO_SYNRINGES"			"150"
-		"TF_AMMO_MINIGUN"			"200"
-		"TF_AMMO_SHOTGUN"			"32"
-		"TF_AMMO_NAILS"				"150"
-		"TF_AMMO_SUPERSHOTGUN"		"32"
-		"TF_AMMO_RAILGUN"			"25"
-		"TF_AMMO_ASSAULTRIFLE"		"90"
-	}
+	"buildable2"		"OBJ_DISPENSER"
+	"buildable3"		"OBJ_TELEPORTER_ENTRANCE"
+	"buildable4"		"OBJ_TELEPORTER_EXIT"
 
 	// Death Sounds.
 	"sound_death"					"Spy.Death"
 	"sound_crit_death"				"Spy.CritDeath"
 	"sound_melee_death"				"Spy.MeleeDeath"
 	"sound_explosion_death"			"Spy.ExplosionDeath"
+	
+	// Ammo.
+	AmmoMax
+	{
+		"TF_AMMO_METAL"				"200"
+	}
 }

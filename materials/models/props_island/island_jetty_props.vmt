@@ -1,5 +1,0 @@
-"VertexLitGeneric"
-{
-	$baseTexture "models/props_island/island_jetty_props"
-	"$selfillum" 1
-}

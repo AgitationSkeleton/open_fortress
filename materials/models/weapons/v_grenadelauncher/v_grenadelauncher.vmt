@@ -1,8 +1,7 @@
 "VertexLitGeneric"
 {
 	"$baseTexture" "models\weapons\v_grenadelauncher/v_grenadelauncher"
-	$BASEMAPALPHAPHONGMASK 1
-//	"$bumpmap" "models/weapons\v_grenadelauncher\v_grenadelauncher_normal"
+	"$bumpmap" "models/weapons\v_grenadelauncher\v_grenadelauncher_normal"
 
 	"$glowcolor" "1"
 	"$phong" "1"

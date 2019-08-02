@@ -1,0 +1,11 @@
+"Patch"
+{
+	include "materials/models/player/sniper/sniper_base.vmt"
+	
+	insert
+	{
+		"$baseTexture" "models/player/sniper/sniper_blue_zombie"
+		"$alphatest" "1"
+		"$nodecal" "1"
+	}
+}

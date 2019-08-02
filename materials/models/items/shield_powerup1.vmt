@@ -32,17 +32,13 @@
 
 	"Proxies"
 	{
-		"ShieldFalloff"
-		{
-			"resultVar"    "$shield_falloff"
-		}
 		"TextureScroll"
 		{
 			"texturescrollvar" "$bumptransform"
 			"texturescrollrate" "-1"
 			"texturescrollangle" "-90"
 		}
-		"PlayerTintColor"
+		"ItemTintColor"
 		{
 			"resultVar"		"$colortint_tmp"
 		}

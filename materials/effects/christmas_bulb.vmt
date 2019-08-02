@@ -1,9 +1,0 @@
-"UnlitGeneric"
-{
-	"$basetexture"	"Effects/christmas_bulb"
-	"$surfaceprop"	"default"
-	"$translucent"	1
-	"$vertexcolor" 	1
-	"$vertexalpha"	1
-	"$spriteorientation" 4
-}

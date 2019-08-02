@@ -1,7 +1,0 @@
-"VertexLitGeneric"
-{
-	"$basetexture" "models/props_farm/silo002"
-	"$surfaceprop" "metal"
-	"%keywords" "tf"
-	"$nocull" "1"
-}

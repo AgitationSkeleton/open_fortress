@@ -45,6 +45,8 @@ lights/HIDwarm001a		255 201 116 650
 lights/incandescentcool001a	235 235 235 300
 lights/incandescentwarm001a	250 226 129 300
 
+lights/teleporter_green	0 255 0 300
+
 //these are dumb
 //props/monitor_world_red 125 70 54 1000
 //props/monitor_world_blue 84 100 98 1000

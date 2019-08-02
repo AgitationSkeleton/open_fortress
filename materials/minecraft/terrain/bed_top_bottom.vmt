@@ -1,6 +1,0 @@
-"LightmappedGeneric"
-{
-	"$basetexture" "minecraft/terrain/bed_top_bottom"
-"$surfaceprop" "carpet"
-$reflectivity "[.5 .5 .5]"
-}

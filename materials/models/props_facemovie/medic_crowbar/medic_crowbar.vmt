@@ -17,22 +17,18 @@
 
 	"$ambientocclusion" "1"
 
-	"$cloakPassEnabled" "1"	
+	"$blendtintbybasealpha"		"1"
+	"$blendtintcoloroverbase"		"1"
+	"$colortint_base"		"{180 180 180}"
+	"$color2"		"{180 180 180}"
+	"$colortint_tmp"		"[0 0 0]"
+	
+	"$cloakPassEnabled" "1"
 	
 	"Proxies"
 	{
-		"spy_invis"
+		"weapon_invis"
 		{
-		}
-		"ItemTintColor"
-		{
-			"resultVar"		"$colortint_tmp"
-		}
-		"SelectFirstIfNonZero"
-		{
-			"srcVar1"		"$colortint_tmp"
-			"srcVar2"		"$colortint_base"
-			"resultVar"		"$color2"
 		}
 		"ModelGlowColor"
 		{
@@ -48,11 +44,8 @@
 			"srcVar1"	"$glowcolor"
 			"resultVar"	"$color2"
 		}
-		"SelectFirstIfNonZero"
+		"spy_invis"
 		{
-			"srcVar1"		"$colortint_tmp"
-			"srcVar2"		"$colortint_base"
-			"resultVar"		"$cloakcolortint"
 		}
 	}
 }

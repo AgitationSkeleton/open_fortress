@@ -10,7 +10,6 @@
 	//"$envmap" "env_cubemap"
 	"$envmaptint" "[.35 .35 .35]"
 
-	"$glowcolor" "1"
 	"$phong" "1"
 	"$phongexponent" "45"
 	"$phongboost" "15"	
@@ -21,12 +20,30 @@
 	"$rimlight" "1"
 	"$rimlightexponent" "4"	
 	"$rimlightboost" "2"
-
-	// Cloaking
+	"$glowcolor" "1"
+	
 	"$cloakPassEnabled" "1"
+	
 	"Proxies"
 	{
 		"weapon_invis"
+		{
+		}
+		"ModelGlowColor"
+		{
+			"resultVar""$glowcolor"
+		}
+		"Equals"
+		{
+			"srcVar1"	"$glowcolor"
+			"resultVar"	"$selfillumtint"
+		}
+		"Equals"
+		{
+			"srcVar1"	"$glowcolor"
+			"resultVar"	"$color2"
+		}
+		"spy_invis"
 		{
 		}
 	}

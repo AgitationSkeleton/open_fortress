@@ -1,7 +1,0 @@
-"UnlitGeneric"
-{
-	"$baseTexture" "models/vgui/class_wall"
-	"$model" "1"
-	"360?$color2" "[ 0.78 0.8 0.8 ]"
-
-}

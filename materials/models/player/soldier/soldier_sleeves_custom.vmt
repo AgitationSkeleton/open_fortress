@@ -1,6 +1,6 @@
 "VertexLitGeneric"
 {
-	"$basetexture" "models\player\soldier\soldier_sleeves_purple"
+	"$basetexture" "models\player\soldier\soldier_sleeves_custom"
 
 	"$bumpmap" "models\player\soldier\soldier_sleeves_normal"
 
@@ -17,10 +17,28 @@
 	"$rimlightexponent" "4"										// Exponent for phong component of rim lighting	
 	"$rimlightboost" "2"										// Boost for ambient cube component of rim lighting
 	"$cloakPassEnabled" "1"
+
+	"$blendtintbybasealpha"		"1"
+	"$blendtintcoloroverbase"		"1"
+	"$colortint_base"		"{0 0 0}"
+	"$color2"		"{180 180 180}"
+	"$colortint_tmp"		"[0 0 0]"		
+
 	"Proxies"
 	{
 		"spy_invis"
 		{
 		}
+		"ItemTintColor"
+		{
+			"resultVar"		"$colortint_tmp"
+		}
+		"SelectFirstIfNonZero"
+		{
+			"srcVar1"		"$colortint_tmp"
+			"srcVar2"		"$colortint_base"
+			"resultVar"		"$color2"
+		}	
 	}
 }
+

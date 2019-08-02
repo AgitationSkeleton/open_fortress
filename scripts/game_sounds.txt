@@ -1,3 +1,9 @@
+//NOTE:
+//Traditionally if you needed a soundscript for a map you would enter it here,
+//but I find it might be better for human readability to give levels their own .txt files.
+//As such I have created level_sounds_wiseau.txt and am now putting wiseau relevant entries there.
+//-iibo
+
 // Channels
 //	CHAN_AUTO		= 0,
 //	CHAN_WEAPON		= 1,
@@ -392,6 +398,24 @@
 		"wave"	")misc/r_tele5.wav"
 	}
 }
+"Teleport.HaloTouch"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"100"
+
+	"wave"	"misc/halo_teleport.wav"
+}
+
+"HaloInvis.Touch"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"VOL_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"pitch"		"PITCH_NORM"
+	"wave"		"misc/halo_invis.wav"
+}
 
 "PropaneTank.Burst"
 {
@@ -464,6 +488,15 @@
 	"pitch"		"100"
 	"soundlevel"	"SNDLVL_75dB"
 	"wave"		")ambient/hum1.wav"
+}
+
+"Ambient.QWind"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_75dB"
+	"wave"		")ambient/wind2.wav"
 }
 
 "Ambient.ComputerWorking"
@@ -811,13 +844,4 @@
 	"pitch"		"PITCH_NORM"
 
 	"wave"		")ambient/medieval_brazier.wav"
-}
-"Wiseau.Radio_Loop"
-{
-	"channel"		"CHAN_STATIC"
-	"volume"		"1"
-	"soundlevel"	"SNDLVL_70dB"
-	"pitch"			"PITCH_NORM"
-
-	"wave"			"ambient/dm_wiseau/radio_loop.wav"
 }

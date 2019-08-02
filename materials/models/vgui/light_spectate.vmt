@@ -1,6 +1,0 @@
-"UnlitGeneric"
-{
-	"$baseTexture" "models/vgui/light_spectate"
-	"$additive" "1"
-	"$model" "1"
-}

@@ -1,7 +1,0 @@
-"VertexLitGeneric"
-{
-	"$basetexture"	"models/props_farm/powertower02"
-	"$surfaceprop"	"default"
-	"$alphatest"	1
-	"$nocull"	1
-}

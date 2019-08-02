@@ -59,6 +59,35 @@
 		"inactiveimage"		"class_sel_sm_random_inactive"
 	}
 	
+	"civilian_red"
+	{
+		"ControlName"		"ImageButton"
+		"fieldName"			"civilian_red"
+		"xpos"				"c327"
+		"xpos_lodef"				"c284"
+		"xpos_hidef"				"c311"
+		"ypos"				"-5"
+		"ypos_lodef"				"9"
+		"ypos_hidef"				"0"
+		"zpos"				"6"
+		"wide"				"50"
+		"tall"				"100"
+		"autoResize"		"0"
+		"pinCorner"			"2"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"0"
+		"labelText"			""
+		"textAlignment"		"south-west"
+		"Command"			"joinclass civilian"
+		"Default"			"1"
+		"font"				"MenuKeys"
+		"fgcolor"			"TanDark"
+		"scaleImage"		"1"
+		"activeimage"		"class_sel_sm_civilian_mercenary"
+		"inactiveimage"		"class_sel_sm_civilian_inactive"
+	}
+	
 	"mercenary_red"
 	{
 		"ControlName"		"ImageButton"

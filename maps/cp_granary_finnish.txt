@@ -1,5 +1,0 @@
-﻿Tavoite:
-Voittaakseen on kummankin tiimin hallittava kaikkia viittä komentopistettä.
-
-Huomautus:
-Komentopisteitä ei voi vallata, kun ne on lukittu.

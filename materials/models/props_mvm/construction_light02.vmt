@@ -1,6 +1,0 @@
-"VertexLitGeneric"
-{
-	"$basetexture"	"models/props_mvm/construction_light02"
-	"$surfaceprop"	"metal"
-	"$selfillum"	1
-}

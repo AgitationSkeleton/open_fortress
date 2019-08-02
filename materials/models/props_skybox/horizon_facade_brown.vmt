@@ -1,6 +1,0 @@
-"VertexLitGeneric"
-{
-	"$basetexture" "models/props_skybox/horizon_facade_brown"
-	"$nocull" 1
-	"%keywords" "tf"
-}

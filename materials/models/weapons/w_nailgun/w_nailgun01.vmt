@@ -11,17 +11,17 @@
 	
 	"$phongfresnelranges"	"[.5 1.5 10]"
 	"$halflambert" "1"
+	
+	"$glowmultiplier"	"[.1 0.1 0.1]"
 
 	// Cloaking
 	"$cloakPassEnabled" "1"
+	
 	"Proxies"
 	{
-		"weapon_invis"
-		{
-		}
 		"ModelGlowColor"
 		{
-			"resultVar""$glowcolor"
+			"resultVar" "$glowcolor"
 		}
 		"Equals"
 		{

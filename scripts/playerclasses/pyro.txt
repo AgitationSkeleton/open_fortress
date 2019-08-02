@@ -10,13 +10,20 @@ PlayerClass
 	// Models.
 	"model"				"models/player/pyro.mdl"
 	"model_hwm"			"models/player/hwm/pyro.mdl"
-	"model_bot"			"models/bots/pyro/bot_pyro.mdl"
 	"arm_model"			"models/weapons/c_models/c_pyro_arms.mdl"
+	"bot_model"			"models/bots/pyro/bot_pyro.mdl"
+	"alt_model"			"models/player/pyro.mdl"
+	"alt_arm_model"		"models/weapons/c_models/c_tfc_pyro_arms.mdl"
+	"tfc_model"			"models/player/pyro.mdl"
+	"tfc_arm_model"		"models/weapons/c_models/c_tfc_pyro_arms.mdl"
 	
 	// Stats.
 	"speed_max"			"300"
 	"health_max"		"175"
 	"armor_max"			"0"
+	"tfc_speed_max"		"300"
+	"tfc_health_max"	"100"
+	"tfc_armor_max"		"150"
 
 	// Grenades.
 	"grenade1"			"TF_GRENADE_NORMAL"
@@ -33,43 +40,31 @@ PlayerClass
 	"weapon7"			"NONE"
 	"weapon8"			"NONE"
 	"weapon9"			"NONE"
+	"tfc_weapon1"		"TFC_WEAPON_CROWBAR"
+	"tfc_weapon2"		"TFC_WEAPON_SHOTGUN_SB"
+	"tfc_weapon3"		"TFC_WEAPON_FLAMETHROWER"
+	"tfc_weapon4"		"TFC_WEAPON_INCENDIARYCANNON"
+	"tfc_weapon5"		"NONE"
+	"tfc_weapon6"		"NONE"
+	"tfc_weapon7"		"NONE"
+	"tfc_weapon8"		"NONE"
+	"tfc_weapon9"		"NONE"
 	
 	// Buildables.
-	"buildable1"		"NONE"
-	"buildable2"		"NONE"
-	"buildable3"		"NONE"
-	"buildable4"		"NONE"
-	
-	// Ammo.
-	AmmoMax
-	{
-		"TF_AMMO_PRIMARY"			"200"
-		"TF_AMMO_SECONDARY"			"200"
-		"TF_AMMO_METAL"				"200"
-		"TF_AMMO_GRENADES1"			"1"
-		"TF_AMMO_GRENADES2"			"1"
-
-		"TF_AMMO_GRENADELAUNCHER"	"30"
-		"TF_AMMO_PIPEBOMBLAUNCHER"	"40"
-		"TF_AMMO_REVOLVER"			"24"
-		"TF_AMMO_ROCKETLAUNCHER"	"36"
-		"TF_AMMO_SNIPERRIFLE"		"25"
-		"TF_AMMO_SMG"				"75"
-		"TF_AMMO_SCATTERGUN"		"32"
-		"TF_AMMO_PISTOL"			"200"
-		"TF_AMMO_FLAMETHROWER"		"200"
-		"TF_AMMO_SYNRINGES"			"150"
-		"TF_AMMO_MINIGUN"			"200"
-		"TF_AMMO_SHOTGUN"			"32"
-		"TF_AMMO_NAILS"				"150"
-		"TF_AMMO_SUPERSHOTGUN"		"32"
-		"TF_AMMO_RAILGUN"			"25"
-		"TF_AMMO_ASSAULTRIFLE"		"90"
-	}
+	"buildable1"		"OBJ_SENTRYGUN"
+	"buildable2"		"OBJ_DISPENSER"
+	"buildable3"		"OBJ_TELEPORTER_ENTRANCE"
+	"buildable4"		"OBJ_TELEPORTER_EXIT"
 
 	// Death Sounds.
 	"sound_death"					"Pyro.Death"
 	"sound_crit_death"				"Pyro.CritDeath"
 	"sound_melee_death"				"Pyro.MeleeDeath"
 	"sound_explosion_death"			"Pyro.ExplosionDeath"
+	
+	// Ammo.
+	AmmoMax
+	{
+		"TF_AMMO_METAL"				"200"
+	}
 }

@@ -1,8 +1,0 @@
-"SpriteCard"
-{
-	"$basetexture"	"Effects/god_ray"
-	"$surfaceprop"	"no_decal"
-	"$additive"	1
-	"$vertexcolor"	1
-	"$vertexalpha"	1
-}

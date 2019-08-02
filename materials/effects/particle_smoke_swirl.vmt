@@ -1,7 +1,0 @@
-"spritecard"
-{
-	"$basetexture" "effects/particle_smoke_swirl"
-	"$vertexcolor" "1"
-	"$vertexalpha" "1"
-	"$translucent" "1"
-}

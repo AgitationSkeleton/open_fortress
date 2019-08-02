@@ -1,8 +1,0 @@
-"LightmappedGeneric"
-{
-	"$basetexture" "Lights/Ibeam_light_01"
-	"$selfillum" 1
-	"$surfaceprop" "metal"
-	"%keywords" "tf"
-	"$selfillumtint" "[ .92 .45 .24]"
-}

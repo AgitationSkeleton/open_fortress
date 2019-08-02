@@ -1,9 +1,0 @@
-"SpriteCard"
-{
-	"$baseTexture" "Effects/mvm_pow_pow"
-	"$surfaceprop"	"no_decal"
-//	"$additive"	1
-	"$translucent"	1
-	"$vertexcolor"	1
-	"$vertexalpha"	1
-}

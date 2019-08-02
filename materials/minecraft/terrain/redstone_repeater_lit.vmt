@@ -1,6 +1,0 @@
-"LightmappedGeneric"
-{
-	"$basetexture" "minecraft/terrain/redstone_repeater_lit"
-"$surfaceprop" "metal"
-$reflectivity "[.5 .5 .5]"
-}

@@ -1,7 +1,0 @@
-"UnlitGeneric"
-{
-	"$basetexture"	"sprites/bucket_pda"
-	"$surfaceprop"	"no_decal"
-	"$vertexcolor" 1
-	"$vertexalpha" 1
-}

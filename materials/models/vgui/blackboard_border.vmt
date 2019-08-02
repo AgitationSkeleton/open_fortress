@@ -1,8 +1,0 @@
-"UnlitGeneric"
-{
-	"$baseTexture" "models/vgui/blackboard_border"
-	"$model" "1"
-//	"$translucent" "1"
-	"360?$basetexture" "Models/vgui/blackboard_border_360"
-	"360?$color2" "[ 0.78 0.8 0.8 ]"
-}

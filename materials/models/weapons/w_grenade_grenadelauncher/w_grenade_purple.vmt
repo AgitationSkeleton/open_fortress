@@ -1,7 +1,6 @@
 "VertexLitGeneric"
 {
 	"$baseTexture" "models\weapons\w_grenade_grenadelauncher/w_grenade_purple"
-	"$selfillum" "1"
 
 	"$glowcolor" "1"
 	"$phong" "1"

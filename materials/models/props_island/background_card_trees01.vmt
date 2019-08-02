@@ -1,5 +1,0 @@
-"VertexLitGeneric"
-{
-	$baseTexture "models/props_island/background_card_trees01"
-	"$translucent" 1
-}

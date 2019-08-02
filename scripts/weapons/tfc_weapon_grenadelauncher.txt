@@ -1,0 +1,112 @@
+WeaponData
+{
+	// Attributes Base.
+	"printname"		"#TF_Weapon_GrenadeLauncher"
+	"BuiltRightHanded"	"0"
+	"weight"		"4"
+	"WeaponType"		"secondary"
+	"ITEM_FLAG_NOITEMPICKUP" 	"1"	
+
+	// Attributes TF.
+	"damage"		"90"
+	"InstagibDamage"	"999"
+	"DamageRadius"		"100"
+	"BulletsPerShot"	"1"
+	"HasTeamSkins_Viewmodel"			"1"
+	"Spread"		"0.0"	
+	"PunchAngle"		"3.0"
+	"TimeFireDelay"		"0.6"
+	"TimeIdle"		"0.6"
+	"TimeIdleEmpty"		"0.6"
+	"TimeReloadStart"	"0.4"
+	"TimeReload"		"0.7"
+	"HasTeamSkins_Viewmodel"			"1"
+	"HasTeamSkins_Worldmodel"			"1"
+
+	// Ammo & Clip.
+	"primary_ammo"		"WEAPON_AMMO"
+	"secondary_ammo"	"None"
+	"clip_size"		"6"
+	"default_clip"		"6"
+	"ProjectileType"	"projectile_pipe"
+	"MaxAmmo"	"50"
+
+	// bucket
+	"bucket"		"3"
+	"bucket_position"	"1"	
+	
+	// bucket_dms.
+	"bucket_dm"		"6"
+	"bucket_dm_position"	"4"
+	
+	"ExplosionSound"	"Weapon_Grenade_Pipebomb.Explode"
+	"ExplosionEffect"	"ExplosionCore_wall"
+	"ExplosionPlayerEffect"	"ExplosionCore_MidAir"
+	"ExplosionWaterEffect"	"ExplosionCore_MidAir_underwater"
+
+	"ProjectileModel"	"models/weapons/w_models/w_grenade_grenadelauncher_dm.mdl"
+	"BrassModel"			"models/weapons/shells/shell_grenade.mdl"
+
+	// Animation.
+	"viewmodel"		"models/weapons/v_models/v_grenadelauncher_dm.mdl"
+	"playermodel"		"models/weapons/w_models/w_grenadelauncher_dm.mdl"
+	"anim_prefix"		"gl"
+
+	// Muzzleflash
+	"MuzzleFlashParticleEffect" "muzzle_grenadelauncher"
+
+	// Sounds.
+	// Max of 16 per category (ie. max 16 "single_shot" sounds).
+	SoundData
+	{
+		"single_shot"	"Weapon_GrenadeLauncherDM.Single"
+		"reload"		"Weapon_GrenadeLauncher.WorldReload"
+		"special3"		"Weapon_GrenadeLauncher.ModeSwitch"
+		"burst"			"Weapon_GrenadeLauncherDM.SingleCrit"	
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"weapon"
+		{
+				"file"		"sprites/bucket_grenDM"
+				"x"		"0"
+				"y"		"0"
+				"width"		"200"
+				"height"		"128"
+		}
+		"weapon_s"
+		{	
+				"file"		"sprites/bucket_grenDM"
+				"x"		"0"
+				"y"		"0"
+				"width"		"200"
+				"height"		"128"
+		}
+		"ammo"
+		{
+				"file"		"sprites/a_icons1"
+				"x"		"55"
+				"y"		"60"
+				"width"		"73"
+				"height"	"15"
+		}
+		"crosshair"
+		{
+				"file"		"sprites/crosshairs"
+				"x"		"32"
+				"y"		"32"
+				"width"		"32"
+				"height"	"32"
+		}
+		"autoaim"
+		{
+				"file"		"sprites/crosshairs"
+				"x"		"0"
+				"y"		"48"
+				"width"		"24"
+				"height"	"24"
+		}
+	}
+}

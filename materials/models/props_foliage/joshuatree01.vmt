@@ -1,6 +1,0 @@
-"VertexLitGeneric"
-{
-	"$basetexture"	"models/props_foliage/joshuatree01"
-	"$surfaceprop"	"default"
-//	"$alphatest"	1
-}

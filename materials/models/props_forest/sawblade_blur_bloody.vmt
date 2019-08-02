@@ -1,6 +1,0 @@
-"VertexlitGeneric"
-{
-	"$baseTexture" "models\props_forest/sawblade_blur_bloody"
-	$translucent 1
-	"$nodecal" "1"
-}

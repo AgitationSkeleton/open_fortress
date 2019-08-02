@@ -1,8 +1,0 @@
-"LightmappedGeneric"
-{
-	"$basetexture" "minecraft/terrain/fern"
-	"$translucent" 1
-"$alphatest" "1"
-"$surfaceprop" "foliage"
-$reflectivity "[.5 .5 .5]"
-}

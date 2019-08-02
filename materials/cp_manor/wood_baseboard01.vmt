@@ -1,8 +1,0 @@
-"LightmappedGeneric"
-{
-	"$basetexture" "cp_manor/wood_baseboard01"
-	"$bumpmap" "cp_manor/wood_baseboard01_ssbump"
-        "$ssbump" "1"
-	"$surfaceprop" "wood"
-	"%keywords" "tf"
-}

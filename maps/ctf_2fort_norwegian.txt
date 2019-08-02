@@ -1,5 +1,0 @@
-﻿Mål:
-For å få et poeng må du stjele fiendens etterretningskoffert og ta den med til kjelleren din
-
-Andre merknader:
-Flaggbærere mister flagget når de dør. Mistede flagg vender tilbake til basen sin etter 60 sekunder.

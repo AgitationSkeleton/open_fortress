@@ -1,8 +1,0 @@
-"UnlitGeneric"
-{
-	"$basetexture" "Lights/gradient_window"
-	"$selfillum" 1
-	"$surfaceprop" "glass"
-	"$color2" "[.84 .66 .46]"
-	"%keywords" "tf"
-}

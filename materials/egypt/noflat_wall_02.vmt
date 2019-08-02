@@ -1,7 +1,0 @@
-"LightmappedGeneric"
-{
-	"$basetexture"	"egypt\flat_wall_02"
-	"$bumpmap"	"egypt\noflat_wall_normal"
-	"$surfaceprop" "rock"
-
-}

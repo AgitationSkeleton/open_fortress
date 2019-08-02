@@ -1,5 +1,0 @@
-﻿Tavoite:
-Sininen tiimi voittaa valtaamalla molemmat komentopisteet kaikilta kolmelta tasolta, ennen kuin aika loppuu. Punainen tiimi voittaa estämällä kaikkien pisteiden valtaamisen.
-
-Huomautus:
-Komentopisteitä ei voi vallata, kun ne on lukittu.

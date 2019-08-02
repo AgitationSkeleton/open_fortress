@@ -1,7 +1,0 @@
-"SpriteCard"
-{
-	"$basetexture" "vgui\white"
-	"$vertexcolor" 1
-	"$vertexalpha" 1
-	"$ignorez" 0
-}

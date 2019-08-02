@@ -1,7 +1,0 @@
-"UnlitGeneric"
-{
-	"$basetexture"	"sprites/bucket_nailgun"
-	"$surfaceprop"	"no_decal"
-	"$vertexcolor" 1
-	"$vertexalpha" 1
-}

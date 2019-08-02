@@ -1,7 +1,0 @@
-"VertexLitGeneric"
-{
-	"$basetexture" "Models/props_lights/lights"
-	"$model" 1
-//	"$alpha" 1
-//	"$selfillum" 1
-}

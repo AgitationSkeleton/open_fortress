@@ -1,5 +1,0 @@
-﻿Mål:
-Et lag må kontrollere alle seks territoriene for å vinne. Nivåene blir spilt med to kontrollpunkter om gangen.
-
-Andre merknader:
-Rundene fortsetter til ett lag eier alle erobringsområder.

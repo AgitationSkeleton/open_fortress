@@ -1,6 +1,0 @@
-"UnlitGeneric"
-{
-	"$baseTexture" "models/vgui/arena_objects"
-	"$model" "1"
-//	"$translucent" "1"
-}

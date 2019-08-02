@@ -1,8 +1,0 @@
-"UnlitGeneric"
-{
-	"$basetexture"	"models/buildables/sentry1/blueprint_model"
-	"$surfaceprop"	"no_decal"
-	"$translucent"	1
-	"$model"		1
-	"$nocull"		1
-}

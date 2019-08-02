@@ -1,6 +1,0 @@
-"LightmappedGeneric"
-{
-	"$basetexture" "minecraft/terrain/farmland_wet"
-"$surfaceprop" "dirt"
-$reflectivity "[.5 .5 .5]"
-}

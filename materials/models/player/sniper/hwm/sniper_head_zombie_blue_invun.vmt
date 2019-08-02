@@ -1,0 +1,11 @@
+"Patch"
+{
+	include "materials/models/player/shared/invun_blue.vmt"
+	
+	insert
+	{
+		"$basetexture" "models/player/sniper/scout_head_zombie"
+		"$alphatest" "1"
+		"$nodecal" "1"
+	}
+}

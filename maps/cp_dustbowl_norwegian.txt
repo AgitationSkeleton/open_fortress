@@ -1,5 +1,0 @@
-﻿Mål:
-Blått lag vinner ved å erobre begge kontrollpunktene på hver av de tre nivåene før tiden går ut. Rødt lag vinner ved å forhindre alle punktene fra å bli erobret.
-
-Andre merknader:
-Kontrollpunkter kan ikke erobres når de er låste.

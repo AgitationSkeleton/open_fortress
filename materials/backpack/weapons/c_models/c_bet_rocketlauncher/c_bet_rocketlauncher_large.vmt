@@ -1,6 +1,0 @@
-"UnlitGeneric"
-{
-	"$baseTexture" "backpack\weapons\c_models\c_bet_rocketlauncher\c_bet_rocketlauncher_large"
-	$translucent 1
-	$vertexcolor 1
-}

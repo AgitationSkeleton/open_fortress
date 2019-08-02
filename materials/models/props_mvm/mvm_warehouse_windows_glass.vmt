@@ -1,7 +1,0 @@
-"VertexlitGeneric"
-{
-	"$baseTexture" "models\props_mvm/mvm_warehouse_windows"
-	"$selfillum" 1
-	//$translucent 1
-	//"$additive" 1
-}

@@ -2,7 +2,6 @@
 {
 	"$basetexture"	"models\weapons\w_scattergun\w_scattergun"
 	
-	"$glowcolor" "1"
 	"$phong" "1"
 	"$phongexponent" "25"
 	"$phongboost" "5"
@@ -18,11 +17,30 @@
 	"$rimlightexponent" "4"	
 	"$rimlightboost" "2"
 
-	// Cloaking
+	"$glowcolor" "1"
+	
 	"$cloakPassEnabled" "1"
+	
 	"Proxies"
 	{
 		"weapon_invis"
+		{
+		}
+		"ModelGlowColor"
+		{
+			"resultVar""$glowcolor"
+		}
+		"Equals"
+		{
+			"srcVar1"	"$glowcolor"
+			"resultVar"	"$selfillumtint"
+		}
+		"Equals"
+		{
+			"srcVar1"	"$glowcolor"
+			"resultVar"	"$color2"
+		}
+		"spy_invis"
 		{
 		}
 	}

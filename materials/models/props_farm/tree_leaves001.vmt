@@ -1,8 +1,0 @@
-"UnlitGeneric"
-{
-	"$basetexture" "Models/props_farm/tree_leaves001"
-	"$alphatest" 1
-	"$translucent" "1"
-	"$nocull" "1"
-	"$model" "1"
-}

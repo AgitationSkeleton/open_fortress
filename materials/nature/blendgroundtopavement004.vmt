@@ -1,0 +1,14 @@
+"WorldVertexTransition"
+{
+	
+	"$basetexture2" "concrete/pavement001"
+	"$basetexture" "Nature/dirtground011_island"
+	"$bumpmap2" "concrete/concretefloor007b_height-ssbump"
+	"$bumpmap" "Nature/rockground006_height-ssbump"
+	"$blendmodulatetexture" "concrete/concretefloor007b_blendmask"
+	"%keywords" "tf, Lobster"
+	"$ssbump" "1"
+	"$surfaceprop" "dirt"
+
+
+}

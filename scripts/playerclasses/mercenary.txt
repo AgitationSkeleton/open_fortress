@@ -10,13 +10,20 @@ PlayerClass
 	// Models.
 	"model"				"models/player/mercenary.mdl"
 	"model_hwm"			"models/player/mercenary.mdl"
-	"model_bot"			"models/player/mercenary.mdl"
 	"arm_model"			"models/weapons/c_models/c_merc_arms.mdl"
+	"bot_model"			"models/player/mercenary.mdl"
+	"alt_model"			"models/player/mercenary.mdl"
+	"alt_arm_model"		"models/weapons/c_models/c_merc_arms.mdl"
+	"tfc_model"			"models/cstrike16/player/terror.mdl"
+	"tfc_arm_model"		"models/weapons/c_models/c_merc_arms.mdl"
 	
 	// Stats.
 	"speed_max"			"320"
 	"health_max"		"150"
 	"armor_max"			"0"
+	"tfc_speed_max"		"320"
+	"tfc_health_max"	"150"
+	"tfc_armor_max"		"100"
 
 	// Grenades.
 	"grenade1"			"TF_GRENADE_NORMAL"
@@ -33,43 +40,31 @@ PlayerClass
 	"weapon7"			"NONE"
 	"weapon8"			"NONE"
 	"weapon9"			"NONE"
+	"tfc_weapon1"		"TFC_WEAPON_CROWBAR"
+	"tfc_weapon2"		"TFC_WEAPON_SHOTGUN_SB"
+	"tfc_weapon3"		"NONE"
+	"tfc_weapon4"		"NONE"
+	"tfc_weapon5"		"NONE"
+	"tfc_weapon6"		"NONE"
+	"tfc_weapon7"		"NONE"
+	"tfc_weapon8"		"NONE"
+	"tfc_weapon9"		"NONE"
 	
 	// Buildables.
-	"buildable1"		"NONE"
-	"buildable2"		"NONE"
-	"buildable3"		"NONE"
-	"buildable4"		"NONE"
-	
-	// Ammo.
-	AmmoMax
-	{
-		"TF_AMMO_PRIMARY"			"200"
-		"TF_AMMO_SECONDARY"			"200"
-		"TF_AMMO_METAL"				"200"
-		"TF_AMMO_GRENADES1"			"1"
-		"TF_AMMO_GRENADES2"			"1"
-
-		"TF_AMMO_GRENADELAUNCHER"	"30"
-		"TF_AMMO_PIPEBOMBLAUNCHER"	"40"
-		"TF_AMMO_REVOLVER"			"24"
-		"TF_AMMO_ROCKETLAUNCHER"	"36"
-		"TF_AMMO_SNIPERRIFLE"		"25"
-		"TF_AMMO_SMG"				"75"
-		"TF_AMMO_SCATTERGUN"		"32"
-		"TF_AMMO_PISTOL"			"200"
-		"TF_AMMO_FLAMETHROWER"		"200"
-		"TF_AMMO_SYNRINGES"			"150"
-		"TF_AMMO_MINIGUN"			"200"
-		"TF_AMMO_SHOTGUN"			"32"
-		"TF_AMMO_NAILS"				"150"
-		"TF_AMMO_SUPERSHOTGUN"		"32"
-		"TF_AMMO_RAILGUN"			"25"
-		"TF_AMMO_ASSAULTRIFLE"		"90"
-	}	
+	"buildable1"		"OBJ_SENTRYGUN"
+	"buildable2"		"OBJ_DISPENSER"
+	"buildable3"		"OBJ_TELEPORTER_ENTRANCE"
+	"buildable4"		"OBJ_TELEPORTER_EXIT"
 	
 	// Death Sounds.
 	"sound_death"					"Mercenary.Death"
 	"sound_crit_death"				"Mercenary.CritDeath"
 	"sound_melee_death"				"Mercenary.MeleeDeath"
 	"sound_explosion_death"			"Mercenary.ExplosionDeath"
+	
+	// Ammo.
+	AmmoMax
+	{
+		"TF_AMMO_METAL"				"200"
+	}
 }

@@ -1,0 +1,15 @@
+vertexlitgeneric
+{
+	$basetexture "models\pickups\megahealth\dufflebag"
+	$bumpmap "models\pickups\megahealth\dufflebag_normal"
+	
+	$basemapluminancephongmask 1
+	
+	"$phong" "1"
+	"$phongboost" "0.7"
+	"$phongexponent" "25"
+	
+	//"$phongalbedotint" "1"
+	"$phongdisablehalflambert" "1"
+}
+

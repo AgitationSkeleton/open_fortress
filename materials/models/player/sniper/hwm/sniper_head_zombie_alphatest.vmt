@@ -1,0 +1,13 @@
+"Patch"
+{
+	include "materials/models/player/sniper/hwm/sniper_head_base.vmt"
+	
+	insert
+	{
+		"$basetexture" "models/player/sniper/sniper_head_zombie"
+		"$compress" "models/player/sniper/sniper_head_zombie"
+		"$stretch" "models/player/sniper/sniper_head_zombie"
+		"$alphatest" "1"
+		"$nodecal" "1"
+	}
+}

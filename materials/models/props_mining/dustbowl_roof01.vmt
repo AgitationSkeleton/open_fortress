@@ -1,9 +1,0 @@
-"VertexLitGeneric"
-{
-	"$basetexture" "models/props_mining/dustbowl_roof01"
-	"$bumpmap" "models/props_mining/dustbowl_roof01_normal"
-//	"$bumpmap" "Metal/wall016_bump-ssbump"
-//      "$ssbump" "1"
-//	"$surfaceprop" "metal"
-//	"%keywords" "tf"
-}

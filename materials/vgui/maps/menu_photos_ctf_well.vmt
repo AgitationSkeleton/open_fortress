@@ -1,7 +1,0 @@
-"UnlitGeneric"
-{
-	"$basetexture" "vgui\maps\menu_photos_cp_well"
-	"$translucent" 1
-	"$ignorez" 1
-	"$vertexcolor" 1
-}

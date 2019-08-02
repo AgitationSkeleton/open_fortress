@@ -1,6 +1,0 @@
-"VertexLitGeneric"
-{
-	"$basetexture"	"models/props_spytech/exit_mounted"
-	"$surfaceprop"	"default"
-	"$selfillum" "1"
-}

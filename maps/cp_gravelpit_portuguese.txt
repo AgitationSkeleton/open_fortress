@@ -1,5 +1,0 @@
-﻿Objectivo:
-A equipa Vermelha ganha se defender os seus Pontos de controlo. A equipa Azul ganha se capturar todos os Pontos de controlo antes que o tempo se esgote.
-
-Outras notas:
-Os Pontos de controlo não podem ser capturados enquanto estão bloqueados. A equipa Vermelha não pode recuperar o controlo de um ponto que já tenha sido capturado pela equipa Azul.

@@ -1,5 +1,0 @@
-﻿Mål:
-Hvert lag må eie alle fem kontrollpunktene for å vinne.
-
-Andre merknader:
-Kontrollpunkter kan ikke erobres når de er låste.

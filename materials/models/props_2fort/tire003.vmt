@@ -1,9 +1,0 @@
-"VertexLitGeneric"
-{
-	"$basetexture" "Models/props_2fort/tire003"
-	"$phong" "1"
-	"$phongexponent" "10"
-	"$phongboost" ".125"	
-	"$phongfresnelranges"	"[.7 15 20]"
-	"$nodecal" "1"
-}

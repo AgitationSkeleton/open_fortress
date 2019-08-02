@@ -1,0 +1,14 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "hl1/dmc/dmctele"
+	$selfillum 1
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" -0.0125
+			"texturescrollangle" 15
+		}
+	}
+}

@@ -1,9 +1,0 @@
-"VertexLitGeneric"
-{
-	"$basetexture"	"models/props_mining/generator_valve01"
-	"$bumpmap" "Models/props_mining/generator_valve01_normal"
-	"$phong" "1"
-	"$phongexponent" "3"
-	"$phongboost" ".025"	
-	"$phongfresnelranges"	"[.6 15 10]"
-}

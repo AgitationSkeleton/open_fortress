@@ -1,6 +1,0 @@
-"VertexLitGeneric"
-{
-	"$baseTexture" "egypt/pyramid/pyramid_skin"
-	"$bumpmap" "egypt/pyramid/pyramid_skin_normal"
-	"$model" 1
-}

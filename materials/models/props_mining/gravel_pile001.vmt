@@ -1,7 +1,0 @@
-"VertexLitGeneric"
-{
-	"$basetexture"	"models/props_mining/gravel_pile001"
-	"$bumpmap" "models/props_mining/gravel_pile001_normal"
-	"%keywords" "tf"
-
-}

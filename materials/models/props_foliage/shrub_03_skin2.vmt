@@ -1,6 +1,0 @@
-"VertexLitGeneric"
-{
-	"$basetexture"	"models/props_foliage/shrub_03_skin2"
-	"$surfaceprop"	"default"
-	"$alphatest"	1
-}

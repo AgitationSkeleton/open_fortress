@@ -1,6 +1,0 @@
-"VertexLitGeneric"
-{
-	"$baseTexture" "models\props_foliage/tree_pine01"
-	"$alphatest" 1
-	"$nocull" 1	
-}

@@ -1,9 +1,0 @@
-"Spritecard"
-{
-	"$basetexture"	"Effects/brightglow_y"
-	"$surfaceprop"	"no_decal"
-	"$additive"	1
-	"$vertexcolor"	1
-	"$vertexalpha"	1
-
-}

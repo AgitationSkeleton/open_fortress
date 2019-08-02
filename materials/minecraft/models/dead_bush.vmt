@@ -1,6 +1,0 @@
-"vertexlitgeneric"
-{
-	"$basetexture" "minecraft/terrain/dead_bush"
-	"$alphatest" 1
-    "$halflambert" "1"
-}

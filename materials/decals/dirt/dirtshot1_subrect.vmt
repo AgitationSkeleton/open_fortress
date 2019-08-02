@@ -1,8 +1,0 @@
-"Subrect"
-{
-	"$Material"	"decals/decals_mod2x"
-	"$Pos"		"576 0"
-	"$Size"		"64 64"
-	"$decalscale" 	0.16
-	"$modelmaterial" "decals/dirtshot1"
-}

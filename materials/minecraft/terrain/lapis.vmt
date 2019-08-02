@@ -1,6 +1,0 @@
-"LightmappedGeneric"
-{
-	"$basetexture" "minecraft/terrain/lapis"
-"$surfaceprop" "metal"
-$reflectivity "[.5 .5 .5]"
-}

@@ -1,6 +1,0 @@
-"LightmappedGeneric"
-{
-	"$basetexture" "minecraft/terrain/grass_side"
-$reflectivity "[.5 .5 .5]"
-"$surfaceprop" "dirt"
-}

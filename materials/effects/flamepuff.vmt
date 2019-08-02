@@ -1,8 +1,0 @@
-"Spritecard"
-{
-	"$basetexture" "effects/flamepuff"
-	"$basetexture2" "effects/flamepuff"
-	"$translucent" 1
-//	"$additive" 1
-	"$addbasetexture2" "1"
-}

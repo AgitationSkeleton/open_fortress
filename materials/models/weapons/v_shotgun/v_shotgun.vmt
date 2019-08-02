@@ -1,8 +1,7 @@
 "VertexLitGeneric"
 {
 	"$baseTexture" "models\weapons\v_shotgun/v_shotgun"
-//	"$bumpmap" "models/weapons\v_shotgun\v_shotgun_normal"
-	$BASEMAPALPHAPHONGMASK 1
+	"$bumpmap" "models/weapons\v_shotgun\v_shotgun_normal"
 
 	"$glowcolor" "1"
 	"$phong" "1"

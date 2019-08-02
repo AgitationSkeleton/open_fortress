@@ -1,7 +1,0 @@
-"LightmappedGeneric"
-{
-	"$basetexture" "minecraft/terrain/sugarcane"
-"$alphatest" "1"
-"$surfaceprop" "foliage"
-$reflectivity "[.5 .5 .5]"
-}

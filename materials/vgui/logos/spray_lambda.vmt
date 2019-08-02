@@ -1,7 +1,0 @@
-LightmappedGeneric
-{
-	"$basetexture"	"vgui\logos\Spray_lambda"
-	"$translucent" "1"
-	"$decal" "1"
-	"$decalscale" "0.250"
-}

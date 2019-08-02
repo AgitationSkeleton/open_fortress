@@ -1,8 +1,0 @@
-"LightmappedGeneric"
-{
-	"$basetexture" "minecraft/terrain/tall_grass"
-	"$translucent" 1
-"$alphatest" "1"
-"$surfaceprop" "foliage"
-$reflectivity "[.5 .5 .5]"
-}

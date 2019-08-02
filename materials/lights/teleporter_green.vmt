@@ -1,0 +1,6 @@
+UnlitGeneric {
+	"$basetexture"		"lights/teleporter_green"
+	"$surfaceprop"		"default_silent"
+	"$nodecal"			"1"
+//	"$selfillum"		"1"
+}

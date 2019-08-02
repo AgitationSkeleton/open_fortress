@@ -1,9 +1,0 @@
-"VertexlitGeneric"
-{
-	"$model" 1
-	"$baseTexture" "models\props_manor/gothic_gate_01"
-	"$envmap" "env_cubemap"
-	"$envmaptint" "[.2 .2 .3]"
-	"$basealphaenvmapmask" 1	
-}
-

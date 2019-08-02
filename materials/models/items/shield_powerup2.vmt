@@ -33,12 +33,7 @@
 
 	"Proxies"
 	{
-		"ShieldFalloff"
-		{
-			"resultVar"    "$shield_falloff"
-		}
-		
-		"PlayerTintColor"
+		"ItemTintColor"
 		{
 			"resultVar"		"$colortint_tmp"
 		}

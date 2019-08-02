@@ -1,10 +1,10 @@
 # Open Fortress
 
-Open Fortress is a sourcemod that aims primarily at fun and introduces new gamemodes to the Team Fortress 2 universe. The current gamemode priority is Deathmatch, including derivates such as CTF and Gun Game and mutators such as Instagib. **Keep in mind this is the nightly client repository, which means it is not in a finished state and you might expect varied issues and crashes.** Soon there will be a stable client available for ordinary players, which the official game servers will be switching to. Linux binaries are not available yet and Mac will continue to be unsupported, unless someone that owns a Mac is willing to help out compiling them.
+Open Fortress is a sourcemod that aims primarily at fun and introduces new gamemodes to the Team Fortress 2 universe. The current gamemode priority is Deathmatch, including derivates such as CTF and Gun Game and mutators such as Instagib. **Keep in mind this is the nightly client repository, which means it is not in a finished state and you might expect varied issues and crashes.** Soon there will be a stable client available for ordinary players, which the official game servers will be switching to. Linux binaries are now available! However, they're not updated very frequently, but soon a build bot will be configured for those. Mac OS will continue to be unsupported, unless someone that owns a Mac is willing to help out compiling them.
 
 ## Installing
 
-Source SDK Base 2013 Multiplayer is required. 
+Source SDK Base 2013 Multiplayer is required. **If you have no experience with GitHub and/or installing sourcemods, we strongly discourage you to follow the steps below and recommend waiting for stable release builds!**
 
 ### Non-developers/players
 To properly download and play this, you must use the GitHub desktop app (or alternatives such as Git for Windows or TortoiseGit). Downloading this sourcemod directly from your browser will result in many corrupted files and the game will not boot. Clone this repository directly to your sourcemods folder (`steamapps/sourcemods`), a folder called `open_fortress` will be automatically created when doing so. **Do not create a folder by yourself called open_fortress, nor rename the game folder after cloning.** After the sourcemod has downloaded, restart Steam and Open Fortress should be available in your game library, ready to be launched.

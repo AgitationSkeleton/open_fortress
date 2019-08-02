@@ -1,0 +1,20 @@
+"unLitGeneric"
+{
+	"$baseTexture" "models\weapons\w_quad\w_quadlauncherlight"
+	"$selfillum" "1"
+
+	"$glowcolor" "1"
+	"$phong" "1"
+	"$phongexponent" "50"
+	"$phongboost" "5"	
+	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
+	"$phongfresnelranges"	"[.25 .5 1]"
+
+	"$basemapalphaphongmask" "1"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "3"	
+	"$rimlightboost" ".50"
+}
+
+

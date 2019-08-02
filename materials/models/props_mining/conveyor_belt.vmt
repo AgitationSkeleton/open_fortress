@@ -1,7 +1,0 @@
-"VertexLitGeneric"
-{
-	"$basetexture" "Models/props_mining/conveyor_belt"
-	//"$alphatest"	1
-	//"$translucent" 1
-
-}

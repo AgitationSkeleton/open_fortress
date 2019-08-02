@@ -1,5 +1,0 @@
-"VertexLitGeneric"
-{
-	"$basetexture"	"models/weapons/w_syringe/w_syringe_glass"
-	"$translucent" "1"
-}

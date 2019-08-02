@@ -1,5 +1,0 @@
-﻿Tavoite:
-Voittoon vaaditaan kaikkien kuuden alueen hallinta. Tasoja pelataan kaksi komentopistettä kerrallaan.
-
-Huomautus:
-Erät jatkuvat, kunnes toinen tiimi on vallannut kaikki alueet.

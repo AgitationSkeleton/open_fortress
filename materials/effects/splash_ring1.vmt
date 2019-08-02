@@ -1,9 +1,0 @@
-"Spritecard"
-{
-	"$basetexture"	"Effects/splash_ring1"
-	"$surfaceprop"	"default"
-	"$translucent"	1
-	"$vertexalpha" 	1
-	"$vertexcolor" 	1
-	"$nocull" 		1
-}

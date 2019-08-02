@@ -1,5 +1,0 @@
-﻿Objectivo:
-Para ganhar um ponto, roube as informações secretas do inimigo e coloque-as na sua cave
-
-Outras notas:
-Os portadores da Bandeira perdem-na quando morrem. As bandeiras perdidas regressam à Base após 60 segundos.

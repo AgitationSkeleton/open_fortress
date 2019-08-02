@@ -1,5 +1,0 @@
-﻿Tavoite:
-Punainen tiimi voittaa puolustamalla komentopisteitään. Sininen tiimi voittaa valtaamalla kaikki komentopisteet, ennen kuin aika loppuu.
-
-Huomautus:
-Komentopisteitä ei voi vallata, kun ne on lukittu. Punainen tiimi ei voi vallata komentopistettä takaisin, kun sininen tiimi on vallannut sen.

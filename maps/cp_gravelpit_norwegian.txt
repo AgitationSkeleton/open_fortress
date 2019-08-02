@@ -1,5 +1,0 @@
-﻿Mål:
-Rødt lag vinner ved å forsvare kontrollpunktene sine. Blått lag vinner ved å erobre alle kontrollpunktene før tiden går ut.
-
-Andre merknader:
-Kontrollpunkter kan ikke erobres når de er låste. Rødt lag kan ikke gjenvinne kontroll over et punkt når det blå laget har erobret det.

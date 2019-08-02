@@ -1,9 +1,0 @@
-"LightmappedGeneric"
-{
-	"$basetexture" "Concrete/computerwall008"
-	"%keywords" "tf"
-	"$detail" "overlays/detail001"
-	"$detailscale" ".1"
-	"$detailblendmode" "0"
-	"$detailblendfactor" "1"
-}

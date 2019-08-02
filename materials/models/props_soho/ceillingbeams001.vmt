@@ -1,6 +1,0 @@
-"VertexlitGeneric"
-{
-	"$baseTexture" "models/props_soho/CeillingBeams001"
-	"$surfaceprop" "metal"
-	"%keywords" "tf"
-}

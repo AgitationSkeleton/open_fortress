@@ -1,6 +1,0 @@
-"LightmappedGeneric"
-{
-	"$basetexture" "minecraft/terrain/torch_redstone_lit"
-"$surfaceprop" "wood"
-$reflectivity "[.5 .5 .5]"
-}

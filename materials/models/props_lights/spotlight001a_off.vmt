@@ -1,6 +1,0 @@
-"VertexLitGeneric"
-{
-	"$baseTexture" "models\props_lights/spotlight001a_noalpha"
-	"$surfaceprop" "metal"
-	"$selfillum" 0
-}

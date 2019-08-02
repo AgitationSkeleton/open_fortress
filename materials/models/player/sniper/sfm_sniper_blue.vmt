@@ -1,0 +1,9 @@
+"Patch"
+{
+	include "materials/models/player/sniper/sfm_sniper_base.vmt"
+	
+	insert
+	{
+		"$baseTexture" "models/player/sniper/sfm_sniper_blue"
+	}
+}

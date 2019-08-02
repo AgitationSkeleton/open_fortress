@@ -1,7 +1,0 @@
-"VertexLitGeneric"
-{
-	"$basetexture" "Models/props_farm/tree_branches001"
-	"$alphatest" 1
-	"$nocull" "1"
-
-}

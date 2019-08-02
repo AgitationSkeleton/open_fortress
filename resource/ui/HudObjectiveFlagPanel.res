@@ -242,7 +242,20 @@
 		"tall"			"90"
 		"visible"		"1"
 		"enabled"		"1"
-	}			
+	}		
+	"NeutralFlag"
+	{
+		"ControlName"	"CTFFlagStatus"
+		"fieldName"		"NeutralFlag"
+		"xpos"			"c-80"
+		"ypos"			"r100"	[$WIN32]
+		"ypos"			"r116"	[$X360]
+		"zpos"			"5"
+		"wide"			"160"
+		"tall"			"90"
+		"visible"		"1"
+		"enabled"		"1"
+	}	
 	"CaptureFlag"
 	{
 		"ControlName"	"CTFArrowPanel"

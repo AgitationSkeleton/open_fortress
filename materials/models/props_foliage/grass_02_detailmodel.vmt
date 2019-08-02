@@ -1,7 +1,0 @@
-"UnLitGeneric"
-{
-	"$basetexture"	"models/props_foliage/grass_02"
-//	"$translucent"	1
-	"$alphatest" 1
-//	"$model" 1
-}

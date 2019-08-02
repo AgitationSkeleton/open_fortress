@@ -1,9 +1,0 @@
-"VertexLitGeneric"
-{
-	"$basetexture"	"models/effects/miniguncasing_sheet"
-	"$surfaceprop"	"metal"
-	"$bumpmap"	"models/effects/miniguncasing_normal"
-	"$envmap"	"env_cubemap"
-
-	"$normalmapalphaenvmapmask" "1"
-}

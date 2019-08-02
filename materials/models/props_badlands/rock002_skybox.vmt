@@ -1,7 +1,0 @@
-"VertexLitGeneric"
-{
-	"$basetexture"	"models/props_badlands/rock002_skybox"
-	"$bumpmap" "Models/props_badlands/rock001_skybox_normal"
-	"$surfaceprop"	"rock"
-	"$nodecal" "1"
-}

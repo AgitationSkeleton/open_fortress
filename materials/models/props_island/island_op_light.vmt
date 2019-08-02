@@ -1,7 +1,0 @@
-"VertexLitGeneric"
-{
-	"$basetexture"	"models/props_island/island_op_light"
-//	"$bumpmap"	"models/props_facemovie/medic_op_light/medic_op_light_normal"
-	"$selfillum"	1
-	"$selfillummask" "models/props_island/island_op_light_illum"
-}

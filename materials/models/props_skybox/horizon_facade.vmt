@@ -1,6 +1,0 @@
-"UnlitGeneric"
-{
-	"$basetexture" "models/props_skybox/horizon_facade"
-	"$nocull" 1
-	"%keywords" "tf"
-}

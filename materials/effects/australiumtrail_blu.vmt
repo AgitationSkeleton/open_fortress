@@ -1,9 +1,0 @@
-"UnlitGeneric"
-{
-	"$basetexture" "effects/doomsday/australium_trail"
-	"$translucent" "1"
-	//"$color2" "[.3 .5 1]"
-	"$color2" "[.98 0.75 .1]"
-	"$vertexalpha" "1"
-	"$vertexcolor" "1"
-}

@@ -1,5 +1,0 @@
-"VertexLitGeneric"
-{
-	"$baseTexture" "models\props_trainyard/cap_light_red"
-	$selfillum 1
-}

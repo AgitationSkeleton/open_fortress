@@ -1,6 +1,0 @@
-"VertexLitGeneric"
-{
-	"$basetexture"	"models/props_foliage/corn_plant01"
-	"$translucent" 1 
-	"$alphatest" 1
-}

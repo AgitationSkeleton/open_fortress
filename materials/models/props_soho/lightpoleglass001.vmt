@@ -1,9 +1,0 @@
-"VertexLitGeneric"
-{
-	"$baseTexture" "models/props_soho/LightPoleGlass001"
-	"$surfaceprop" "glass"
-	"$selfillum" "1"
-	"$selfillumtint" "[2 2 2]"
-	"$nodecal" "1"
-	"%keywords" "tf"
-}

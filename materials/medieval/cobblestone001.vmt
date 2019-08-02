@@ -1,8 +1,0 @@
-"LightmappedGeneric"
-{
-	"$baseTexture"	"medieval/cobblestone001"
-//	"$bumpmap"	"medieval/cobblestone001_ssbump"
-//	"$ssbump"	"1"
-	"$surfaceprop"	"concrete"
-	"%keywords"	"tf"
-}

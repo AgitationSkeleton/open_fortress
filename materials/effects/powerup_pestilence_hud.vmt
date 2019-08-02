@@ -1,9 +1,0 @@
-"UnlitGeneric"
-{
-	"$basetexture" "Effects\powerup_pestilence_icon"
-	"$surfaceprop"	"no_decal"
-	"$translucent"	1
-	"$vertexcolor"	1
-	"$vertexalpha"	1
-	"$ignorez" 1
-}

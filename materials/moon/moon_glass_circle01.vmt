@@ -1,8 +1,0 @@
-"LightmappedGeneric"
-{
-	"$baseTexture" "moon/moon_glass_circle01"
-	$translucent 1
-	"$envmapcontrast" "1"
-	"$envmap" "cubemaps\cubemap_specular002"
-	"$envmaptint" "[ 1.5 1.4 1.35  ]"
-}

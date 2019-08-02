@@ -1,5 +1,0 @@
-﻿Doel:
-Je wint een punt door het koffertje van de vijandelijke inlichtingen te stelen en naar jouw kelder te brengen
-
-Verdere opmerkingen:
-Vlaggendragers laten de vlag vallen als ze doodgaan. Na 60 seconden gaat elke gevallen vlag terug naar de basis.

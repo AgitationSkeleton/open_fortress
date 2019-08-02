@@ -1,92 +1,226 @@
-"Resource/UI/HudPlayerHealth.res"
-{	
+"Resource/UI/HudTDM.res"
+{							
 	// player health data
-	"HudPlayerHealth"
+	"HudTDM"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"HudPlayerHealth"
-		"xpos"			"0"		[$WIN32]
+		"fieldName"		"HudTDM"
+		"xpos"			"c-200"		[$WIN32]
 		"xpos_minmode"	"-5"		[$WIN32]
-		"ypos"			"r120"	[$WIN32]
-		"ypos_minmode"	"r88"	[$WIN32]
-		"xpos"			"32"	[$X360]
-		"ypos"			"r144"	[$X360]
+		"ypos"			"10"	[$WIN32]
+		"ypos_minmode"	"L88"	[$WIN32]
 		"zpos"			"2"
-		"wide"			"250"
-		"tall"			"120"
+		"wide"			"600"
+		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"	
-		"HealthBonusPosAdj"	"35"
-		"HealthDeathWarning"	"0.49"
-		"HealthDeathWarningColor"	"HUDDeathWarning"
 	}	
-	"PlayerStatusHealthImage"
+
+	"BluKills"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"75"
-		"xpos_minmode"	"60"
-		"ypos"			"35"
-		"zpos"			"4"
-		"wide"			"51"
-		"tall"			"51"
+		"fieldName"		"BluKills"
+		"xpos"			"250"
+		"xpos_minmode"	"58"
+		"ypos"			"14"
+		"zpos"			"2"
+		"wide"			"150"
+		"tall"			"34"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-	}		
+	}
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"73"
+		"xpos"			"0"
 		"xpos_minmode"	"58"
-		"ypos"			"33"
+		"ypos"			"10"
 		"zpos"			"3"
-		"wide"			"55"
-		"tall"			"55"
+		"wide"			"150"
+		"tall"			"40"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/health_bg"
+		"image"			"../hud/objectives_tdm_left_bg"
 		"scaleImage"	"1"	
 	}	
-	"PlayerStatusHealthBonusImage"
+	"PlayerStatusHealthImageBG2"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"73"	[$WIN32]
-		"xpos_minmode"	"65"	[$WIN32]
-		"xpos"			"83"	[$X360]
-		"ypos"			"33"	[$WIN32]
-		"ypos_minmode"	"40"	[$WIN32]
-		"ypos"			"43"	[$X360]
-		"zpos"			"2"
-		"wide"			"55"	[$WIN32]
-		"wide_minmode"	"40"	[$WIN32]
-		"wide"			"35"	[$X360]
-		"tall"			"55"	[$WIN32]
-		"tall_minmode"	"40"	[$WIN32]
-		"tall"			"35"	[$X360]
-		"visible"		"0"
+		"fieldName"		"PlayerStatusHealthImageBG2"
+		"xpos"			"250"
+		"xpos_minmode"	"58"
+		"ypos"			"10"
+		"zpos"			"3"
+		"wide"			"150"
+		"tall"			"40"
+		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/health_over_bg"
+		"image"			"../hud/objectives_tdm_right_bg"
 		"scaleImage"	"1"	
-	}
-	"PlayerStatusHealthValue"
+	}	
+	"RedKills"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"RedKills"
+		"xpos"			"0"
+		"xpos_minmode"	"60"
+		"ypos"			"14"
+		"zpos"			"2"
+		"wide"			"150"
+		"tall"			"34"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+	}	
+
+	"PlayerStatusHealthValueShadow"
 	{
 		"ControlName"	"CTFLabel"
-		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"76"
+		"fieldName"		"PlayerStatusHealthValueShadow"
+		"xpos"			"-3"
 		"xpos_minmode"	"61"
-		"ypos"			"52"	[$WIN32]
-		"ypos"			"55"	[$X360]
+		"ypos"			"27"	[$WIN32]
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"18"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"%Health%"
+		"labelText"		"%redkills%"
 		"textAlignment"	"center"	
-		"font"			"HudClassHealth"
-		"fgcolor"		"TanDark"
-	}								
+		"font"			"HudFontMedium"
+		"fgcolor"		"Black"
+	}	
+	"PlayerStatusHealthValue"
+	{
+		"ControlName"	"CTFLabel"
+		"fieldName"		"PlayerStatusHealthValue"
+		"xpos"			"-5"
+		"xpos_minmode"	"61"
+		"ypos"			"25"	[$WIN32]
+		"zpos"			"6"
+		"wide"			"50"
+		"tall"			"18"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%redkills%"
+		"textAlignment"	"center"	
+		"font"			"HudFontMedium"
+		"fgcolor"		"TanLight"
+	}		
+	"PlayerStatusHealthValue2Shadow"
+	{
+		"ControlName"	"CTFLabel"
+		"fieldName"		"PlayerStatusHealthValue2Shadow"
+		"xpos"			"350"
+		"xpos_minmode"	"61"
+		"ypos"			"25"	[$WIN32]
+		"zpos"			"5"
+		"wide"			"50"
+		"tall"			"18"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%blukills%"
+		"textAlignment"	"center"	
+		"font"			"HudFontMedium"
+		"fgcolor"		"Black"
+	}	
+	"PlayerStatusHealthValue2"
+	{
+		"ControlName"	"CTFLabel"
+		"fieldName"		"PlayerStatusHealthValue2"
+		"xpos"			"348.5"
+		"xpos_minmode"	"61"
+		"ypos"			"23.5"	[$WIN32]
+		"zpos"			"6"
+		"wide"			"50"
+		"tall"			"18"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%blukills%"
+		"textAlignment"	"center"	
+		"font"			"HudFontMedium"
+		"fgcolor"		"TanLight"
+	}	
+	"TimePanelBG"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"TimePanelBG"
+		"xpos"			"160"
+		"xpos_minmode"	"300"
+		"xpos_hidef"	"108"
+		"xpos_lodef"	"108"
+		"ypos"			"9"
+		"zpos"			"2"
+		"wide"			"78"
+		"wide_minmode"	"38"
+		"wide_lodef"	"90"
+		"tall"			"45"
+		"tall_minmode"	"23"
+		"tall_lodef"	"38"
+		"visible"		"1"
+		"enabled"		"1"
+        "image"			"../hud/objectives_timepanel_red_bg"	
+		"scaleImage"		"1"		
+		"teambg_2"		"../hud/objectives_timepanel_red_bg"
+		"teambg_3"		"../hud/objectives_timepanel_blue_bg"		
+		"teambg_4"		"../hud/objectives_timepanel_custom_bg"		
+	}	
+	"HudFragLimitLabel"
+	{
+		"ControlName"	"CTFLabel"
+		"fieldName"		"HudKillsLabel"
+		"font"			"HudFontMedium"
+		"fgcolor"		"TanLight"
+		"xpos"			"140"
+		"xpos_minmode"	"81"
+		"ypos"			"15"
+		"ypos_minmode"	"4"
+		"zpos"			"5"
+		"wide"			"116"
+		"wide_minmode"	"116"
+		"tall"			"40"
+		"tall_minmode"	"36"
+		"tall_lodef"	"45"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"center"	
+		"labelText"		"%FragLimit%"
+		
+	}	
+	"PlayingTo"
+	{
+		"ControlName"	"CTFLabel"
+		"fieldName"		"PlayingTo"
+		"xpos"			"130"
+		"ypos"			"-5"	
+		"zpos"			"4"
+		"wide"			"140"
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"#TF_PlayingToTDM"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"font"			"HudFontSmall"
+		"fgcolor"		"TanLight"
+	}			
+	"PlayingToBG"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"PlayingToBG"
+		"xpos"			"150"	
+		"ypos"			"-8"
+		"zpos"			"3"
+		"wide"			"100"
+		"tall"			"38"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/objectives_flagpanel_bg_playingto"
+		"image_hidef"	"../hud/objectives_flagpanel_bg_playingto_hidef"
+		"scaleImage"	"1"	
+	}		
 }
+

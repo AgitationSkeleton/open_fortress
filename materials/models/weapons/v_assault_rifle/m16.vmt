@@ -2,7 +2,6 @@
 {
 "$baseTexture" "models\weapons\v_assault_rifle/m16"
 
-	"$glowcolor" "1"
 	"$phong" "1"
 	"$phongexponent" "6"
 	"$phongboost" "1"	

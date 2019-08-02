@@ -5,9 +5,8 @@
 	
 	"$selfillummask" 	"models\pickups/emitter001_illum"
 	
-	"$envmapmask" "models\pickups/emitter001_env"	
-	"$envmap" "env_cubemap"
-	"$envmaptint" "[.5 .5 .5]"
+//	"$envmap" "env_cubemap"
+	"$envmaptint" "[.2 .2 .2]"
 	
 	"$phong" "1"
 	"$phongexponent" "180"

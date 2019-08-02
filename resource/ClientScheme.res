@@ -19,7 +19,8 @@ Scheme
 	Colors
 	{
 		// base colors
-		"Purple"			"178 82 178 255"
+		"TransparentPurple" "192 64 192 128"
+		"Purple"			"192 64 192 255"
 		"PurpleDim"			"178 82 178 128"
 		"LightPurple"		"188 112 188 128"
 		
@@ -136,8 +137,8 @@ Scheme
 		ComboBoxButton.BgColor			"Blank"
 		ComboBoxButton.DisabledBgColor	"Blank"
 
-		Frame.BgColor					"TransparentBlack"
-		Frame.OutOfFocusBgColor			"TransparentBlack"
+		Frame.BgColor					"146 108 168 235"
+		Frame.OutOfFocusBgColor			"146 108 168 156"
 		Frame.FocusTransitionEffectTime	"0.0"	[$WIN32] // time it takes for a window to fade in/out on focus/out of focus
 		Frame.TransitionEffectTime		"0.0"	[$WIN32] // time it takes for a window to fade in/out on open/close
 		Frame.FocusTransitionEffectTime	"0.15"	[$X360] // time it takes for a window to fade in/out on focus/out of focus
@@ -172,14 +173,14 @@ Scheme
 		ListPanel.TextColor					"Purple"
 		ListPanel.BgColor					"TransparentBlack"
 		ListPanel.SelectedTextColor			"Black"
-		ListPanel.SelectedBgColor			"Red"
-		ListPanel.SelectedOutOfFocusBgColor	"Red"
+		ListPanel.SelectedBgColor			"Purple"
+		ListPanel.SelectedOutOfFocusBgColor	"TransparentPurple"
 		ListPanel.EmptyListInfoTextColor	"Purple"
 
 		Menu.TextColor					"TanLight"
-		Menu.BgColor					"TransparentBlack"
+		Menu.BgColor					"146 108 168 156"
 		Menu.ArmedTextColor				"TanDark"
-		Menu.ArmedBgColor				"TanLight"
+		Menu.ArmedBgColor				"Purple"
 		Menu.TextInset					"6"
 
 		Chat.TypingText					"Purple"
@@ -209,7 +210,7 @@ Scheme
 		RichText.TextColor				"Gray"
 		RichText.BgColor				"Blank"
 		RichText.SelectedTextColor		"Gray"
-		RichText.SelectedBgColor		"Red"
+		RichText.SelectedBgColor		"Purple"
 
 		ScrollBarButton.FgColor				"Gray"
 		ScrollBarButton.BgColor				"Blank"
@@ -228,8 +229,8 @@ Scheme
 		SectionedListPanel.BrightTextColor	"Purple"
 		SectionedListPanel.BgColor			"TransparentLightBlack"
 		SectionedListPanel.SelectedTextColor			"Black"
-		SectionedListPanel.SelectedBgColor				"Red"
-		SectionedListPanel.OutOfFocusSelectedTextColor	"Black"
+		SectionedListPanel.SelectedBgColor				"Purple"
+		SectionedListPanel.OutOfFocusSelectedBgColor	"TransparentPurple"
 		SectionedListPanel.OutOfFocusSelectedBgColor	"255 255 255 32"
 
 		Slider.NobColor				"108 108 108 255"
@@ -244,14 +245,14 @@ Scheme
 		TextEntry.DisabledTextColor	"Gray"
 		TextEntry.DisabledBgColor	"Blank"
 		TextEntry.SelectedTextColor	"TanLight"
-		TextEntry.SelectedBgColor	"Blank"
-		TextEntry.OutOfFocusSelectedBgColor	"Blank"
+		TextEntry.SelectedBgColor	"Purple"
+		TextEntry.OutOfFocusSelectedBgColor	"TransparentPurple"
 		TextEntry.FocusEdgeColor	"Blank"
 
 		ToggleButton.SelectedTextColor	"Purple"
 
 		Tooltip.TextColor			"TransparentBlack"
-		Tooltip.BgColor				"Red"
+		Tooltip.BgColor				"Purple"
 
 		TreeView.BgColor			"TransparentBlack"
 
@@ -273,6 +274,13 @@ Scheme
 		HudCaptureProgressBar.Active	"HudProgressBarActive"
 		HudCaptureProgressBar.InActive	"HudProgressBarInActive"
 
+		NewGame.SelectionColor							"Purple"
+		
+		// scheme-specific colors
+		MainMenu.TextColor			"TanLight"
+		MainMenu.ArmedTextColor		"117 107 94 255"
+		MainMenu.Inset				"32"		
+		
 		// scheme-specific colors
 		"FgColor"		"Purple"
 		"BgColor"		"TransparentBlack"
@@ -330,6 +338,93 @@ Scheme
 	// describes all the fonts
 	Fonts
 	{
+		"MainMenuFont"
+		{
+			"1"	[$WIN32]
+			{
+				"name"		"TF2 Build"
+				"tall"		"18"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"MenuLarge"
+		{
+			"1"	[$X360]
+			{
+				"tall_hidef"		"24"
+			}
+		}
+		"MainMenuButton"
+		{
+			"1"	[$WIN32]
+			{
+				"name"		"TF2 Build"
+				"tall"		"18"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}	
+		"ServerBrowserTitle"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"35"
+				"tall_lodef"	"40"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"ServerBrowserSmall"
+		{
+			"1"
+			{
+				"name"		"Tahoma"
+				"tall"		"16"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"480 599"
+			}
+			"2"
+			{
+				"name"		"Tahoma"
+				"tall"		"16"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"600 767"
+			}
+			"3"
+			{
+				"name"		"Tahoma"
+				"tall"		"16"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"768 1023"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"		"Tahoma"
+				"tall"		"19"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1024 1199"
+				"antialias"	"1"
+			}
+			"5"
+			{
+				"name"		"Tahoma"
+				"tall"		"19"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1200 6000"
+				"antialias"	"1"
+			}
+		}	
 		// fonts are used in order that they are listed
 		// fonts listed later in the order will only be used if they fulfill a range not already filled
 		// if a font fails to load then the subsequent fonts will replace
@@ -1825,14 +1920,16 @@ Scheme
 		}
 	}
 
+
+	
 	//////////////////////// CUSTOM FONT FILES /////////////////////////////
 	//
 	// specifies all the custom (non-system) font files that need to be loaded to service the above described fonts
 	CustomFontFiles
 	{
-		"1" "resource/tf.ttf"
-		"2" "resource/tfd.ttf"
-		"3"
+	    "1"		"resource/tf.ttf"
+		"2"		"resource/tfd.ttf"
+	    "3"
 		{
 			"font" "resource/TF2.ttf"
 			"name" "TF2"
@@ -1840,12 +1937,8 @@ Scheme
 			{
 				"range" "0x0000 0xFFFF"
 			}
-			"polish"
-			{
-				"range" "0x0000 0xFFFF"
-			}
 		}
-		"4" 
+		"4"
 		{
 			"font" "resource/TF2Secondary.ttf"
 			"name" "TF2 Secondary"
@@ -1853,25 +1946,17 @@ Scheme
 			{
 				"range" "0x0000 0xFFFF"
 			}
-			"polish"
-			{
-				"range" "0x0000 0xFFFF"
-			}
 		}
-		"5" 
+		"5"
 		{
 			"font" "resource/TF2Professor.ttf"
 			"name" "TF2 Professor"
 			"russian"
 			{
-				"range" "0x0000 0x00FF"
+				"range" "0x0000 0xFFFF"
 			}
-			"polish"
-			{
-				"range" "0x0000 0x00FF"
-			}
-		}	
-		"6" 
+		}
+		"6"
 		{
 			"font" "resource/TF2Build.ttf"
 			"name" "TF2 Build"
@@ -1879,11 +1964,12 @@ Scheme
 			{
 				"range" "0x0000 0xFFFF"
 			}
-			"polish"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"turkish"
+		}
+		"9"
+		{
+			"font" "resource/TF2Build.ttf"
+			"name" "TF2 Build"
+			"russian"
 			{
 				"range" "0x0000 0xFFFF"
 			}

@@ -1,0 +1,9 @@
+"Patch"
+{
+	include "materials/models/player/engineer/engineer_sfm_hands_base.vmt"
+	
+	insert
+	{
+		"$baseTexture" "models/player/engineer/engineer_sfm_hands_red"
+	}
+}

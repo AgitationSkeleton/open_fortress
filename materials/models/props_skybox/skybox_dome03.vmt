@@ -1,8 +1,0 @@
-"UnlitGeneric"
-{
-	"$basetexture" "Models/props_skybox/skybox_dome03"
-	//"$alpha"	1
-	"$translucent" 1
-	"$model" 1
-	"$nofog" "1"
-}

@@ -1,5 +1,0 @@
- "VertexLitGeneric"
-{
-	$baseTexture "\models\props_medical\beer_barrels"
-	"%keywords" "tf"
-}

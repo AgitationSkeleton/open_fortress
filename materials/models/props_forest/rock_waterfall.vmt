@@ -1,5 +1,0 @@
-"VertexlitGeneric"
-{
-	"$baseTexture" "models\props_forest/rock_waterfall"
-	$halflambert 1
-}

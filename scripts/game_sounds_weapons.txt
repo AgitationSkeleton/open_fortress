@@ -207,6 +207,18 @@
 }
 
 // ------------------------------------------------------------------------------------ //
+// GRAPPLING HOOK
+// ------------------------------------------------------------------------------------ //
+
+"Weapon_GHook.Single"
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_74dB"
+	"volume"	"1"
+	"wave"		")weapons/crusaders_crossbow_shoot.wav"
+}
+
+// ------------------------------------------------------------------------------------ //
 // BOTTLE
 // ------------------------------------------------------------------------------------ //
 
@@ -874,6 +886,66 @@
 	"soundlevel"	"SNDLVL_94dB"
 	"volume"	"1.0"
 	"wave"		")weapons/flame_thrower_end.wav"
+}
+
+// ------------------------------------------------------------------------------------ //
+// LIGHTNING GUN
+// ------------------------------------------------------------------------------------ //
+
+"Weapon_LightningGun.LightningStart"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+	"wave"		")weapons/lightning_gun_start.wav"
+}
+
+"Weapon_LightningGun.LightningLoop"	
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+	"wave"		")weapons/lightning_gun_loop.wav"
+}
+
+"Weapon_LightningGun.LightningLoopCrit"
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+	"wave"		")weapons/lightning_gun_loop_crit.wav"
+}
+
+"Weapon_LightningGun.LightningEnd"	
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+	"wave"		")weapons/lightning_gun_end.wav"
+}
+
+"Weapon_LightningGun.LightningHit"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+	"wave"		")weapons/lightning_gun_hit.wav"
+}
+
+"Weapon_LightningGun.HumLoop"
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_74dB"
+	"volume"	".25"
+	"wave"		"weapons/lightning_gun_hum_loop.wav"
+}
+
+"Weapon_LightningGun.Draw"
+{
+	"channel"	"CHAN_AUTO"
+	"soundlevel"	"SNDLVL_74dB"
+	"volume"	".5"
+	"wave"		"weapons/draw_primary.wav"
 }
 
 // ------------------------------------------------------------------------------------ //
@@ -2076,7 +2148,7 @@
 	"channel"	"CHAN_WEAPON"
 	"soundlevel"	"SNDLVL_94dB"
 	"volume"	"0.8"
-	"wave"		"weapons/nail_gun_shoot.wav"
+	"wave"		")weapons/nail_gun_shoot.wav"
 }
 
 "Weapon_NailGun.SingleCrit"
@@ -2084,7 +2156,7 @@
 	"channel"	"CHAN_WEAPON"
 	"soundlevel"	"SNDLVL_94dB"
 	"volume"	"0.8"
-	"wave"		"weapons/nail_gun_shoot_crit.wav"
+	"wave"		")weapons/nail_gun_shoot_crit.wav"
 }
 
 "Weapon_NailGun.Reload"
@@ -2110,7 +2182,7 @@
 	"channel"	"CHAN_AUTO"
 	"soundlevel"	"SNDLVL_74dB"
 	"volume"	".5"
-	"wave"		"weapons/nail_gun_draw.wav"
+	"wave"		")weapons/nail_gun_draw.wav"
 }
 
 "Weapon_Nailgun.ClipOut"
@@ -2315,6 +2387,14 @@
 	"soundlevel"	"SNDLVL_94dB"
 	"volume"	"1.0"
 	"wave"		")weapons/railgun_shoot_crit.wav"
+}
+
+"Weapon_Railgun.Charge"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+	"wave"		")weapons/railgun_charge.wav"
 }
 
 "Weapon_Railgun.PilotLoop"
@@ -2761,6 +2841,38 @@
 			"wave"	")weapons/dynamite_stick_explode3.wav"
 	}
 }
+
+// ------------------------------------------------------------------------------------ //
+// TRIPMINE
+// ------------------------------------------------------------------------------------ //
+"Weapon_Tripmine.Deploy"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_80db"
+	"volume"	"1.0"
+
+	"wave"		"weapons/mine_deploy.wav"
+}
+
+"Weapon_Tripmine.Charge"
+{
+	"channel"	"CHAN_BODY"
+	"soundlevel"  	"SNDLVL_80db"
+	"volume"	"0.2"
+
+	"wave"		"weapons/mine_charge.wav"
+}
+
+"Weapon_Tripmine.Activate"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_75db"
+	"volume"	"0.3"
+	"pitch"		"75"
+
+	"wave"		"weapons/mine_activate.wav"
+}
+
 
 //
 // ------------------------------------------------------------------------------------ //

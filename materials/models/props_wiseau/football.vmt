@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_wiseau/football"
+	"$surfaceprop"	"default"
+	"$bumpmap"	"models/props_wiseau/football_normal"
+	"$phong" "1"
+	"$phongexponent" "3"
+	"$phongboost" "2"
+	"$phongfresnelranges"		"[.25 .5 1]"
+	"$rimlight"		"1"
+	"$rimlightexponent"		"4"
+	"$rimlightboost"		"2"
+	"$halflambert"		"1"
+	"$bumpmapalphaphongmask"		"1"
+	"$lightwarptexture"		"models/player/pyro/pyro_lightwarp"
+}

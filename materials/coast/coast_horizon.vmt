@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "coast/coast_horizon"
+	"%keywords" "tf"
+	"$translucent" 1
+}

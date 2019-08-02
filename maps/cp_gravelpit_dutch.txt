@@ -1,5 +1,0 @@
-﻿Doel:
-Team Red wint door de eigen controleposten te verdedigen. Team Blue wint door alle controleposten te veroveren voordat de tijd op is.
-
-Verdere opmerkingen:
-Controleposten kunnen niet worden veroverd als ze zijn gesloten. Team Red kan niet de controle over een controlepost terugkrijgen als Blue het heeft veroverd.

@@ -1,6 +1,0 @@
-"UnlitGeneric"
-{
-	"$basetexture"	"models/props_spytech/computer_screen1"
-	"$surfaceprop"	"no_decal"
-	"$model"		1
-}

@@ -1,8 +1,0 @@
-"Spritecard"
-{
-	"srgb?$overbrightfactor" "2"
-	"$basetexture" "particle\fire_particle_3"
-	$translucent 1
-//	"$overbrightfactor" "31"
-	"$addself" "0.5"
-}

@@ -1,0 +1,18 @@
+"Wiseau.Lift_Loop"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"	"SNDLVL_85dB"
+	"pitch"			"PITCH_NORM"
+
+	"wave"			"ambient/lift_start_loop.wav"
+}
+"Wiseau.Lift_Stop"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"	"SNDLVL_85dB"
+	"pitch"			"PITCH_NORM"
+
+	"wave"			"ambient/lift_stop.wav"
+}

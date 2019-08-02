@@ -1,8 +1,0 @@
-"VertexLitGeneric"
-
-{
-	"$basetexture" "models/props_soho/BottleCrate_Green"
-	"$surfaceprop" "plastic"
-	"%keywords" "tf"
-
-}

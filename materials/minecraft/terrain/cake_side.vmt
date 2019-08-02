@@ -1,6 +1,0 @@
-"LightmappedGeneric"
-{
-	"$basetexture" "minecraft/terrain/cake_side"
-"$surfaceprop" "flesh"
-$reflectivity "[.5 .5 .5]"
-}

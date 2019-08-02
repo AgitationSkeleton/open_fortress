@@ -9,7 +9,6 @@
 	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
 	"$phongfresnelranges"	"[1.5 .5 3]"
 	"$halflambert" "1"
-
 	"$basemapalphaphongmask" "1"
 	
 	"$rimlight" "1"						
@@ -17,6 +16,8 @@
 	"$rimlightboost" ".25"
 
 	"360?$color2" "[ 0.5 0.5 0.5 ]"
+	
+	"$glowmultiplier"	"[.1 0.1 0.1]"
 
 	// Cloaking
 	"$cloakPassEnabled" "1"
@@ -24,7 +25,7 @@
 	{
 		"ModelGlowColor"
 		{
-			"resultVar""$glowcolor"
+			"resultVar" "$glowcolor"
 		}
 		"Equals"
 		{

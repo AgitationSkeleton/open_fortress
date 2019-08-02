@@ -5,6 +5,8 @@
 	"$additive" "1"
 
 	"$cloakPassEnabled" "1"
+	"$glowcolor" "1"
+	
 	"Proxies"
 	{
 		"ModelGlowColor"

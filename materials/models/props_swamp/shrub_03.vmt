@@ -1,6 +1,0 @@
-"VertexlitGeneric"
-{
-	"$baseTexture" "models\props_swamp/shrub_03"
-	"$surfaceprop"	"default"
-	"$alphatest" 1
-}

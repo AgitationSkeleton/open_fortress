@@ -1,8 +1,0 @@
-"UnLitGeneric"
-{
-	"$basetexture"	"Effects/wispy_smoke"
-	"$surfaceprop"	"default"
-	"$translucent"	1
-	"$vertexcolor" 	1
-	"$vertexalpha"	1
-}

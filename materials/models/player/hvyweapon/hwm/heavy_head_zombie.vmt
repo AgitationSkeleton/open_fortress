@@ -1,0 +1,11 @@
+"Patch"
+{
+	include "materials/models/player/hvyweapon/hwm/heavy_base_head.vmt"
+	
+	insert
+	{
+		"$basetexture" "models/player/hvyweapon/heavy_head_zombie"
+		"$compress" "models/player/hvyweapon/heavy_head_zombie"
+		"$stretch" "models/player/hvyweapon/heavy_head_zombie"
+	}
+}

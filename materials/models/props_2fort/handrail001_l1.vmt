@@ -1,6 +1,0 @@
-"VertexLitGeneric"
-{
-	"$basetexture" "Models/props_2fort/handrail001_L1"
-	"$envmap" "env_cubemap"
-	"$basealphaenvmapmask" "1"
-}

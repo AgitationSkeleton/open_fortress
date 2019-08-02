@@ -1,6 +1,0 @@
-"LightmappedGeneric"
-{
-	"$basetexture" "minecraft/terrain/missing"
-$reflectivity "[.5 .5 .5]"
-"$surfaceprop" "default"
-}

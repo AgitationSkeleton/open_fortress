@@ -1,9 +1,0 @@
-"LightmappedGeneric"
-{
-	"$basetexture" "Props/hay_01"
-	"$decal" 1
-	"$decalscale" .15
-	"$translucent" 1
-	"$alpha" .9
-	"%keywords" "tf"
-}

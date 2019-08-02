@@ -1,6 +1,0 @@
-"VertexLitGeneric"
-{
-	"$basetexture"	"models/props_medieval/pendant_flag/pendant_flag"
-	"$nocull" 1 
-	
-}

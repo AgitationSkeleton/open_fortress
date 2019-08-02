@@ -84,3 +84,7 @@
 "use_mini"		"#OFD_Use_Mini"
 "use_snip"		"#OFD_Use_Snip"
 "use_rail"		"#OFD_Use_Rail"
+"use_dynamite"	"#OFD_Use_Dynamite"
+"use_rifle"		"#OFD_Use_Rifle"
+"use_tripmine"	"#OFD_Use_Tripmine"
+"use_lightgun"	"#OFD_Use_LightGun"

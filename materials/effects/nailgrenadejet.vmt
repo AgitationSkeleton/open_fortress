@@ -1,7 +1,0 @@
-"UnlitGeneric"
-{
-	"$basetexture"	"Effects/nailgrenadejet"
-	"$surfaceprop"	"default"
-//	"$translucent"	1
-	"$additive"	1
-}

@@ -1,0 +1,19 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\w_spytechgun\w_spytechgun_glass"
+	"$additive" "1"	
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.6 .3 .2]"
+
+	"$phong" "1"
+	"$phongexponent" "35"
+	"$phongfresnelranges" "[1 2 4]"
+	"$lightwarptexture" "models/lightwarps/weapon_lightwarp"
+	"$phongboost" "1"
+
+	"$rimlight" "1"						
+	"$rimlightexponent" "20"				
+	"$rimlightboost" "2"
+
+}

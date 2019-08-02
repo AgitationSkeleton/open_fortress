@@ -1,0 +1,11 @@
+"Patch"
+{
+	include "materials/models/player/demo/hwm/demoman_head_base.vmt"
+	
+	insert
+	{
+		"$basetexture" "models/player/demo/demoman_head_zombie"
+		"$compress" "models/player/demo/demoman_head_zombie"
+		"$stretch" "models/player/demo/demoman_head_zombie"
+	}
+}

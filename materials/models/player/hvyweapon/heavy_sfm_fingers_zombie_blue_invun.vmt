@@ -1,0 +1,9 @@
+"Patch"
+{
+	include "materials/models/player/shared/invun_blue.vmt"
+	
+	insert
+	{
+		"$basetexture"	"models/player/hvyweapon/heavy_sfm_fingers_zombie"
+	}
+}

@@ -1,7 +1,0 @@
-"LightmappedGeneric"
-{
-	"$basetexture" "minecraft/terrain/door_wood_top"
-"$alphatest" "1"
-"$surfaceprop" "wood"
-$reflectivity "[.5 .5 .5]"
-}

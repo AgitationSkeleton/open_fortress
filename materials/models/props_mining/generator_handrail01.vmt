@@ -1,9 +1,0 @@
-"VertexLitGeneric"
-{
-	"$basetexture" "Models/props_mining/generator_handrail01"
-//	"$bumpmap" "Models/props_mining/generator_handrail01_normal"
-//	"$phong" "1"
-//	"$phongexponent" "3"
-//	"$phongboost" ".025"	
-//	"$phongfresnelranges"	"[.7 15 10]"
-}

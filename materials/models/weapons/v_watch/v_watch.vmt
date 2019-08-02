@@ -20,7 +20,8 @@
 	"$rimlightboost" "2"
 
 	// Cloaking
-	"$cloakPassEnabled" "1"
+	"$cloakPassEnabled" "0"
+	
 	"Proxies"
 	{
 		"ModelGlowColor"
@@ -36,9 +37,6 @@
 		{
 			"srcVar1"	"$glowcolor"
 			"resultVar"	"$color2"
-		}
-		"spy_invis"
-		{
 		}
 	}
 }

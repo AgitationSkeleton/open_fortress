@@ -1,8 +1,0 @@
-"Spritecard"
-{
-	"$basetexture"	"Effects/lightbulb_glow"
-	"$vertexcolor"	1
-	"$vertexalpha"	1
-	$DEPTHBLEND "0"
-	"$mod2x" 1
-}

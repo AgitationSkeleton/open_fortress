@@ -1,7 +1,0 @@
-"UnlitGeneric"
-{
-	"$baseTexture" "Effects\doomsday/boxers_animated"
-	"$translucent" 1
-//	"$additive" 1
-	"$overbrightfactor" "1"
-}

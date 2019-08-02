@@ -1,6 +1,0 @@
-"LightmappedGeneric"
-{
-	"$basetexture" "minecraft/terrain/furnace_side"
-"$surfaceprop" "rock"
-$reflectivity "[.5 .5 .5]"
-}

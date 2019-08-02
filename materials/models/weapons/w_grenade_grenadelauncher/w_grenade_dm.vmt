@@ -1,7 +1,7 @@
 "VertexLitGeneric"
 {
 	"$baseTexture" "models\weapons\v_grenadelauncher/v_grenade_dm"
-	"$BASEMAPALPHAPHONGMASK"  "1"
+
 	"$glowcolor" "1"
 	"$phong" "1"
 	"$phongexponent" "35"
@@ -25,6 +25,16 @@
 			"sinemin" .1
 			"sinemax" 2.00
 			"sineperiod" 0.30
+		}
+		"ItemTintColor"
+		{
+			"resultVar"		"$colortint_tmp"
+		}
+		"SelectFirstIfNonZero"
+		{
+			"srcVar1"		"$colortint_tmp"
+			"srcVar2"		"$colortint_base"
+			"resultVar"		"$color2"
 		}
 	}
 

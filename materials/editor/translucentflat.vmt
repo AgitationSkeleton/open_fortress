@@ -1,7 +1,0 @@
-"UnlitGeneric"
-{
-	// Original shader: vertexcolor
-	"$vertexcolor" 1
-	"$flat" 1
-	"$vertexalpha" 1
-}

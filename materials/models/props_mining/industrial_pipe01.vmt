@@ -1,9 +1,0 @@
-"VertexLitGeneric"
-{
-	"$basetexture"	"models/props_mining/industrial_pipe01"
-	"$basemapalphaphongmask" "1"
-	"$phong" "1"
-	"$phongexponent" "15"
-	"$phongboost" ".125"	
-	"$phongfresnelranges"	"[0 15 10]"
-}

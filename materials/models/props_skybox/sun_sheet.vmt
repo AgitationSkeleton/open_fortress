@@ -1,6 +1,0 @@
-"UnlitGeneric"
-{
-	"$basetexture" "Models/props_skybox/sun_sheet"
-	"$model" 1
-	"$nofog" "1"
-}

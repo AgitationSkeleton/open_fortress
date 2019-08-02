@@ -1,8 +1,0 @@
-"LightmappedGeneric"
-{
-	"$baseTexture" "medieval/woodbeamwall001a"
-	"$bumpmap"	"medieval/pasterwall_ssbump"
-	"$ssbump"	"1"
-	"$surfaceprop"	"wood"
-	"%keywords"	"tf"
-}

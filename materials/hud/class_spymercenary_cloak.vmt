@@ -11,7 +11,7 @@
 	"$ignorez" "1"
 	"$forcerefract" 1
 	"$nofog" "1"
-	"$refracttinttexture" "hud\class_spyblue_cloak"
+	"$refracttinttexture" "hud\class_spymercenary_cloak"
 	"$nocull" "1"	
 
 }

@@ -1,6 +1,0 @@
-"VertexLitGeneric"
-{
-	"$basetexture" "Models/props_2fort/lightbulb001"
-	"$selfillum" 0
-	"$nodecal" "1"
-}

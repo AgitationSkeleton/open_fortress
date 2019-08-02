@@ -1,9 +1,0 @@
-"SpriteCard"
-{
-	"$basetexture"	"Effects/balloonicorn"
-	"$surfaceprop"	"no_decal"
-	//$additive 1
-	//$overbrightfactor 3
-	//$addself 2
-
-}

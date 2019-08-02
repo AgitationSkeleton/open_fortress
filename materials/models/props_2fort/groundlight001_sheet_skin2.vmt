@@ -1,7 +1,0 @@
-"VertexLitGeneric"
-{
-	"$basetexture" "Models/props_2fort/groundlight001_sheet_skin2"
-	"$envmap" "env_cubemap"
-	"$selfillum" "1"
-	"$envmaptint" "[.2 .2 .2]"
-}

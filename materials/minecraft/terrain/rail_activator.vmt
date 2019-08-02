@@ -1,7 +1,0 @@
-"LightmappedGeneric"
-{
-	"$basetexture" "minecraft/terrain/rail_activator"
-"$alphatest" "1"
-"$surfaceprop" "metal"
-$reflectivity "[.5 .5 .5]"
-}

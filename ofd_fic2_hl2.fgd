@@ -1,16 +1,13 @@
 
 // == IMPORTANT == //
 
-// This FGD only works in Slartibarty's / Slammin Hammer! https://forum.facepunch.com/dev/bvenk/Slammin-Source-map-tools
-// This will not work in the stock Hammer
-
-
+// This FGD only works in Slartibarty's / Slammin Hammer! https://knockout.chat/thread/992/1
 
 
 //=============================================================================
 //
 // Extension of ofd_fic2.fgd to list HL2 entities (NPCs, AI stuff etc)
-// V7.0, 4th of May 2019
+// V7.0, 30th of July 2019
 //
 //=============================================================================
 

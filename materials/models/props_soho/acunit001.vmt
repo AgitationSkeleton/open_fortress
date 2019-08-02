@@ -1,8 +1,0 @@
-"VertexLitGeneric"
-
-{
-	"$basetexture" "models/props_soho/ACunit001"
-	"$surfaceprop" "metal"
-	"%keywords" "tf"
-
-}

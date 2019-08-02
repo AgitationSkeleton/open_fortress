@@ -1,5 +1,0 @@
-﻿Doel:
-Een team moet alle vijf controleposten bezitten om te winnen.
-
-Verdere opmerkingen:
-Controleposten kunnen niet worden veroverd als ze zijn gesloten.

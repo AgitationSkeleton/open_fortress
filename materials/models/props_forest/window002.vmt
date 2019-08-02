@@ -1,5 +1,0 @@
-// ### This basic VMT was written based on the game/sdktools/python/site-packages/templateStrings.py script ###
-"VertexLitGeneric"
-{
-	$baseTexture "models/props_forest/window002.vtf"
-}

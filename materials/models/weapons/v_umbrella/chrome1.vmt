@@ -3,6 +3,7 @@
 	"$basetexture" "models/weapons/v_umbrella/chrome1"
 	"$envmap" "models/weapons/v_umbrella/chrome1"
 	"$cloakPassEnabled" "1"
+	"$glowcolor" "1"
 	"Proxies"
 	{
 		"ModelGlowColor"

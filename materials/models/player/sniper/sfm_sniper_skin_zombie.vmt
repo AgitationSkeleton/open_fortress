@@ -1,0 +1,47 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/player/sniper/sfm_sniper_skin_zombie"
+	"$bumpmap" "models/player/sniper/sfm_sniper_skin_normal"
+	
+	"$detail" "effects/tiledfire/fireLayeredSlowTiled512.vtf"	
+	"$detailscale" "5"
+	"$detailblendfactor" .0
+	"$detailblendmode" 6
+
+	"$phong" "1"
+	"$phongexponenttexture" "models/player/sniper/sfm_sniper_skin_exponent"
+	"$phongboost" ".3"	
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$phongfresnelranges"	"[.3 1 8]"
+	"$halflambert" "0"
+
+	// Rim lighting parameters
+	"$rimlight" "1"												// To enable rim lighting (requires phong)
+	"$rimlightexponent" "4"										// Exponent for phong component of rim lighting	
+	"$rimlightboost" "1"										// Boost for ambient cube component of rim lighting
+
+	"$ambientocclusion" "1"
+
+	// Cloaking
+	"$cloakPassEnabled" "1"
+
+	"360?$color2" "[ 0.7 0.7 0.7 ]"
+
+	"Proxies"
+	{
+		"spy_invis"
+		{
+		}
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$detail"
+			"animatedtextureframenumvar" "$detailframe"
+			"animatedtextureframerate" 30
+		}
+		"BurnLevel"
+		{
+			"resultVar" "$detailblendfactor"
+		}
+	}
+}
+

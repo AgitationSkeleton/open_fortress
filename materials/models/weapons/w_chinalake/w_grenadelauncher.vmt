@@ -16,11 +16,30 @@
 
 	"$color2" "[ 0.6 0.6 0.6 ]"
 
-	// Cloaking
+	"$glowcolor" "1"
+	
 	"$cloakPassEnabled" "1"
+	
 	"Proxies"
 	{
 		"weapon_invis"
+		{
+		}
+		"ModelGlowColor"
+		{
+			"resultVar""$glowcolor"
+		}
+		"Equals"
+		{
+			"srcVar1"	"$glowcolor"
+			"resultVar"	"$selfillumtint"
+		}
+		"Equals"
+		{
+			"srcVar1"	"$glowcolor"
+			"resultVar"	"$color2"
+		}
+		"spy_invis"
 		{
 		}
 	}

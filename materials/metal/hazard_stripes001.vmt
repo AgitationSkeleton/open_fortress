@@ -1,7 +1,7 @@
 "LightmappedGeneric"
 {
 	"$basetexture" "metal/hazard_stripes001"
-//	"$basetexturetransform" "center .5 .5 scale 16 16 rotate 0 translate 0 0"
+	"$basetexturetransform" "center .5 .5 scale 16 16 rotate 0 translate 0 0"
 	"$surfaceprop" "metal"
 	"%keywords" "tf"
 }

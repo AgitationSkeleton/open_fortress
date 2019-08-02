@@ -1,6 +1,0 @@
-"LightmappedGeneric"
-{
-	"$basetexture" "minecraft/terrain/wool_cyan"
-$reflectivity "[.5 .5 .5]"
-"$surfaceprop" "carpet"
-}

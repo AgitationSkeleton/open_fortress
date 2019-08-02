@@ -1,8 +1,0 @@
-"UnlitGeneric"
-{
-	"$basetexture"	"models/buildables/sapper/placementmodel"
-	"$surfaceprop"	"no_decal"
-	"$translucent"	1
-	"$model"		1
-	"$nocull"		1
-}

@@ -1,8 +1,0 @@
-"UnlitGeneric"
-{
-	"$basetexture"	"Effects/speech_taunt_blue"
-	"$surfaceprop"	"no_decal"
-	"$translucent"	1
-	"$vertexcolor"	1
-	"$vertexalpha"	1
-}

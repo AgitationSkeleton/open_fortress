@@ -1,6 +1,6 @@
 "LightmappedGeneric"
 {
-	"$baseTexture" "Overlays/tfi_logo"
+	"$baseTexture" "Overlays/tfi_logo_white"
 	"$decal" 1
 	"$decalscale" .25
 	"$translucent" 1

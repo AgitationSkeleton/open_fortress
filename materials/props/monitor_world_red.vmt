@@ -1,9 +1,0 @@
-"LightmappedGeneric"
-{
-	// Original shader: BaseTimesLightmapSelfIllum
-	"$basetexture" "Props/monitor_world_red"
-	"$selfillum" 1
-	"$surfaceprop" "glass"
-//	"$nofog" "1"
-	"%keywords" "tf"
-}

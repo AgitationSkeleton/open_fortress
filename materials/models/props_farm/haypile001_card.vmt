@@ -1,8 +1,0 @@
-"VertexLitGeneric"
-{
-	"$basetexture" "Models/props_farm/haypile001_card"
-	"$translucent" "1"
-//	"$alphatest" "1"
-	"$model" "1"
-//	"$nocull" "1"
-}

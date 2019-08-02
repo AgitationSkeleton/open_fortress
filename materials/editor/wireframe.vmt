@@ -1,8 +1,0 @@
-"Wireframe"
-{
-	// Original shader: WireframeVertexColor
-	"$vertexcolor" 1
-// removed decal, topmost drawing not guaranteed, editor has occlusion artifacts.
-//	"$decal" 1
-	"$polyOffset" 1
-}

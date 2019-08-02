@@ -1,6 +1,0 @@
-"VertexLitGeneric"
-{
-	"$basetexture"	"models/props_mining/window_industrial01_glass01"
-	"$translucent"	1
-	"$selfillum" 1
-}
