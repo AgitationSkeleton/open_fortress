@@ -1244,7 +1244,7 @@
 
 "Scout.Jumpsound"
 {
-	"channel"		"CHAN_STATIC"
+	"channel"		"CHAN_BODY"
 	"volume"		"0.820"
 	"pitch"			"PITCH_NORM"
 
@@ -1252,14 +1252,14 @@
 	
 	"rndwave"
 	{
-		"wave"		"vo/null.wav"
-		"wave"		"vo/null.wav"
-		"wave"		"vo/null.wav"
+		"wave"		"vo/scout_jump01.wav"
+		"wave"		"vo/scout_jump02.wav"
+		"wave"		"vo/scout_jump03.wav"
 	}
 }
 "Soldier.Jumpsound"
 {
-	"channel"		"CHAN_STATIC"
+	"channel"		"CHAN_BODY"
 	"volume"		"0.820"
 	"pitch"			"PITCH_NORM"
 
@@ -1267,14 +1267,14 @@
 	
 	"rndwave"
 	{
-		"wave"		"vo/null.wav"
-		"wave"		"vo/null.wav"
-		"wave"		"vo/null.wav"
+		"wave"		"vo/soldier_jump01.wav"
+		"wave"		"vo/soldier_jump02.wav"
+		"wave"		"vo/soldier_jump03.wav"
 	}
 }
 "Pyro.Jumpsound"
 {
-	"channel"		"CHAN_STATIC"
+	"channel"		"CHAN_BODY"
 	"volume"		"0.820"
 	"pitch"			"PITCH_NORM"
 
@@ -1282,14 +1282,14 @@
 	
 	"rndwave"
 	{
-		"wave"		"vo/null.wav"
-		"wave"		"vo/null.wav"
-		"wave"		"vo/null.wav"
+		"wave"		"vo/pyro_jump01.wav"
+		"wave"		"vo/pyro_jump02.wav"
+		"wave"		"vo/pyro_jump03.wav"
 	}
 }
 "Demoman.Jumpsound"
 {
-	"channel"		"CHAN_STATIC"
+	"channel"		"CHAN_BODY"
 	"volume"		"0.820"
 	"pitch"			"PITCH_NORM"
 
@@ -1297,14 +1297,14 @@
 	
 	"rndwave"
 	{
-		"wave"		"vo/null.wav"
-		"wave"		"vo/null.wav"
-		"wave"		"vo/null.wav"
+		"wave"		"vo/demo_jump01.wav"
+		"wave"		"vo/demo_jump02.wav"
+		"wave"		"vo/demo_jump03.wav"
 	}
 }
 "Heavy.Jumpsound"
 {
-	"channel"		"CHAN_STATIC"
+	"channel"		"CHAN_BODY"
 	"volume"		"0.820"
 	"pitch"			"PITCH_NORM"
 
@@ -1312,14 +1312,14 @@
 	
 	"rndwave"
 	{
-		"wave"		"vo/null.wav"
-		"wave"		"vo/null.wav"
-		"wave"		"vo/null.wav"
+		"wave"		"vo/heavy_jump01.wav"
+		"wave"		"vo/heavy_jump02.wav"
+		"wave"		"vo/heavy_jump03.wav"
 	}
 }
 "Engineer.Jumpsound"
 {
-	"channel"		"CHAN_STATIC"
+	"channel"		"CHAN_BODY"
 	"volume"		"0.820"
 	"pitch"			"PITCH_NORM"
 
@@ -1327,14 +1327,13 @@
 	
 	"rndwave"
 	{
-		"wave"		"vo/null.wav"
-		"wave"		"vo/null.wav"
-		"wave"		"vo/null.wav"
+		"wave"		"vo/engie_jump01.wav"
+		"wave"		"vo/engie_jump03.wav"
 	}
 }
 "Medic.Jumpsound"
 {
-	"channel"		"CHAN_STATIC"
+	"channel"		"CHAN_BODY"
 	"volume"		"0.820"
 	"pitch"			"PITCH_NORM"
 
@@ -1342,14 +1341,14 @@
 	
 	"rndwave"
 	{
-		"wave"		"vo/null.wav"
-		"wave"		"vo/null.wav"
-		"wave"		"vo/null.wav"
+		"wave"		"vo/medic_jump01.wav"
+		"wave"		"vo/medic_jump02.wav"
+		"wave"		"vo/medic_jump03.wav"
 	}
 }
 "Sniper.Jumpsound"
 {
-	"channel"		"CHAN_STATIC"
+	"channel"		"CHAN_BODY"
 	"volume"		"0.820"
 	"pitch"			"PITCH_NORM"
 
@@ -1357,14 +1356,14 @@
 	
 	"rndwave"
 	{
-		"wave"		"vo/null.wav"
-		"wave"		"vo/null.wav"
-		"wave"		"vo/null.wav"
+		"wave"		"vo/sniper_jump01.wav"
+		"wave"		"vo/sniper_jump02.wav"
+		"wave"		"vo/sniper_jump03.wav"
 	}
 }
 "Spy.Jumpsound"
 {
-	"channel"		"CHAN_STATIC"
+	"channel"		"CHAN_BODY"
 	"volume"		"0.820"
 	"pitch"			"PITCH_NORM"
 
@@ -1372,15 +1371,15 @@
 	
 	"rndwave"
 	{
-		"wave"		"vo/null.wav"
-		"wave"		"vo/null.wav"
-		"wave"		"vo/null.wav"
+		"wave"		"vo/spy_jump01.wav"
+		"wave"		"vo/spy_jump02.wav"
+		"wave"		"vo/spy_jump03.wav"
 	}
 }
 "Civilian.Jumpsound"
 {
 	"channel"		"CHAN_BODY"
-	"volume"		"0.200"
+	"volume"		"0.820"
 	"pitch"			"PITCH_NORM"
 
 	"soundlevel"	"SNDLVL_95dB"
