@@ -94,7 +94,7 @@ Maps:
 Hambooga (The Bad Place, The Longest Yard, Aerowalk, Blood Covenant)
 DrPyspy (Blood Run, Parley)
 Richter (Office [Textures])
-AgitationSkeleton (House of Chthon, The Bad Place, The Dark Zone, Dead Simple, Overkill, Crossfire)
+AgitationSkeleton (House of Chthon, The Bad Place, The Dark Zone, Dead Simple, Overkill, Crossfire, Xpress3)
 HDMineFace (Legacy, MCTF Splashdown, CTF and DM Greenback, Boxy [Updated Map])
 Chrissy (Office, House of Chthon)
 Fairweather (Pandora)
