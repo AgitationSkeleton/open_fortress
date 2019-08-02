@@ -40,11 +40,17 @@ WeaponData
 	"bucket_dm_position"	"2"	
 
 	// Explosions.
-	"ExplosionEffect"		"rocket_explosion_classic"
-	"ExplosionPlayerEffect"		"rocket_explosion_classic"
-	"ExplosionWaterEffect"		"rocket_explosion_classic"
+	"ExplosionEffect"		"ExplosionCore_wall"
+	"ExplosionPlayerEffect"		"ExplosionCore_MidAir"
+	"ExplosionWaterEffect"		"ExplosionCore_MidAir_underwater"
 
-	"ExplosionSound"	"Weapon_QuakeRPG.Explode"
+	"ExplosionSound"	"BaseExplosionEffect.Sound"
+	
+	"ExplosionEffectClassic"		"rocket_explosion_classic"
+	"ExplosionPlayerEffectClassic"		"rocket_explosion_classic"
+	"ExplosionWaterEffectClassic"		"rocket_explosion_classic"
+
+	"ExplosionSoundClassic"	"Weapon_QuakeRPG.Explode"	
 
 	// Animation.
 	//NOTENOTE: Changing these values do nothing! To support being able to swap between the quake and tf2 rocket launchers with a cvar the game overrides these values
