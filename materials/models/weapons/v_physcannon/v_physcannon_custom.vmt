@@ -91,10 +91,9 @@
 			"srcVar2"		"$colortint_base"
 			"resultVar"		"$color2"
 		}
-		"SelectFirstIfNonZero"
+		"Equals"
 		{
-			"srcVar1"		"$colortint_tmp"
-			"srcVar2"		"$colortint_base"
+			"srcVar1"		"$color2"
 			"resultVar"		"$emissiveBlendTint"
 		}
 	}

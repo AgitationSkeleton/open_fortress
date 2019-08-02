@@ -4,6 +4,6 @@
 	
 	insert
 	{
-		"$baseTexture" "models/player/scout/scout_custom"
+		"$baseTexture" "models/player/sniper/sniper_custom"
 	}
 }
