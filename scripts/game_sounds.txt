@@ -490,6 +490,15 @@
 	"wave"		")ambient/hum1.wav"
 }
 
+"Ambient.QWind"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_75dB"
+	"wave"		")ambient/wind2.wav"
+}
+
 "Ambient.ComputerWorking"
 {
 	"channel"	"CHAN_STATIC"
