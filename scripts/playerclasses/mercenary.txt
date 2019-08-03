@@ -14,15 +14,15 @@ PlayerClass
 	"bot_model"			"models/player/mercenary.mdl"
 	"alt_model"			"models/player/mercenary.mdl"
 	"alt_arm_model"		"models/weapons/c_models/c_merc_arms.mdl"
-	"tfc_model"			"models/cstrike16/player/terror.mdl"
-	"tfc_arm_model"		"models/weapons/c_models/c_merc_arms.mdl"
+	"tfc_model"			"models/player/tfc/soldier_tfc.mdl"
+	"tfc_arm_model"		"models/weapons/c_models/c_tfc_soldier_arms.mdl"
 	
 	// Stats.
 	"speed_max"			"320"
 	"health_max"		"150"
 	"armor_max"			"0"
 	"tfc_speed_max"		"320"
-	"tfc_health_max"	"150"
+	"tfc_health_max"	"90"
 	"tfc_armor_max"		"100"
 
 	// Grenades.
