@@ -12,8 +12,27 @@
 	"$forcerefract" 1
 	"$nofog" "1"
 	"$refracttinttexture" "hud\class_spymercenary_cloak"
-	"$nocull" "1"	
+	"$nocull" "1"
 
+	
+	"$colortint_base"		"[0 0 0]"
+	"$colortint_tmp"		"[0 0 0]"
+
+	"Proxies"
+	{
+		"ItemTintColor"
+		{
+			"resultVar"		"$colortint_tmp"
+		}
+		"SelectFirstIfNonZero"
+		{
+			"srcVar1"		"$colortint_tmp"
+			"srcVar2"		"$colortint_base"
+			"resultVar"		"$refracttint"
+		}
+	}
+	
+	
 }
 
 

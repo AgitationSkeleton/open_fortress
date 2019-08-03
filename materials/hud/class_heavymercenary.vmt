@@ -2,9 +2,28 @@
 {
 	"$translucent" 1
 	"$baseTexture" "hud\class_heavymercenary"
+
+	"$colortint_base"		"[0 0 0]"
+	"$colortint_tmp"		"[0 0 0]"
+	"$colortint_mul"		"[.7 .7 .7]"
+
 	"$vertexcolor" 1
+	//$distancealpha 1
 	"$no_fullbright" 1
 	"$ignorez" 1
 	"%keywords" "tf"
-}
 
+	"Proxies"
+	{
+		"ItemTintColor"
+		{
+			"resultVar"		"$colortint_tmp"
+		}
+		"SelectFirstIfNonZero"
+		{
+			"srcVar1"		"$colortint_tmp"
+			"srcVar2"		"$colortint_base"
+			"resultVar"		"$color2"
+		}
+	}
+}
