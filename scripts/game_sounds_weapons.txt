@@ -1862,6 +1862,14 @@
 	"wave"		")weapons/six_shooter_shoot_crit.wav"
 }
 
+"Weapon_RevolverDM.Draw"
+{
+	"channel"	"CHAN_AUTO"
+	"soundlevel"	"SNDLVL_74dB"
+	"volume"	".5"
+	"wave"		")weapons/draw_six_shooter.wav"
+}
+
 // ------------------------------------------------------------------------------------ //
 // SCATTER GUN
 // ------------------------------------------------------------------------------------ //
@@ -2281,6 +2289,14 @@
 	"soundlevel"	"SNDLVL_94dB"
 	"volume"	"1.0"
 	"wave"		")weapons/smg_dm_shoot_crit.wav"
+}
+
+"Weapon_SMG_DM.Draw"
+{
+	"channel"	"CHAN_AUTO"
+	"soundlevel"	"SNDLVL_74dB"
+	"volume"	".5"
+	"wave"		")weapons/draw_smg_dm.wav"
 }
 
 // ------------------------------------------------------------------------------------ //
