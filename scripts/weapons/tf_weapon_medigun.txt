@@ -33,10 +33,7 @@ WeaponData
 	"viewmodel"			"models/weapons/v_models/v_medigun_medic.mdl"
 	"playermodel"			"models/weapons/w_models/w_medigun.mdl"
 	"anim_prefix"			"shotgun"
-	
-	// Muzzleflash
-	"MuzzleFlashModel"	"models/effects/sentry1_muzzle/sentry1_muzzle.mdl"
-	"MuzzleFlashModelDuration"	"0.1"
+
 
 	// Sounds.
 	// Max of 16 per category (ie. max 16 "single_shot" sounds).

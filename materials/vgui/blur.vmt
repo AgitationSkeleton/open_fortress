@@ -1,4 +1,5 @@
 "Refract"
 {
+	"$normalmap" "models/player/shared/shared_normal"
  	"$bluramount" "1"
 }

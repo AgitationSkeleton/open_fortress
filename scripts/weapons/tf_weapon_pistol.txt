@@ -46,6 +46,8 @@ WeaponData
 
 	// Muzzleflash
 	"MuzzleFlashParticleEffect" "muzzle_pistol"
+	"MuzzleFlashModel"	"models/effects/sentry1_muzzle/sentry1_muzzle.mdl"
+	"MuzzleFlashModelDuration"	"0.1"
 
 	// Sounds.
 	// Max of 16 per category (ie. max 16 "single_shot" sounds).

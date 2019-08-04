@@ -331,12 +331,20 @@ DESCRIPTION INFO_OPTIONS
 		{ BOOL }
 		{ "1" }
 	}
+	"of_beta_muzzleflash"
+	{
+		"#TFOption_beta_muzzleflash"
+		{ BOOL }
+		{ "0" }
+	}
+	
 	"of_showtargetid"
 	{
 		"#TFOption_showtargetid"
 		{ BOOL }
 		{ "1" }
 	}	
+
 	
 	"cl_fp_ragdoll"
 	{

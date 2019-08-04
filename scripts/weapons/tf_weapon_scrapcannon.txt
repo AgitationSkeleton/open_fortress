@@ -42,6 +42,8 @@ WeaponData
 	"anim_prefix"		"shotgun"
 
 	// Muzzleflash
+	"MuzzleFlashModel"	"models/effects/sentry1_muzzle/sentry1_muzzle.mdl"
+	"MuzzleFlashModelDuration"	"0.1"
 	"MuzzleFlashParticleEffect" "muzzle_scattergun"
 	
 	// Sounds.

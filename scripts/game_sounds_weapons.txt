@@ -1003,7 +1003,7 @@
 {
 	"channel"		"CHAN_WEAPON"
 	"soundlevel"	"SNDLVL_NORM"
-	"volume"		".45"
+	"volume"		".65"
 	"wave"		"weapons/stickybomblauncher_charge_up.wav"
 }
 

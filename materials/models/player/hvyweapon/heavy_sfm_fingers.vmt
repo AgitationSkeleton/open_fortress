@@ -22,13 +22,6 @@
 	"$rimlightexponent" "4"										// Exponent for phong component of rim lighting	
 	"$rimlightboost" "1"										// Boost for ambient cube component of rim lighting
 
-	"$sheenPassEnabled" "1"
-	"$sheenmap" 		"cubemaps/cubemap_sheen001"
-	"$sheenmapmask" 		"Effects/AnimatedSheen/animatedsheen0"
-	"$sheenmaptint" 		"[ 1 1 1 ]"
-	"$sheenmapmaskframe" 	"0"
-	"$sheenindex" 		"0"
-
 	// Cloaking
 	"$cloakPassEnabled" "1"
 	
@@ -38,12 +31,6 @@
 	
 	"Proxies"
 	{
-		"AnimatedWeaponSheen"
-		{
-			"animatedtexturevar" 		"$sheenmapmask"
-			"animatedtextureframenumvar" 	"$sheenmapmaskframe"
-			"animatedtextureframerate" 		"40"
-		}
 		"spy_invis"
 		{
 		}

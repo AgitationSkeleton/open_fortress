@@ -13,6 +13,7 @@ Nbc66
 Avast Antipony
 Nopey Nope
 Swox
+Ficool2
 
 Gameplay Coordinators:
 AgitationSkeleton
@@ -77,6 +78,7 @@ HUD editing:
 Nbc66 and PacMania67 (Scoreboards)
 Snowy Snowtime (Minimal Mode Frag Counter)
 Chrissy (Polishing and fixes)
+Ficool2 (Invade Gamemode)
 
 www.openfortress.fun website:
 AgitationSkeleton
@@ -99,7 +101,7 @@ HDMineFace (Legacy, MCTF Splashdown, CTF and DM Greenback, Boxy [Updated Map])
 Chrissy (Office, House of Chthon)
 Fairweather (Pandora)
 Suomimes55 (Congo, DM+CTF Backfort, Boxy, Weapon devtest map, Knoxx)
-Ficool2 (DM Lumberyard)
+Ficool2 (DM Lumberyard, assistance with Weapon devtest map)
 MacD11 (Wiseau, Range, Dead Simple, Grain, Offblast)
 KayDemonLP (Harvest, 2Fort Weapontest [Indev], Devtest maps)
 Lena (Cargo, Dark Zone)
