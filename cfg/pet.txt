@@ -2,7 +2,7 @@ Pet
 {
     toolwindow
     {
-        bounds "0.0000000000 0.4688889002 0.9999999776 0.5000000121"
+        bounds "0.0000000000 0.4685185102 1.0000000522 0.4999999912"
         windows
         {
             panel "properties"
@@ -10,7 +10,7 @@ Pet
     }
     toolwindow
     {
-        bounds "0.0000000000 0.0311111119 0.4999999888 0.4377777884"
+        bounds "0.0000000000 0.0314814809 0.5000000261 0.4379629552"
         windows
         {
             panel "particlesystemdefinitionbrowser"
@@ -18,7 +18,7 @@ Pet
     }
     toolwindow
     {
-        bounds "0.4974999889 0.0311111119 0.5093749886 0.4488888998"
+        bounds "0.4973958593 0.0314814809 0.5093750266 0.4490740661"
         windows
         {
             panel "previewpanel"

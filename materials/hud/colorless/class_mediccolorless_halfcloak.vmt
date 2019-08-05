@@ -1,0 +1,37 @@
+ "Refract"
+{
+
+ 	"$model" 1
+ 	"$refractamount" ".2"
+ 	"$bluramount" "1"
+	"$scale" "[1 1]"
+ 	"$normalmap" "hud\class_medic_normal"
+ 	"$dudvmap" "hud\class_medic_dudv"
+	"$bumpframe" "0"
+	"$translucent" "1"
+	"$ignorez" "1"
+	"$forcerefract" 1
+	"$nofog" "1"
+	"$refracttinttexture" "hud\class_medicmercenary_tint"
+	"$nocull" "1"	
+
+	"$colortint_base"		"[0 0 0]"
+	"$colortint_tmp"		"[0 0 0]"
+
+	"Proxies"
+	{
+		"ItemTintColor"
+		{
+			"resultVar"		"$colortint_tmp"
+		}
+		"SelectFirstIfNonZero"
+		{
+			"srcVar1"		"$colortint_tmp"
+			"srcVar2"		"$colortint_base"
+			"resultVar"		"$refracttint"
+		}
+	}
+}
+
+
+

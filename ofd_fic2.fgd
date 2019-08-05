@@ -1967,7 +1967,7 @@
 	spawn_sound(sound): "Spawn Sound" : "Item.Materialize" : "Sound to play when Pickup Spawns."
 	pickup_sound(sound): "Pickup Sound" : "AmmoPack.Touch" : "Sound to play when picking up ammo."	
 	
-	HiddenWhenRespawning(boolean) : "Hidden while Respawning?" : 1 : "Weather or not the pickup becomes hidden on pickup."
+	HiddenWhenRespawning(boolean) : "Hidden while Respawning?" : 1 : "Whether or not the pickup becomes hidden on pickup."
 	AutoMaterialize(boolean) : "Auto-Materialize?" : 1 : "The pickup should automatically materialize after being picked up."
 	disable_spin(boolean) : "Disable Spinning?" : 0 : "If set to Yes, the spawned weapon will not spin."
 	disable_glow(boolean) : "Disable Glowing?" : 0 : "If set to Yes, the spawned weapon will not glow."
@@ -4730,6 +4730,11 @@
 	"Regeneration/item resupply zone for players."
 [
 	associatedmodel(target_destination) : "Associated Model" :  : "The prop_dynamic that represents this zone in the world. The associated model should have appropriate open and close animations for when players interact with the zone."
+]
+
+@SolidClass base(Trigger) = func_respawnflag :
+	"Designates an area that triggers the flag to reset when it touches the area." 
+[
 ]
 
 @SolidClass base(Trigger, TeamNum) = func_respawnroom :

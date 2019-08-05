@@ -941,4 +941,17 @@
 		"wide"					"f60"	[$X360]
 		"tall"					"100"
 	}
+	
+	HudMoney
+	{
+
+	}	
+	HudKills
+	{
+
+	}	
+	HudCredits
+	{
+
+	}	
 }

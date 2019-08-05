@@ -14,7 +14,7 @@ PlayerClass
 	"bot_model"			"models/bots/pyro/bot_pyro.mdl"
 	"alt_model"			"models/player/pyro.mdl"
 	"alt_arm_model"		"models/weapons/c_models/c_tfc_pyro_arms.mdl"
-	"tfc_model"			"models/player/pyro.mdl"
+	"tfc_model"			"models/player/tfc/pyro_tfc.mdl"
 	"tfc_arm_model"		"models/weapons/c_models/c_tfc_pyro_arms.mdl"
 	
 	// Stats.

@@ -42,7 +42,7 @@ WeaponData
 	"ExplosionPlayerEffect"		"ExplosionCore_MidAir"
 	"ExplosionWaterEffect"		"ExplosionCore_MidAir_underwater"
 
-	"ExplosionSound"	""BaseExplosionEffect.Sound""
+	"ExplosionSound"	"BaseExplosionEffect.Sound"
 
 	// Animation.
 	"viewmodel"		"models/weapons/v_models/v_rocketlauncher_soldier.mdl"

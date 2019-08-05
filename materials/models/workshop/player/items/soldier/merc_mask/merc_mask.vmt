@@ -9,9 +9,10 @@
 	"$rimlight"		"1"
 	"$rimlightexponent"		"4"
 	"$rimlightboost"		"2"
+	
 	"$blendtintbybasealpha"		"0"
 	"$blendtintcoloroverbase"		"0"
-	"$colortint_tmp"		"[0 0 0]"
+
 	"$basemapalphaphongmask"		"1"
 	"$cloakPassEnabled"		"1"
 	"$detail"		"effects/tiledfire/fireLayeredSlowTiled512"
@@ -37,16 +38,6 @@
 		"BurnLevel"
 		{
 			"resultVar"		"$detailblendfactor"
-		}
-		"ItemTintColor"
-		{
-			"resultVar"		"$colortint_tmp"
-		}
-		"SelectFirstIfNonZero"
-		{
-			"srcVar1"		"$colortint_tmp"
-			"srcVar2"		"$colortint_base"
-			"resultVar"		"$color2"
 		}
 
 	}

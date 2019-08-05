@@ -40,6 +40,7 @@
 //DeathmatchMusic.Healer
 //DeathmatchMusic.DMStuff
 //DeathmatchMusic.Mayann
+//DeathmatchMusic.OpenHazards
 
 //By MrModez
 "DeathmatchMusic.AtFortressGate"
@@ -390,4 +391,14 @@
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"wave"			"#music/deathmatch/mc_vickers_final_frontier.wav"
+}
+
+//Open Hazards, valve.bik music extended, by Meta
+"DeathmatchMusic.OpenHazards"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/OpenHazards_Loop.wav"
 }

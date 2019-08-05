@@ -23,6 +23,8 @@ WeaponData
 	"clip_size"           "40"
 	"default_clip"        "40"
 	"MaxAmmo"	      "160"
+	
+	"MuzzleFlashParticleEffect" "muzzle_syringe"
 
 	// bucket.	
 	"bucket"			"0"

@@ -1003,7 +1003,7 @@
 {
 	"channel"		"CHAN_WEAPON"
 	"soundlevel"	"SNDLVL_NORM"
-	"volume"		".45"
+	"volume"		".65"
 	"wave"		"weapons/stickybomblauncher_charge_up.wav"
 }
 
@@ -1862,6 +1862,14 @@
 	"wave"		")weapons/six_shooter_shoot_crit.wav"
 }
 
+"Weapon_RevolverDM.Draw"
+{
+	"channel"	"CHAN_AUTO"
+	"soundlevel"	"SNDLVL_74dB"
+	"volume"	".5"
+	"wave"		")weapons/draw_six_shooter.wav"
+}
+
 // ------------------------------------------------------------------------------------ //
 // SCATTER GUN
 // ------------------------------------------------------------------------------------ //
@@ -2258,7 +2266,9 @@
 	"wave"		"weapons/smg_clip_in.wav"
 }
 
-
+// ------------------------------------------------------------------------------------ //
+// COMGAT SMG
+// ------------------------------------------------------------------------------------ //
 "Weapon_SMG.Draw"
 {
 	"channel"	"CHAN_AUTO"
@@ -2281,6 +2291,15 @@
 	"soundlevel"	"SNDLVL_94dB"
 	"volume"	"1.0"
 	"wave"		")weapons/smg_dm_shoot_crit.wav"
+}
+
+"Weapon_SMG_DM.Draw"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		")weapons/draw_smg_dm.wav"
 }
 
 // ------------------------------------------------------------------------------------ //

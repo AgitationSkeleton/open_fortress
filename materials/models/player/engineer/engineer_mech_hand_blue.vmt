@@ -24,25 +24,12 @@
 
 	// Cloaking
 	"$cloakPassEnabled" "1"
-	"$sheenPassEnabled" "1"
 	
 	"$ambientocclusion" "1"
 
-	"$sheenmap" 		"cubemaps/cubemap_sheen001"
-	"$sheenmapmask" 		"Effects/AnimatedSheen/animatedsheen0"
-	"$sheenmaptint" 		"[ 1 1 1 ]"
-	"$sheenmapmaskframe" 	"0"
-	"$sheenindex" 		"0"
-
 	"Proxies"
 	{
-		"AnimatedWeaponSheen"
-		{
-			"animatedtexturevar" 		"$sheenmapmask"
-			"animatedtextureframenumvar" 	"$sheenmapmaskframe"
-			"animatedtextureframerate" 		"40"
-		}
-		"invis"
+		"spy_invis"
 		{
 		}
 		"AnimatedTexture"

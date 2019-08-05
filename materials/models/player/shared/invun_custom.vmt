@@ -4,15 +4,24 @@
 	
 	insert
 	{
-		"$detail" "models/player/shared/invun_custom"
-		"$detailblendfactor" "0.75000000"
+		"$bumpmap" "models\player\shared\shared_normal"
+		"$normalmapalphaenvmapmask" 1
+		"$basemapalphaphongmask" 0
+		
 		"$envmap" "models/player/shared/invun_custom"
 		
-		"$blendtintbybasealpha"		"1"
-		"$blendtintcoloroverbase"		"1"
-		"$colortint_base"		"{0 0 0}"
-		"$color2"		"{93 72 117}"
+		"$selfillum" "0"
+		
+		"$blendtintbybasealpha"		"0"
+		"$blendtintcoloroverbase"		"0"
+		
+		"$colortint_base"		"{180 180 180}"
+		"$color2"				"{180 180 180}"
 		"$colortint_tmp"		"[0 0 0]"
+		
+		"$colortint_base2"		"{180 180 180}"
+		"$envmaptint"			"{100 0 0}"	
+		"$colortint_tmp2"		"[0 0 0]"
 		
 		"Proxies"
 		{
@@ -26,18 +35,11 @@
 				"srcVar2"		"$colortint_base"
 				"resultVar"		"$color2"
 			}
-			"SelectFirstIfNonZero"
+			"Equals"
 			{
-				"srcVar1"		"$colortint_tmp"
-				"srcVar2"		"$colortint_base"
+				"srcVar1"		"$color2"
 				"resultVar"		"$envmaptint"
 			}
-			"SelectFirstIfNonZero"
-			{
-				"srcVar1"		"$colortint_tmp"
-				"srcVar2"		"$colortint_base"
-				"resultVar"		"$detailtint"
-			}					
 		}
 	}
 }

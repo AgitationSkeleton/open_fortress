@@ -7,8 +7,8 @@
 	"$colortint_tmp"		"[0 0 0]"
 	"$colortint_mul"		"[.7 .7 .7]"
 
-//	"$vertexcolor" 1
-	$distancealpha 1
+	"$vertexcolor" 1
+	//$distancealpha 1
 	"$no_fullbright" 1
 	"$ignorez" 1
 	"%keywords" "tf"

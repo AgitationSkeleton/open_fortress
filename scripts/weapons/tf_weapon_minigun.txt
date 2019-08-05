@@ -42,6 +42,8 @@ WeaponData
 	"anim_prefix"		"ac"
 
 	// Muzzleflash
+	"MuzzleFlashModel"	"models/effects/muzzleflash/minigunmuzzle.mdl"
+
 	"MuzzleFlashParticleEffect" "muzzle_minigun"
 
 	

@@ -13,6 +13,7 @@ Nbc66
 Avast Antipony
 Nopey Nope
 Swox
+Ficool2
 
 Gameplay Coordinators:
 AgitationSkeleton
@@ -26,6 +27,9 @@ Ficool2
 
 Voice of the Mercenary:
 Stachekip
+
+New Soldier & Engineer Voice Acting:
+Drew
 
 Announcers:
 Benjamin Rudman
@@ -41,7 +45,7 @@ Ficool2
 Rara Cerberus
 Hex
 
-Weapon and cosmetic models/textures:
+Weapon and cosmetic concept artwork, models & textures:
 Ficool2
 DrPyspy
 Batandy (Tommy Gun)
@@ -50,6 +54,7 @@ Gibus Cat
 Stachekip
 NoNotTheMemes
 Drew
+Skerion
 
 Assorted models and prop assets:
 Boomsta
@@ -66,6 +71,7 @@ iiboharz
 
 Valve.bik Intro:
 Meta
+MrModez
 
 In-game menu logo concept:
 HDMineFace
@@ -77,6 +83,7 @@ HUD editing:
 Nbc66 and PacMania67 (Scoreboards)
 Snowy Snowtime (Minimal Mode Frag Counter)
 Chrissy (Polishing and fixes)
+Ficool2 (Invade Gamemode)
 
 www.openfortress.fun website:
 AgitationSkeleton
@@ -94,12 +101,12 @@ Maps:
 Hambooga (The Bad Place, The Longest Yard, Aerowalk, Blood Covenant)
 DrPyspy (Blood Run, Parley)
 Richter (Office [Textures])
-AgitationSkeleton (House of Chthon, The Bad Place, The Dark Zone, Dead Simple, Overkill, Crossfire)
+AgitationSkeleton (House of Chthon, The Bad Place, The Dark Zone, Dead Simple, Overkill, Crossfire, Xpress3)
 HDMineFace (Legacy, MCTF Splashdown, CTF and DM Greenback, Boxy [Updated Map])
 Chrissy (Office, House of Chthon)
 Fairweather (Pandora)
 Suomimes55 (Congo, DM+CTF Backfort, Boxy, Weapon devtest map, Knoxx)
-Ficool2 (DM Lumberyard)
+Ficool2 (DM Lumberyard, assistance with Weapon devtest map)
 MacD11 (Wiseau, Range, Dead Simple, Grain, Offblast)
 KayDemonLP (Harvest, 2Fort Weapontest [Indev], Devtest maps)
 Lena (Cargo, Dark Zone)
