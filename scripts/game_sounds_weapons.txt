@@ -2266,7 +2266,9 @@
 	"wave"		"weapons/smg_clip_in.wav"
 }
 
-
+// ------------------------------------------------------------------------------------ //
+// COMGAT SMG
+// ------------------------------------------------------------------------------------ //
 "Weapon_SMG.Draw"
 {
 	"channel"	"CHAN_AUTO"
@@ -2293,9 +2295,10 @@
 
 "Weapon_SMG_DM.Draw"
 {
-	"channel"	"CHAN_AUTO"
-	"soundlevel"	"SNDLVL_74dB"
-	"volume"	".5"
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.35"
+	"soundlevel"	"SNDLVL_NORM"
+
 	"wave"		")weapons/draw_smg_dm.wav"
 }
 
