@@ -1252,9 +1252,16 @@
 	
 	"rndwave"
 	{
-		"wave"		"vo/scout_jump01.wav"
-		"wave"		"vo/scout_jump02.wav"
-		"wave"		"vo/scout_jump03.wav"
+		"wave"		"player/shove1.wav"
+		"wave"		"player/shove2.wav"
+		"wave"		"player/shove3.wav"
+		"wave"		"player/shove4.wav"
+		"wave"		"player/shove5.wav"
+		"wave"		"player/shove6.wav"
+		"wave"		"player/shove7.wav"
+		"wave"		"player/shove8.wav"
+		"wave"		"player/shove9.wav"
+		"wave"		"player/shove10.wav"
 	}
 }
 "Soldier.Jumpsound"
@@ -1270,6 +1277,7 @@
 		"wave"		"vo/soldier_jump01.wav"
 		"wave"		"vo/soldier_jump02.wav"
 		"wave"		"vo/soldier_jump03.wav"
+		"wave"		"vo/soldier_jump04.wav"
 	}
 }
 "Pyro.Jumpsound"
@@ -1282,7 +1290,6 @@
 	
 	"rndwave"
 	{
-		"wave"		"vo/pyro_jump01.wav"
 		"wave"		"vo/pyro_jump02.wav"
 		"wave"		"vo/pyro_jump03.wav"
 	}
@@ -1328,7 +1335,9 @@
 	"rndwave"
 	{
 		"wave"		"vo/engie_jump01.wav"
+		"wave"		"vo/engie_jump02.wav"
 		"wave"		"vo/engie_jump03.wav"
+		"wave"		"vo/engie_jump04.wav"
 	}
 }
 "Medic.Jumpsound"

@@ -28,6 +28,9 @@ Ficool2
 Voice of the Mercenary:
 Stachekip
 
+New Soldier & Engineer Voice Acting:
+Drew
+
 Announcers:
 Benjamin Rudman
 Tyler McVicker
@@ -42,7 +45,7 @@ Ficool2
 Rara Cerberus
 Hex
 
-Weapon and cosmetic models/textures:
+Weapon and cosmetic concept artwork, models & textures:
 Ficool2
 DrPyspy
 Batandy (Tommy Gun)
@@ -51,6 +54,7 @@ Gibus Cat
 Stachekip
 NoNotTheMemes
 Drew
+Skerion
 
 Assorted models and prop assets:
 Boomsta
@@ -67,6 +71,7 @@ iiboharz
 
 Valve.bik Intro:
 Meta
+MrModez
 
 In-game menu logo concept:
 HDMineFace
