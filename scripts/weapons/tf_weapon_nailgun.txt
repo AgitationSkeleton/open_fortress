@@ -24,8 +24,7 @@ WeaponData
 	"default_clip"        "40"
 	"MaxAmmo"	      "160"
 	
-	"MuzzleFlashModel"	"models/effects/sentry1_muzzle/sentry1_muzzle.mdl"
-	"MuzzleFlashModelDuration"	"0.1"
+	"MuzzleFlashParticleEffect" "muzzle_syringe"
 
 	// bucket.	
 	"bucket"			"0"
