@@ -24,7 +24,6 @@ WeaponData
 	"UseRapidFireCrits"	"1"
 	"HasTeamSkins_Viewmodel"			"1"
 	"HasTeamSkins_Worldmodel"			"1"
-	"DontDrop"	"1"
 
 	// Ammo & Clip.
 	"primary_ammo"		"WEAPON_AMMO"
