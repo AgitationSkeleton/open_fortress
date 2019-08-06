@@ -1,0 +1,39 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "cstrike16/player/Arab_dmbase1"
+
+	"$detail" "effects/tiledfire/fireLayeredSlowTiled512.vtf"	
+	"$detailscale" "5"
+	"$detailblendfactor" ".0"
+	"$detailblendmode" "6"
+	
+	"$halflambert" "1"
+
+	"$blendtintbybasealpha"		"1"
+	//"$blendtintcoloroverbase"		"1"
+	"$colortint_base"		"{255 0 0}"
+	"$color2"		"{255 0 0}"
+	"$colortint_tmp"		"[0 0 0]"
+	
+	"$cloakPassEnabled" "1"
+
+	"Proxies"
+	{
+		"spy_invis"
+		{
+		}
+		"vm_invis"
+		{
+		}		
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$detail"
+			"animatedtextureframenumvar" "$detailframe"
+			"animatedtextureframerate" 30
+		}
+		"BurnLevel"
+		{
+			"resultVar" "$detailblendfactor"
+		}
+	}
+}

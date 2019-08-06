@@ -161,6 +161,13 @@ DESCRIPTION INFO_OPTIONS
 		{ "0" }
 	}
 
+	"tf_hud_no_crosshair_on_scope_zoom"
+	{
+		"#TF_nocrosshaironscopezoom"
+		{ BOOL }
+		{ "1" }
+	}
+
 	"tf_dingalingaling"
 	{
 		"#TF_Hitbeeps"

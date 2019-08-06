@@ -5143,7 +5143,7 @@
 
 @PointClass base(BaseEntity) sweptplayerhull() = func_useableladder : 
 	"A Half-Life 2-style ladder. Handles player auto mount/unmount, as well as +USE to get onto the ladder. \n\n" +
-	"See also 'info_ladder_dismount', used to specify ladder auto-dismount points. Does not function in Team Fortress 2."
+	"See also 'info_ladder_dismount', used to specify ladder auto-dismount points."
 [
 	point0(vector) : "Start" : : "Ladder end point."
 	point1(vector) : "End" : : "Ladder end point."

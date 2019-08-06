@@ -20,7 +20,7 @@ WeaponData
 	"ProjectileType"	"projectile_bullet"
 	"BrassModel"		"models/weapons/shells/shell_pistol.mdl"
     "DropsMag" "1"
-    "MagModel"          "models/weapons/w_models/w_pistol_mercenary_magazine.mdl"
+    "MagModel"          "models/weapons/w_models/magazines/w_pistol_mercenary_magazine.mdl"
 	"UseRapidFireCrits"	"1"
 	"TracerEffect"		"bullet_pistol_tracer01"
 

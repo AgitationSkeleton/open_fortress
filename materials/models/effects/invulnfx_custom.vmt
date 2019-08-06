@@ -1,20 +1,16 @@
 "VertexLitGeneric"
 {
 	"$basetexture"	"effects/custom_color"
-	<dx90
-	{
-		 	"$bumpmap" "water/dx80_tfwater001_normal"
-	}
-	"$bumpmap" "water/tfwater001_normal"
-	"$envmap" "effects/invun_mercenary"
-	"$envmaptintbase" "[.2 .2 .2]"
-	"$envmaptint" "[.2 .2 .2]"
+		"$bumpmap" "models\player\shared\shared_normal"
+		"$normalmapalphaenvmapmask" 1
+		"$basemapalphaphongmask" 0
+		
+			"$envmap" "models/player/shared/invun_custom"
+
 	"$surfaceprop" "metal"
 	"$halflambert" "1"
-
-	"$selfillum" "1"
-	"$selfIllumFresnel" "1"
-	"$selfIllumFresnelMinMaxExp" "[0 18 13]" // 0.0 1.0 1.0 is the default
+	
+	"$selfillum" "0"
 
 	"$invulnlevel" "0"
 	"$invulnexponent" "1"
@@ -46,12 +42,17 @@
 	"$rimlight" "1"		
 	"$rimlightexponent" "11"
 	"$rimlightboost" "5"	
-
-	"$blendtintbybasealpha"		"1"
-	"$blendtintcoloroverbase"		"1"
-	"$colortint_base"		"{180 180 180}"
-	"$color2"		"{180 180 180}"
-	"$colortint_tmp"		"[0 0 0]"	
+	
+		"$blendtintbybasealpha"		"0"
+		"$blendtintcoloroverbase"		"0"
+		
+		"$colortint_base"		"{180 180 180}"
+		"$color2"				"{180 180 180}"
+		"$colortint_tmp"		"[0 0 0]"
+		
+		"$colortint_base2"		"{180 180 180}"
+		"$envmaptint"			"{100 0 0}"	
+		"$colortint_tmp2"		"[0 0 0]"
 	
 	"Proxies"
 	{
@@ -126,21 +127,22 @@
 			"srcVar1" "$invulnphong"
 			"resultVar" "$phongboost" 
 		}
-		"ItemTintColor"
-		{
-			"resultVar"		"$colortint_tmp"
-		}
-		"SelectFirstIfNonZero"
-		{
-			"srcVar1"		"$colortint_tmp"
-			"srcVar2"		"$colortint_base"
-			"resultVar"		"$color2"
-		}
-		"SelectFirstIfNonZero"
-		{
-			"srcVar1"		"$colortint_tmp"
-			"srcVar2"		"$envmaptintbase"
-			"resultVar"		"$envmaptint"
-		}		
+
+			"ItemTintColor"
+			{
+				"resultVar"		"$colortint_tmp"
+			}
+			"SelectFirstIfNonZero"
+			{
+				"srcVar1"		"$colortint_tmp"
+				"srcVar2"		"$colortint_base"
+				"resultVar"		"$color2"
+			}
+			"Equals"
+			{
+				"srcVar1"		"$color2"
+				"resultVar"		"$envmaptint"
+			}
+
 	}
 }
