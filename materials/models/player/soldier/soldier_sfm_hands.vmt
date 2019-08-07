@@ -26,9 +26,6 @@
 	"$yellow" "0"
 	
 	"$ambientocclusion" "1"
-	
-	// darkening them a little
-	"$color2" "[ 0.82 0.82 0.82 ]"
 
 	"Proxies"
 	{
