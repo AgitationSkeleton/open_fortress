@@ -1,7 +1,7 @@
 WeaponData
 {
 	// Attributes Base.
-	"printname"			"#TF_Weapon_Flag"
+	"printname"			"#TF_Weapon_C4"
 	"BuiltRightHanded"		"0"
 	"MeleeWeapon"			"1"
 	"weight"			"2"
@@ -18,22 +18,18 @@ WeaponData
 	"HasTeamSkins_Viewmodel"			"1"
 	"HasTeamSkins_Worldmodel"			"1"
 	"UsesCritAnimation"			"1"
-
-	// bucket_dms.
-	"bucket_dm"		"2"
-	"bucket_dm_position"	"0"
 	
 	// Ammo & Clip
 	"primary_ammo"			"None"
 	"secondary_ammo"		"None"
 	
 	// bucket.
-	"bucket"			"0"
+	"bucket"			"3"
 	"bucket_position"		"2"
 	
 	// bucket_dms.
-	"bucket_dm"			"0"
-	"bucket_dm_position"		"9"
+	"bucket_dm"		"10"
+	"bucket_dm_position"	"10"
 	
 	// Model & Animation.
 	"viewmodel"			"models/weapons/v_models/v_knife_spy.mdl"
