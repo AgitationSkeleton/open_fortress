@@ -8542,6 +8542,7 @@
 		1024: "Physics debris" : 0
 		2048: "Only NPCs in vehicles (respects player ally flag)" : 0
 		4096: "Disallow Bots" : 0
+		8192: "Adjust Angles (Requires landmark!)" : 0
 	]
 ]
 
