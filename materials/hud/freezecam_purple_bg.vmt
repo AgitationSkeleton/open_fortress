@@ -6,25 +6,25 @@
 	}
 	
 	"$translucent" 1
-	"$baseTexture" "hud\gradient_purple"
+	"$baseTexture" "hud\gradient_dm_dark"
 	"$detail" "hud\freezecam_panel_killer_mask"
 	$detailscale 1
 	$detailblendmode 8
 	$distancealphafromdetail 1
 
 	// give it a slight outer soft edge
-	$softedges 1
+	$softedges 0
 	$edgesoftnessstart 0.5
     $edgesoftnessend 0.4
 	$scaleedgesoftnessbasedonscreenres 1
 
 	// give it a white outline
 	$outline 1
-	$outlinecolor "[0.9 0.9 0.5]"
-	$outlinestart0 0.45
-	$outlinestart1 0.47
-	$outlineend0 0.5
-	$outlineend1 0.52
+	$outlinealpha ".68"
+	$outlinestart0 1.5
+	$outlinestart1 1
+	$outlineend0 0.65
+	$outlineend1 0.45
 	$scaleoutlinesoftnessbasedonscreenres 1
 	// and a drop shadow
 	$glow 0
@@ -41,5 +41,29 @@
 	"$no_fullbright" 1
 	"$ignorez" 1
 	"%keywords" "tf"
+	
+	"$colortint_base"		"[1 0 1]"
+	"$colortint_tmp"		"[0 0 0]"
+	"$colortint_mul"		"[.7 .7 .7]"	
+	
+	"Proxies"
+	{
+		"ItemTintColor"
+		{
+			"resultVar"		"$colortint_tmp"
+		}	
+		"SelectFirstIfNonZero"
+		{
+			"srcVar1"		"$colortint_tmp"
+			"srcVar2"		"$colortint_base"
+			"resultVar"		"$outlinecolor"
+		}
+		"Multiply"
+		{
+			"srcVar1"		"$outlinecolor"
+			"srcVar2"		"$colortint_mul"
+			"resultVar"		"$outlinecolor"
+		}
+	}			
 }
 
