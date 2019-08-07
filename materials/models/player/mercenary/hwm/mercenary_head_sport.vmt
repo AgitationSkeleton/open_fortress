@@ -1,0 +1,9 @@
+"Patch"
+{
+	include "materials/models/player/mercenary/hwm/mercenary_head_base.vmt"
+	
+	insert
+	{
+		"$baseTexture" "models/player/mercenary/hwm/mercenary_head_sport"
+	}
+}

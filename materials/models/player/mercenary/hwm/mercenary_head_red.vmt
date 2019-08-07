@@ -1,0 +1,4 @@
+"Patch"
+{
+	include "materials/models/player/mercenary/hwm/mercenary_head_base.vmt"
+}

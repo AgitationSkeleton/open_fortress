@@ -4,6 +4,6 @@
 	
 	insert
 	{
-		"$baseTexture" "models/player/mercenary/mercenary_red"
+		"$baseTexture" "models/player/mercenary/mercenary_sport"
 	}
 }

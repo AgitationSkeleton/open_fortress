@@ -1,10 +1,10 @@
 "VertexLitGeneric"
 {
-	"$basetexture" "models\player\mercenary\mercenary_head"
+	"$basetexture" "models\player\mercenary/hwm\mercenary_head"
+	
 	"$phong" "1"
-//	"$phongexponenttexture" "models\player\merc_deathmatch\merc_alt_exp"
-	"$phongexponent" "10"
-	"$phongboost" "0"	
+	"$phongexponent" "2"
+	"$phongboost" "0.1"	
 	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
 	"$phongfresnelranges"	"[.3 1 8]"
 	"$halflambert" "0"
@@ -16,16 +16,19 @@
 
 	"$rimlight" "1"												// To enable rim lighting (requires phong)
 	"$rimlightexponent" "4"										// Exponent for phong component of rim lighting	
-	"$rimlightboost" "2"										// Boost for ambient cube component of rim lighting
+	"$rimlightboost" "1"										// Boost for ambient cube component of rim lighting
 	"$rimmask" "1"  
+	
+	"$ambientocclusion" "1"
 
+	// Cloaking
 	"$cloakPassEnabled" "1"
-
+	
+	
+	"$yellow" "0"
+	
 	"Proxies"
 	{
-		"spy_invis"
-		{
-		}
 		"spy_invis"
 		{
 		}
@@ -39,6 +42,14 @@
 		{
 			"resultVar" "$detailblendfactor"
 		}
-
+		"YellowLevel"
+		{
+			"resultVar" "$yellow"
+		}
+		"Equals"
+		{
+			"srcVar1" "$yellow"
+			"resultVar" "$color2"
+		}
 	}
 }

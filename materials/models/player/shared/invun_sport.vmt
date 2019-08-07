@@ -1,0 +1,22 @@
+"Patch"
+{
+	include "materials/models/player/shared/invun_base.vmt"
+	
+	insert
+	{
+		"$bumpmap" "water/tfwater001_normal"
+		"$normalmapalphaenvmapmask" 1
+		"$basemapalphaphongmask" 0
+		
+		"$envmap" "models/player/shared/invun_custom"
+		
+		"$selfillum" "0"
+		
+		"$blendtintbybasealpha"		"0"
+		"$blendtintcoloroverbase"		"0"
+		
+		"$color2"				"{30 200 0}"
+
+		"$envmaptint"			"{30 200 0}"
+	}
+}

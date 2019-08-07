@@ -4,7 +4,7 @@
 	
 	insert
 	{
-		"$bumpmap" "models\player\shared\shared_normal"
+		"$bumpmap" "water/tfwater001_normal"
 		"$normalmapalphaenvmapmask" 1
 		"$basemapalphaphongmask" 0
 		
