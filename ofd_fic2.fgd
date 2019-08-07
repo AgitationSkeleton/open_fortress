@@ -8527,6 +8527,7 @@
 [
 	target(target_destination) : "Remote Destination" : : "The entity specifying the point to which entities should be teleported."
 	landmark(target_destination) : "Local Destination Landmark" : : "If specified, then teleported entities are offset from the target by their initial offset from the landmark."
+	adjust_angle(bool) : "Adjust Angles" : : "If true and we have a landmark, then teleported entities are rotated around the Z axis, to match landmark->target. Requires landmark!"
 
 	// have to re-define all flags due to a Hammer bug
 	spawnflags(flags) = 
