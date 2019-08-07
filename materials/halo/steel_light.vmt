@@ -1,0 +1,5 @@
+"LightmappedGeneric" {
+	"$basetexture"			"halo/steel_light"
+	"$bumpmap"				"halo/steel_bump"
+	"$surfaceprop"			"metal"
+}
