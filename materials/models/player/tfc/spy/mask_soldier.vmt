@@ -1,0 +1,9 @@
+"Patch"
+{
+	include "materials/models/player/spy/mask_base.vmt"
+	
+	insert
+	{
+		"$basetexture" "models/player/spy/mask_soldier"
+	}
+}

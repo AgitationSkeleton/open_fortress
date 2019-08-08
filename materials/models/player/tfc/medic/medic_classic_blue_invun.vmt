@@ -1,0 +1,13 @@
+"Patch"
+{
+	include "materials/models/player/shared/invun_blue.vmt"
+	
+	insert
+	{
+		"$baseTexture" "models/player/tfc/medic/medic_classic_blue"
+	}
+}
+
+
+
+

@@ -1,0 +1,10 @@
+"Patch"
+{
+	include "materials/models/player/shared/invun_red.vmt"
+	
+	insert
+	{
+		"$baseTexture" "models/player/tfc/demo/demo_classic_red"
+	}
+}
+

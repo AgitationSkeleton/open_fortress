@@ -1,0 +1,14 @@
+"Patch"
+{
+	include "materials/models/player/shared/invun_custom.vmt"
+	
+	insert
+	{
+		"$baseTexture" "models/player/tfc/pyro/pyro_classic_custom"
+	}
+}
+
+
+
+
+

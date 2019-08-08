@@ -1,0 +1,9 @@
+"Patch"
+{
+	include "materials/models/player/tfc/hvyweapon/heavy_classic_base.vmt"
+	
+	insert
+	{
+		"$baseTexture" "models/player/tfc/hvyweapon/heavy_classic_body_blue"
+	}
+}

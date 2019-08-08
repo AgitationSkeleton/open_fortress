@@ -1,0 +1,16 @@
+"Patch"
+{
+	include "materials/models/player/shared/invun_blue.vmt"
+	
+	insert
+	{
+		"$baseTexture" "models/player/tfc/sniper/sniper_classic_blue"
+	}
+}
+
+
+
+
+
+
+

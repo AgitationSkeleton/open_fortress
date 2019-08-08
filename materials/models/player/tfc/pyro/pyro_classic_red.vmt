@@ -1,0 +1,11 @@
+"Patch"
+{
+	include "materials/models/player/tfc/pyro/pyro_classic_base.vmt"
+	
+	insert
+	{
+		"$baseTexture" "models/player/tfc/pyro/pyro_classic_red"
+	}
+}
+
+

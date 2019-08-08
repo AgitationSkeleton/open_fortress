@@ -1,0 +1,15 @@
+"Patch"
+{
+	include "materials/models/player/shared/invun_blue.vmt"
+	
+	insert
+	{
+		"$baseTexture" "models/player/tfc/soldier/soldier_classic_sleeves_blue"
+	}
+}
+
+
+
+
+
+

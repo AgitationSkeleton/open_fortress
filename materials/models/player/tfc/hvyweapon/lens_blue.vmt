@@ -1,0 +1,12 @@
+"Patch"
+{
+	include "materials/models/player/tfc/shared/lens_base.vmt"
+	
+	insert
+	{
+		"$baseTexture" 	"models/player/tfc/shared/lens_blue"
+		"$envmap"	"models/player/tfc/shared/lens_blue"
+
+	}
+}
+

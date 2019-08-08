@@ -1,0 +1,11 @@
+"Patch"
+{
+	include "materials/models/player/tfc/soldier/soldier_classic_base.vmt"
+	
+	insert
+	{
+		"$baseTexture" "models/player/tfc/soldier/soldier_classic_sleeves_red"
+	}
+}
+
+

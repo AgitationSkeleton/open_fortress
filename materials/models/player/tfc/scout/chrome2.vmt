@@ -1,0 +1,19 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/player/tfc/shared/chrome2"
+	"$envmap"	"models/player/tfc/shared/chrome2"
+	"$envmapsphere" "1"
+	"$surfaceprop"	"flesh"
+
+	"$halflambert" "1"
+
+	// Cloaking
+	"$cloakPassEnabled" "1"
+
+	"Proxies"
+	{
+		"spy_invis"
+		{
+		}
+	}
+}
