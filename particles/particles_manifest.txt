@@ -94,6 +94,8 @@ particles_manifest
 	//"file"		"!particles/weapon_unusual_cool.pcf"	
 	//"file"		"!particles/weapon_unusual_energyorb.pcf"	
 	"file"		"!particles/xms.pcf"
+	"file"		"!particles/rain_with_collision.pcf"
+	"file"		"!particles/savvarainparticles.pcf"
 	
 	// hl2
 	"file"		"!particles/antlion_blood.pcf"
