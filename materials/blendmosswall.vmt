@@ -1,0 +1,9 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "concrete/concretewall_island001b"
+	"$basetexture2" "Nature/grass_07"
+	"%keywords" "tf"
+	"$surfaceprop" "dirt"
+
+
+}
