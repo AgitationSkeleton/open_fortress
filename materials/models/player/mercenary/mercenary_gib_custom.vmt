@@ -4,7 +4,7 @@
 	
 	insert
 	{
-		"$baseTexture" "models/player/mercenary/mercenary_sport"
+		"$baseTexture" "models/player/mercenary/mercenary_custom"
 		
 		"$blendtintbybasealpha"		"1"
 		//"$blendtintcoloroverbase"		"1"
