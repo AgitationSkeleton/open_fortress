@@ -2096,6 +2096,76 @@
 }
 
 // ------------------------------------------------------------------------------------ //
+// RETRO SHOTGUN SB
+// ------------------------------------------------------------------------------------ //
+"Weapon_RShotgunSB.Single"
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+	"wave"		")weapons/shotgun_sb_shoot.wav"
+}
+
+"Weapon_RShotgunSB.SingleCrit"
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+	"wave"		")weapons/shotgun_sb_shoot_crit.wav"
+}
+
+"Weapon_RShotgunSB.Draw"
+{
+	"channel"	"CHAN_AUTO"
+	"soundlevel"	"SNDLVL_74dB"
+	"volume"	".5"
+	"wave"		"weapons/draw_secondary.wav"
+}
+
+// ------------------------------------------------------------------------------------ //
+// RETRO SHOTGUN DB
+// ------------------------------------------------------------------------------------ //
+"Weapon_RShotgunDB.Single"
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+	"wave"		")weapons/shotgun_db_shoot.wav"
+}
+
+"Weapon_RShotgunDB.SingleCrit"
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+	"wave"		")weapons/shotgun_db_shoot_crit.wav"
+}
+
+"Weapon_RShotgunDB.Draw"
+{
+	"channel"	"CHAN_AUTO"
+	"soundlevel"	"SNDLVL_74dB"
+	"volume"	".5"
+	"wave"		"weapons/draw_shotgun_db.wav"
+}
+
+"Weapon_RShotgunDB.Cock_Back"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_74dB"
+	"volume"	".5"
+	"wave"		"weapons/shotgun_db_cock_back.wav"
+}
+
+"Weapon_RShotgunDB.Cock_Forward"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_74dB"
+	"volume"	".5"
+	"wave"		"weapons/shotgun_db_cock_forward.wav"
+}
+
+// ------------------------------------------------------------------------------------ //
 // SHOVEL
 // ------------------------------------------------------------------------------------ //
 
