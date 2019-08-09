@@ -45,6 +45,7 @@ WeaponData
 	"viewmodel"				"models/weapons/v_models/v_shotgun_engineer.mdl"
 	"mercenary_viewmodel"     		"models/weapons/v_models/v_shotgun_merc.mdl"
 	"civilian_viewmodel"     		"models/weapons/v_models/v_shotgun_merc.mdl"
+	"heavy_viewmodel"				"models/weapons/v_models/v_shotgun_heavy.mdl"
 	
 	"playermodel"   "models/weapons/w_models/w_shotgun.mdl"
 	"anim_prefix"   "shotgun"

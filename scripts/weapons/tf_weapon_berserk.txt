@@ -34,6 +34,7 @@ WeaponData
 
 	// Model & Animation
 	"viewmodel"			"models/weapons/v_models/v_berserk_merc.mdl"
+	"heavy_viewmodel"			"models/weapons/v_models/v_fist_heavy.mdl"
 	"playermodel"			""
 	"anim_prefix"			"pipe"
 
