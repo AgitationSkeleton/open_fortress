@@ -40,6 +40,10 @@ WeaponData
 	"viewmodel"		"models/weapons/v_models/v_minigun_heavy.mdl"
 	"playermodel"		"models/weapons/w_models/w_minigun.mdl"
 	"anim_prefix"		"ac"
+	
+	"CenteredViewmodelOffset_Y" "-11.5"
+	"CenteredViewmodelAngle_Y" "-6"
+	"CenteredViewmodelAngle_Z" "-1"
 
 	// Muzzleflash
 	"MuzzleFlashModel"	"models/effects/muzzleflash/minigunmuzzle.mdl"

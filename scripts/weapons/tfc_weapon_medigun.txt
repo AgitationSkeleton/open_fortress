@@ -34,6 +34,12 @@ WeaponData
 	"playermodel"			"models/weapons/w_models/w_medigun.mdl"
 	"anim_prefix"			"shotgun"
 	
+	"CenteredViewmodelOffset_Y" "-18.5"
+	"CenteredViewmodelOffset_Z" "-7"
+	"CenteredViewmodelAngle_X" "-4"
+	"CenteredViewmodelAngle_Y" "-5.4"
+	"CenteredViewmodelAngle_Z" "-9"
+	
 	// Muzzleflash
 	"MuzzleFlashModel"	"models/effects/sentry1_muzzle/sentry1_muzzle.mdl"
 	"MuzzleFlashModelDuration"	"0.1"

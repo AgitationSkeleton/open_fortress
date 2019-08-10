@@ -41,12 +41,19 @@ WeaponData
 	"bucket_dm"			"2"
 	"bucket_dm_position"		"2"
 
+
 	// Animation.
 	"viewmodel"     		"models/weapons/v_models/v_shotgun_merc.mdl"
+	
+	"CenteredViewmodelOffset_Y" "-7.8"
 	
 	"playermodel"   "models/weapons/w_models/w_shotgun.mdl"
 	"anim_prefix"   "shotgun"
 
+	// Muzzleflash
+	"MuzzleFlashModel"	"models/effects/sentry1_muzzle/sentry1_muzzle.mdl"
+	"MuzzleFlashModelDuration"	"0.1"
+	
 	// Muzzleflash
 	"MuzzleFlashParticleEffect" "muzzle_shotgun"
 	

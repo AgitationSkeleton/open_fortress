@@ -47,6 +47,8 @@ fWeaponData
 	"civilian_viewmodel"     		"models/weapons/v_models/v_shotgun_merc.mdl"
 	"heavy_viewmodel"				"models/weapons/v_models/v_shotgun_heavy.mdl"
 	
+	"CenteredViewmodelOffset_Y" "-8"
+	
 	"playermodel"   "models/weapons/w_models/w_shotgun.mdl"
 	"anim_prefix"   "shotgun"
 

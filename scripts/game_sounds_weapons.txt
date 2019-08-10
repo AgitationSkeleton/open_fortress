@@ -2717,7 +2717,12 @@
 	"soundlevel"	"SNDLVL_95dB"
 	"volume"	"1"
 	"pitch"		"PITCH_NORM"
-	"wave"		")weapons\quake_explosion_remastered.wav"
+	"rndwave"
+	{
+			"wave"	")weapons/quake_explosion_remastered1.wav"
+			"wave"	")weapons/quake_explosion_remastered2.wav"
+			"wave"	")weapons/quake_explosion_remastered3.wav"
+	}
 }
 
 // ------------------------------------------------------------------------------------ //

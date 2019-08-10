@@ -61,13 +61,6 @@ DESCRIPTION INFO_OPTIONS
 		{ "128" }
 	}		
 	
-	"ofd_use_quake_rl"
-	{
-		"#TFOption_QuakeRL"
-		{ BOOL }
-		{ "1" }
-	}
-	
 	"of_mercenary_hat"
 	{
 		"#of_mercenary_hat"
@@ -325,23 +318,45 @@ DESCRIPTION INFO_OPTIONS
 		{ "0" }
 	}
 	
-	"hud_takesshots"
-	{
-		"#game_takesshots"
-		{ BOOL }
-		{ "0" }
-	}
-	
 	"of_muzzlelight"
 	{
 		"#TFOption_muzzlelight"
 		{ BOOL }
 		{ "1" }
 	}
+	
 	"of_beta_muzzleflash"
 	{
 		"#TFOption_beta_muzzleflash"
 		{ BOOL }
+		{ "0" }
+	}
+	
+	"viewmodel_centered"
+	{
+		"#TFOption_viewmodel_centered"
+		{ BOOL }
+		{ "0" }
+	}
+	
+	"viewmodel_hide_arms"
+	{
+		"#TFOption_viewmodel_hide_arms"
+		{ BOOL }
+		{ "0" }
+	}
+	
+	"cl_wpn_sway_scale"
+	{
+		"#TFOption_wpn_sway_scale"
+		{ SLIDER 0 5 }
+		{ "0" }
+	}
+	
+    "of_viewbobcycle"
+	{
+		"#TFOption_viewbobcycle"
+		{ SLIDER 0 2 }
 		{ "0" }
 	}
 	
@@ -351,7 +366,6 @@ DESCRIPTION INFO_OPTIONS
 		{ BOOL }
 		{ "1" }
 	}	
-
 	
 	"cl_fp_ragdoll"
 	{
@@ -367,10 +381,10 @@ DESCRIPTION INFO_OPTIONS
 		{ "0" }
 	}	
 	
-    "of_viewbobcycle"
+	"hud_takesshots"
 	{
-		"#TFOption_viewbobcycle"
-		{ SLIDER 0 2 }
+		"#game_takesshots"
+		{ BOOL }
 		{ "0" }
 	}
 	

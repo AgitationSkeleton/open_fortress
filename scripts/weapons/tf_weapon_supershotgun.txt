@@ -42,6 +42,8 @@ WeaponData
 	"viewmodel"     	"models/weapons/v_models/v_supershotgun_mercenary.mdl"
 	"playermodel"		"models/weapons/w_models/w_supershotgun.mdl"
 	"anim_prefix"		"shotgun"
+	
+	"CenteredViewmodelOffset_Y" "-6.2"
 
 	// Muzzleflash
 	"MuzzleFlashModel"	"models/effects/sentry1_muzzle/sentry1_muzzle.mdl"

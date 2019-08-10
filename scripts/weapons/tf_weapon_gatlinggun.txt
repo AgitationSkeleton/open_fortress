@@ -45,6 +45,11 @@ WeaponData
 	// Muzzleflash
 	"MuzzleFlashModel"	"models/effects/muzzleflash/minigunmuzzle.mdl"
 	"MuzzleFlashParticleEffect" "muzzle_minigun"
+	
+	
+	"CenteredViewmodelOffset_Y" "-11.5"
+	"CenteredViewmodelAngle_Y" "-6"
+	"CenteredViewmodelAngle_Z" "-1"
 
 	
 	// Sounds.

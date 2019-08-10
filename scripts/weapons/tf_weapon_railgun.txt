@@ -48,6 +48,10 @@ WeaponData
 	"viewmodel"		"models/weapons/v_models/v_railgun_mercenary.mdl"
 	"playermodel"		"models/weapons/w_models/w_railgun.mdl"
 	"anim_prefix"		"shotgun"
+	
+	"CenteredViewmodelOffset_Y" "-11"
+	"CenteredViewmodelOffset_Z" "-4"
+	"CenteredViewmodelAngle_X" "-2"
 
 	// Sounds.
 	// Max of 16 per category (ie. max 16 "single_shot" sounds).

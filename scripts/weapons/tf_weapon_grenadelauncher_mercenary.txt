@@ -51,6 +51,9 @@ WeaponData
 	"viewmodel"		"models/weapons/v_models/v_grenadelauncher_dm.mdl"
 	"playermodel"		"models/weapons/w_models/w_grenadelauncher_dm.mdl"
 	"anim_prefix"		"gl"
+	
+	"CenteredViewmodelOffset_Y" "-7.5"
+	"CenteredViewmodelAngle_X" "-2"
 
 	// Muzzleflash
 	"MuzzleFlashParticleEffect" "muzzle_grenadelauncher"

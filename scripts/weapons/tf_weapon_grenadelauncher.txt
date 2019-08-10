@@ -49,8 +49,12 @@ WeaponData
 
 	// Animation.
 	"viewmodel"		"models/weapons/v_models/v_grenadelauncher_demo.mdl"
-	"mercenary_viewmodel"		"models/weapons/v_models/v_grenadelauncher_merc.mdl"
-	"civilian_viewmodel"		"models/weapons/v_models/v_grenadelauncher_merc.mdl"
+	
+	"CenteredViewmodelOffset_Y" "-18"
+	"CenteredViewmodelOffset_Z" "-3"
+	"CenteredViewmodelAngle_Y" "-13"
+	"CenteredViewmodelAngle_Z" "-2.8"
+	
 	"playermodel"		"models/weapons/w_models/w_grenadelauncher.mdl"
 	"anim_prefix"		"gl"
 

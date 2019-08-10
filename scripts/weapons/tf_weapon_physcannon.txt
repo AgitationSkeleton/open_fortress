@@ -25,6 +25,8 @@ WeaponData
 	
 	"HasTeamSkins_Viewmodel"			"1"
 	"HasTeamSkins_Worldmodel"			"1"
+	
+	"CenteredViewmodelOffset_Y" "-12.0"
 
 	SoundData
 	{
