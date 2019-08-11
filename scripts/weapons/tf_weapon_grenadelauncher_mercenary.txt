@@ -28,7 +28,7 @@ WeaponData
 	"secondary_ammo"	"None"
 	"clip_size"		"4"
 	"default_clip"		"4"
-	"ProjectileType"	"projectile_pipe"
+	"ProjectileType"	"projectile_pipe_dm"
 	"MaxAmmo"	"16"
 
 	// bucket
