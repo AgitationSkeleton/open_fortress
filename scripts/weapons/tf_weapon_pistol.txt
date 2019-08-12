@@ -19,6 +19,8 @@ WeaponData
 	"TimeReload"		"1.05"
 	"ProjectileType"	"projectile_bullet"
 	"BrassModel"		"models/weapons/shells/shell_pistol.mdl"
+    "DropsMag" "1"
+    "MagModel"          "models/weapons/w_models/magazines/w_pistol_magazine.mdl"
 	"UseRapidFireCrits"	"1"
 	"TracerEffect"		"bullet_pistol_tracer01"
 
