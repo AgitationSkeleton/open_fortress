@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/props_facemovie/ecg/op_table_small"
+	"$surfaceprop"	"default"
+	"$basemapalphaphongmask" 1
+		//phong properties
+	"$phong"	"1"
+	"$phongboost"	"0.5"
+	"$phongexponenttexture"	"models/props_facemovie/ecg/op_table_small_exp"
+	"$phongfresnelranges"	"[2 1.5 1]"
+}

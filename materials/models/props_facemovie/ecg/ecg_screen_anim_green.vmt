@@ -1,0 +1,24 @@
+"VertexlitGeneric"
+{
+	"$basetexture"	"models/props_facemovie/ecg/ecg_screen_anim"
+	"$basemapalphaphongmask" 1
+	"$selfillum" 1
+	"$surfaceprop"	"default"
+	"$color" "[.6 2 0]"
+
+//phong properties
+	"$phong"	"1"
+	"$phongboost"	"1"
+	"$phongexponent"	"20"
+	"$phongfresnelranges"	"[.3 1 2]"
+	
+	"Proxies"
+		{
+			"AnimatedTexture"
+			{
+				"animatedtexturevar" "$basetexture"
+				"animatedtextureframenumvar" "$frame"
+				"animatedtextureframerate" 24
+			}
+		}
+}

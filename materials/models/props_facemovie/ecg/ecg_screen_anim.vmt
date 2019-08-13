@@ -1,0 +1,14 @@
+"UnlitGeneric"
+{
+	"$basetexture"	"models/props_facemovie/ecg/ecg_screen_anim"
+	"$surfaceprop"	"default"
+	"Proxies"
+		{
+			"AnimatedTexture"
+			{
+				"animatedtexturevar" "$basetexture"
+				"animatedtextureframenumvar" "$frame"
+				"animatedtextureframerate" 24
+			}
+		}
+}
