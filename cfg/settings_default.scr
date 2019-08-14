@@ -61,19 +61,19 @@ DESCRIPTION SERVER_OPTIONS
 		{ STRING }
 		{ "" }
 	}
+	
+	"mp_fraglimit"
+	{
+		"#TF_Fraglimit"
+		{ NUMBER 0 -1 }
+		{ "25" }
+	}
 
 	"mp_timelimit"
 	{
 		"#TF_Timelimit"
 		{ NUMBER 0 -1 }
 		{ "30" }
-	}
-
-	"mp_winlimit"
-	{
-		"#TF_WinLimit"
-		{ NUMBER 0 -1 }
-		{ "0" }
 	}
 	
 	"mp_maxrounds"
@@ -118,6 +118,13 @@ DESCRIPTION SERVER_OPTIONS
 		{ "1" }
 	}
 	
+	"ofd_allow_allclass_pickups"
+	{
+		"#TF_AllclassPickups"
+		{ BOOL }
+		{ "1" }
+	}
+	
 	"ofd_weaponspawners"
 	{
 		"#TF_WeaponSpawners"
@@ -130,6 +137,13 @@ DESCRIPTION SERVER_OPTIONS
 		"#TF_Powerups"
 		{ BOOL }
 		{ "1" }
+	}
+	
+	"mp_flashlight"
+	{
+		"#MP_Allow_Flashlight"
+		{ BOOL }
+		{ "0" }
 	}
 	
 }

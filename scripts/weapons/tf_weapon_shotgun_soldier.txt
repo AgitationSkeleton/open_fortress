@@ -44,8 +44,6 @@ fWeaponData
 	// Animation.
 	"viewmodel"				"models/weapons/v_models/v_shotgun_soldier.mdl"
 	"mercenary_viewmodel"     		"models/weapons/v_models/v_shotgun_merc.mdl"
-	"civilian_viewmodel"     		"models/weapons/v_models/v_shotgun_merc.mdl"
-	"heavy_viewmodel"				"models/weapons/v_models/v_shotgun_heavy.mdl"
 	
 	"CenteredViewmodelOffset_Y" "-8"
 	

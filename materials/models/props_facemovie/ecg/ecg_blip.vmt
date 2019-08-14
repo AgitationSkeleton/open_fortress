@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"	"models/props_facemovie/ecg/ecg_blip"
+	"$surfaceprop"	"default"
+	"$selfillum"	1
+}

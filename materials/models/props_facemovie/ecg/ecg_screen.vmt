@@ -1,0 +1,10 @@
+"vertexlitgeneric"
+{
+	"$basetexture"	"models/props_facemovie/ecg/ecg_screen"
+	"$surfaceprop"	"default"
+	"%tooltexture" "models/props_facemovie/ecg/ecg_blip"
+	"$texture2" "models/props_facemovie/ecg/ecg_blip"
+	"$model" "1"
+	//"$translucent" 1
+	
+}

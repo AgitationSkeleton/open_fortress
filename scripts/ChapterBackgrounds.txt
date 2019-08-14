@@ -4,7 +4,9 @@
 	2	"background02"
 	3	"background03"
 	4	"background04"
-	5   "background05"
+	5	"background05"
+	6	"background06"
+	7	"background07"
 }
 "BackgroundMaps"
 {
