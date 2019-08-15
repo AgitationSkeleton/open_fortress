@@ -16,6 +16,8 @@ WeaponData
 	"TimeReload"		"1.37"
 	"UseRapidFireCrits"	"1"
 	"ProjectileType"	"projectile_nail"
+	"HasTeamSkins_Worldmodel"	"1"
+	"HasTeamSkins_Viewmodel"		"1"
 
      // Ammo & Clip.
 	"primary_ammo"		"WEAPON_AMMO"
