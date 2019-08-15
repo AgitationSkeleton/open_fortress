@@ -386,5 +386,85 @@
 	"spec_target_updated"
 	{
 	}
+	
+	"escort_speed"
+	{
+		"team"		"byte"			// which team
+		"speed"		"byte"
+		"players"	"byte"
+	}
+	
+	"escort_progress"
+	{
+		"team"		"byte"			// which team
+		"progress"	"float"
+		"reset"		"bool"
+	}
+
+	"escort_recede"
+	{
+		"team"			"byte"		// which team
+		"recedetime"	"float"
+	}
+	
+	"player_escort_score"
+	{
+		"player"	"byte"
+		"points"	"byte"
+	}
+	
+	"arena_match_maxstreak"
+	{
+		"team"	"byte"
+		"streak"	"byte"
+	}
+
+	"arena_round_start"			// called when round is active, players can move
+	{
+		// nothing for now
+	}
+	"arena_win_panel"		
+	{
+		"panel_style"		"byte"		// for client to determine layout		
+		"winning_team"		"byte"		
+		"winreason"		"byte"		// the reason the team won
+		"cappers"		"string"	// string where each character is a player index of someone that capped
+		"flagcaplimit"		"short"		// if win reason was flag cap limit, the value of the flag cap limit
+		"blue_score"		"short"		// red team score
+		"red_score"		"short"		// blue team score
+		"blue_score_prev"	"short"		// previous red team score
+		"red_score_prev"	"short"		// previous blue team score
+		"round_complete"	"short"		// is this a complete round, or the end of a mini-round
+		"player_1"		"short"
+		"player_1_damage"	"short"
+		"player_1_healing"	"short"
+		"player_1_lifetime"	"short"
+		"player_1_kills"	"short"
+		"player_2"		"short"
+		"player_2_damage"	"short"
+		"player_2_healing"	"short"
+		"player_2_lifetime"	"short"
+		"player_2_kills"	"short"
+		"player_3"		"short"
+		"player_3_damage"	"short"
+		"player_3_healing"	"short"
+		"player_3_lifetime"	"short"
+		"player_3_kills"	"short"
+		"player_4"		"short"
+		"player_4_damage"	"short"
+		"player_4_healing"	"short"
+		"player_4_lifetime"	"short"
+		"player_4_kills"	"short"
+		"player_5"		"short"
+		"player_5_damage"	"short"
+		"player_5_healing"	"short"
+		"player_5_lifetime"	"short"
+		"player_5_kills"	"short"
+		"player_6"		"short"
+		"player_6_damage"	"short"
+		"player_6_healing"	"short"
+		"player_6_lifetime"	"short"
+		"player_6_kills"	"short"
+	}
 }
 

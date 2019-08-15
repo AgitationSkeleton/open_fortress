@@ -101,12 +101,12 @@ Meta
 Withered Rose
 
 Maps:
-Hambooga (The Bad Place, The Longest Yard, Aerowalk, Blood Covenant)
-DrPyspy (Blood Run, Parley)
+Hambooga (The Bad Place, The Longest Yard, Aerowalk)
+DrPyspy (Blood Run, Parley, Push)
 Richter (Office [Textures])
 AgitationSkeleton (House of Chthon, The Bad Place, The Dark Zone, Dead Simple, Overkill, Crossfire, Xpress3)
 HDMineFace (Legacy, MCTF Splashdown, CTF and DM Greenback, Boxy [Updated Map])
-Chrissy (Office, House of Chthon)
+Chrissy (Office, House of Chthon, Crossfire)
 Fairweather (Pandora)
 Suomimes55 (Congo, DM+CTF Backfort, Boxy, Weapon devtest map, Knoxx)
 Ficool2 (DM Lumberyard, assistance with Weapon devtest map)
@@ -122,6 +122,7 @@ iiboharz (Wiseau, DM 2Fort, DM Ravine, DM Offblast)
 Savva (Hollow, port of CTF Redplanet by Spipper, MCTF Turbine)
 Spipper (CTF Redplanet)
 Muddy (Grain)
+HQDefault (Blood Covenant)
 
 Open Fortress - List of community contributors:
 
