@@ -1252,16 +1252,12 @@
 	
 	"rndwave"
 	{
-		"wave"		"player/shove1.wav"
-		"wave"		"player/shove2.wav"
-		"wave"		"player/shove3.wav"
-		"wave"		"player/shove4.wav"
-		"wave"		"player/shove5.wav"
-		"wave"		"player/shove6.wav"
-		"wave"		"player/shove7.wav"
-		"wave"		"player/shove8.wav"
-		"wave"		"player/shove9.wav"
-		"wave"		"player/shove10.wav"
+		"wave"		"vo/scout_jump01.wav"
+		"wave"		"vo/scout_jump02.wav"
+		"wave"		"vo/scout_jump03.wav"
+		"wave"		"vo/scout_jump04.wav"
+		"wave"		"vo/scout_jump05.wav"
+		"wave"		"vo/scout_jump06.wav"
 	}
 }
 "Soldier.Jumpsound"
