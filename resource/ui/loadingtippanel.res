@@ -39,7 +39,7 @@
 		"ControlName"		"Label"
 		"fieldName"			"TipToeText"
 		"xpos"				"20"
-		"ypos"				"18"
+		"ypos"				"20"
 		"wide"				"320"
 		"tall"				"36"
 		"wrap"				"1"
