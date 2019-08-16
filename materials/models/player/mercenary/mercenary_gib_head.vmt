@@ -4,6 +4,6 @@
 	
 	insert
 	{
-		"$baseTexture" "models/player/mercenary/mercenary_gib_head"
+		"$baseTexture" "models/player/mercenary/hwm/mercenary_head"
 	}
 }

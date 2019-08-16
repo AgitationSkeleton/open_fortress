@@ -8236,6 +8236,67 @@
 	output OnSetupFinished(void) : "Sent when the setup time is finished."
 ]
 
+@PointClass base(BaseEntity, TeamNum, EnableDisable) iconsprite("editor-ficool2/team_train_watcher") = team_train_watcher :
+	"Entity that tracks the train progress through train escort maps. Adding this entity to a map makes Team Fortress 2 classify the map as a train escort (Payload) map."
+[
+	train(target_destination) : "Train to watch."
+	train_can_recede(choices) : "Allow the train to recede?" : 1 =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+	
+	train_recede_time(integer) : "Train recede time (in seconds)" : 0 : "Length of time before the train begins to recede. 0 = use TF2 default setting of 30 seconds."
+	
+	handle_train_movement(choices) : "Handle Train Movement?" : 0 : "If Yes, the watcher will handle three-speed forward movement, receding, and roll forward/back zones. Slow areas (such as for uphill) will need to be done manually by sending the watcher a SetSpeedForwardModifier input." =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+	speed_forward_modifier(float) : "Default Speed Modifier" : 1 : "0 to 1 scaling of the train's max speed. Can be adjusted with the SetSpeedForwardModifier input. Only functions with Handle Train Movement enabled."
+	env_spark_name(target_destination) : "Associated env_spark" : : "Name of the env_spark to turn on when the cart is receding. Only functions with Handle Train Movement enabled."
+
+	start_node(target_destination) : "Node that the path starts at."
+	goal_node(target_destination) : "Node that the path ends at."
+	
+	linked_pathtrack_1(target_destination) : "Linked PathTrack 1"
+	linked_cp_1(target_destination) : "Linked CP 1"
+	
+	linked_pathtrack_2(target_destination) : "Linked PathTrack 2"
+	linked_cp_2(target_destination) : "Linked CP 2"
+	
+	linked_pathtrack_3(target_destination) : "Linked PathTrack 3"
+	linked_cp_3(target_destination) : "Linked CP 3"
+		
+	linked_pathtrack_4(target_destination) : "Linked PathTrack 4"
+	linked_cp_4(target_destination) : "Linked CP 4"
+		
+	linked_pathtrack_5(target_destination) : "Linked PathTrack 5"
+	linked_cp_5(target_destination) : "Linked CP 5"
+		
+	linked_pathtrack_6(target_destination) : "Linked PathTrack 6"
+	linked_cp_6(target_destination) : "Linked CP 6"
+		
+	linked_pathtrack_7(target_destination) : "Linked PathTrack 7"
+	linked_cp_7(target_destination) : "Linked CP 7"
+		
+	linked_pathtrack_8(target_destination) : "Linked PathTrack 8"
+	linked_cp_8(target_destination) : "Linked CP 8"
+		
+	hud_min_speed_level_1(float) : "Min Speed for Speed Level 1" : 1
+	hud_min_speed_level_2(float) : "Min Speed for Speed Level 2" : 60
+	hud_min_speed_level_3(float) : "Min Speed for Speed Level 3" : 80
+	
+	input SetNumTrainCappers(integer) : "Set Number of players capping the train."
+	input SetSpeedForwardModifier(float)
+	input SetTrainRecedeTime(integer) : "Set the number of seconds before the train starts to recede."
+	input SetTrainCanRecede(bool) : "Determines whether or not the train can recede."
+	input SetTrainRecedeTimeAndUpdate(integer) : "Set the number of seconds before the train starts to recede and update the current recede time."
+	input RoundActivate(void) : "Forces this entity to activate. Fired automatically at the start of a round."
+	
+	output OnTrainStartRecede(void) : "Sent when the train should start receding."
+]
+
 @PointClass base(BaseEntityPoint) iconsprite("editor-ficool2/test_effect") = test_effect : 
 	"Creates rays inside a small sphere shape for 5 seconds. Requires an 'Use' input. Repeatable."
 [
@@ -8251,7 +8312,7 @@
 [	
 	UsesHL2Hull(boolean) : "HL2 Player Hulls?" : 0 : "Change whether to use Half Life 2 hulls for players (allows fitting into smaller spaces)"
 	Force3DSkybox(boolean) : "Force 3D Skybox?" : 0 : "Force 3D Skybox to always be on, even if disabled by client."
-	UsesMoney(boolean) : "Uses money?" : 0 : "Whether or not to display currency on your HUD."
+	UsesMoney(boolean) : "Uses Money?" : 0 : "Whether or not to display currency on your HUD."
 	
 	input SetRedTeamRespawnWaveTime(float) : "Set the RED team's respawn wave time."
 	input SetBlueTeamRespawnWaveTime(float) : "Set the BLU team's respawn wave time."
@@ -8272,36 +8333,6 @@
 	output IsDM(void) : "Fired if the gamemode is detected to be Deathmatch."
 	output IsTeamplay(void) : "Fired if the gamemode is detected to be Team Deathmatch."
 	output IsGunGame(void) : "Fired if the gamemode is detected to be Gun Game."
-]
-
-@PointClass base(Projectile) studioprop("models\weapons\w_models/w_nail.mdl") = tf_projectile_nail :
-    "Nailgun nails."
-[
-]
-
-@PointClass base(Projectile) studioprop("models/weapons/w_models/w_grenade_grenadelauncher.mdl") = tf_projectile_pipe :
-    "Grenade Launcher pills/grenades."
-[
-]
-
-@PointClass base(Projectile) studioprop("models/weapons/w_models/w_stickybomb.mdl") = tf_projectile_pipe_remote :
-    "Stickybomb Launcher stickybombs."
-[
-]
-
-@PointClass base(Projectile) studioprop("models/weapons/w_models/w_rocket.mdl") = tf_projectile_rocket :
-    "Rocket Launcher rocket."
-[
-]
-
-@PointClass base(Projectile) studioprop("models/buildables/sentry3_rockets.mdl") = tf_projectile_sentryrocket :
-    "Level 3 Sentry Gun rockets."
-[
-]
-
-@PointClass base(Projectile) studioprop("models/weapons/w_models/w_syringe_proj.mdl") = tf_projectile_syringe :
-    "SyringeGun projectile."
-[
 ]
 
 @PointClass base(BaseEntity) iconsprite("editor-ficool2/tf_logic_arena") = tf_logic_arena :
