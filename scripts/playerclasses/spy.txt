@@ -18,7 +18,7 @@ PlayerClass
 	"tfc_arm_model"		"models/weapons/c_models/c_tfc_spy_arms.mdl"
 	
 	// Stats.
-	"speed_max"			"300"
+	"speed_max"			"320"
 	"health_max"		"125"
 	"armor_max"			"0"
 	"tfc_speed_max"		"300"
