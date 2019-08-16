@@ -467,4 +467,3 @@
 		"player_6_kills"	"short"
 	}
 }
-

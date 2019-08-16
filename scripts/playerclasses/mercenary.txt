@@ -14,8 +14,8 @@ PlayerClass
 	"bot_model"			"models/player/mercenary.mdl"
 	"alt_model"			"models/player/mercenary.mdl"
 	"alt_arm_model"		"models/weapons/c_models/c_merc_arms.mdl"
-	"tfc_model"			"models/player/tfc/soldier_tfc.mdl"
-	"tfc_arm_model"		"models/weapons/c_models/c_tfc_soldier_arms.mdl"
+	"tfc_model"			"models/player/tfc/merc_tfc.mdl"
+	"tfc_arm_model"		"models/weapons/c_models/c_tfc_engineer_arms.mdl"
 	
 	// Stats.
 	"speed_max"			"320"
