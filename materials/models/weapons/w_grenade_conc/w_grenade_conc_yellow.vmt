@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\w_grenade_conc/w_grenade_conc_yellow"
+	"$bumpmap" "models/weapons/w_grenade_conc/w_grenade_conc_normal"
+
+	"$phong" "1"
+	"$phongexponent" "65"
+//	"$phongexponenttexture" "models\weapons\w_grenade_conc\w_grenade_conc_exponent"
+	"$phongboost" "50"	
+	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
+	"$phongfresnelranges" "[0.5 0.75 1]"
+}
