@@ -1,5 +1,6 @@
 dm_2fort
 dm_backfort
+dm_bloodcovenant
 dm_bloodrun
 dm_cargo
 dm_congo
