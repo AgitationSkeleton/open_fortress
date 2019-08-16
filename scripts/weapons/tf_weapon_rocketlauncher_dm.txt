@@ -25,8 +25,6 @@ WeaponData
 	"ProjectileType"	"projectile_rocket"
 	"HasTeamSkins_Viewmodel"			"1"
 	"HasTeamSkins_Worldmodel"			"1"
-	"CenterfireProjectile"			"1"	
-	"Secondary_CenterfireProjectile"			"1"	
 
 	// Secondary Attributes.
 	"secondary_ammo"	"None"

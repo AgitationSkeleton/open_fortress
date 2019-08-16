@@ -6,9 +6,9 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudTDM"
 		"xpos"			"c-200"		[$WIN32]
-		"xpos_minmode"	"-5"		[$WIN32]
+		//"xpos_minmode"	"-5"		[$WIN32]
 		"ypos"			"10"	[$WIN32]
-		"ypos_minmode"	"L88"	[$WIN32]
+		//"ypos_minmode"	"L88"	[$WIN32]
 		"zpos"			"2"
 		"wide"			"600"
 		"tall"			"50"
@@ -20,8 +20,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BluKills"
-		"xpos"			"250"
-		"xpos_minmode"	"58"
+		"xpos"			"0"
+		//"xpos_minmode"	"58"
 		"ypos"			"14"
 		"zpos"			"2"
 		"wide"			"150"
@@ -30,12 +30,12 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 	}
-	"PlayerStatusHealthImageBG"
+	"BluKillsBG"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusHealthImageBG"
+		"fieldName"		"BluKillsBG"
 		"xpos"			"0"
-		"xpos_minmode"	"58"
+		//"xpos_minmode"	"58"
 		"ypos"			"10"
 		"zpos"			"3"
 		"wide"			"150"
@@ -45,12 +45,12 @@
 		"image"			"../hud/objectives_tdm_left_bg"
 		"scaleImage"	"1"	
 	}	
-	"PlayerStatusHealthImageBG2"
+	"RedKillsBG"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusHealthImageBG2"
+		"fieldName"		"RedKillsBG"
 		"xpos"			"250"
-		"xpos_minmode"	"58"
+		//"xpos_minmode"	"58"
 		"ypos"			"10"
 		"zpos"			"3"
 		"wide"			"150"
@@ -64,8 +64,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"RedKills"
-		"xpos"			"0"
-		"xpos_minmode"	"60"
+		"xpos"			"250"
+		//"xpos_minmode"	"60"
 		"ypos"			"14"
 		"zpos"			"2"
 		"wide"			"150"
@@ -75,12 +75,12 @@
 		"scaleImage"	"1"	
 	}	
 
-	"PlayerStatusHealthValueShadow"
+	"RedKillsValueShadow"
 	{
 		"ControlName"	"CTFLabel"
-		"fieldName"		"PlayerStatusHealthValueShadow"
-		"xpos"			"-3"
-		"xpos_minmode"	"61"
+		"fieldName"		"RedKillsValueShadow"
+		"xpos"			"350"
+		//"xpos_minmode"	"61"
 		"ypos"			"27"	[$WIN32]
 		"zpos"			"5"
 		"wide"			"50"
@@ -92,12 +92,12 @@
 		"font"			"HudFontMedium"
 		"fgcolor"		"Black"
 	}	
-	"PlayerStatusHealthValue"
+	"RedKillsValue"
 	{
 		"ControlName"	"CTFLabel"
-		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"-5"
-		"xpos_minmode"	"61"
+		"fieldName"		"RedKillsValue"
+		"xpos"			"348.5"
+		//"xpos_minmode"	"61"
 		"ypos"			"25"	[$WIN32]
 		"zpos"			"6"
 		"wide"			"50"
@@ -109,13 +109,13 @@
 		"font"			"HudFontMedium"
 		"fgcolor"		"TanLight"
 	}		
-	"PlayerStatusHealthValue2Shadow"
+	"BluKillsValueShadow"
 	{
 		"ControlName"	"CTFLabel"
-		"fieldName"		"PlayerStatusHealthValue2Shadow"
-		"xpos"			"350"
-		"xpos_minmode"	"61"
-		"ypos"			"25"	[$WIN32]
+		"fieldName"		"BluKillsValueShadow"
+		"xpos"			"-3"
+		//"xpos_minmode"	"61"
+		"ypos"			"27"	[$WIN32]
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"18"
@@ -126,13 +126,13 @@
 		"font"			"HudFontMedium"
 		"fgcolor"		"Black"
 	}	
-	"PlayerStatusHealthValue2"
+	"BluKillsValue"
 	{
 		"ControlName"	"CTFLabel"
-		"fieldName"		"PlayerStatusHealthValue2"
-		"xpos"			"348.5"
-		"xpos_minmode"	"61"
-		"ypos"			"23.5"	[$WIN32]
+		"fieldName"		"BluKillsValue"
+		"xpos"			"-5"
+		//"xpos_minmode"	"61"
+		"ypos"			"25"	[$WIN32]
 		"zpos"			"6"
 		"wide"			"50"
 		"tall"			"18"
@@ -148,7 +148,7 @@
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"TimePanelBG"
 		"xpos"			"160"
-		"xpos_minmode"	"300"
+		//"xpos_minmode"	"300"
 		"xpos_hidef"	"108"
 		"xpos_lodef"	"108"
 		"ypos"			"9"

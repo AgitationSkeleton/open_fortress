@@ -42,9 +42,9 @@ WeaponData
 	"bucket_dm_position"	"1"	
 
 	// Explosions.
-	"ExplosionEffect"		"rocket_explosion_classic"
-	"ExplosionPlayerEffect"		"rocket_explosion_classic"
-	"ExplosionWaterEffect"		"rocket_explosion_classic"
+	"ExplosionEffect"		"ExplosionCore_wall"
+	"ExplosionPlayerEffect"		"ExplosionCore_MidAir"
+	"ExplosionWaterEffect"		"ExplosionCore_MidAir_underwater"
 
 	"ExplosionSound"	"Weapon_QuakeRPG.Explode"
 
@@ -63,13 +63,9 @@ WeaponData
 	SoundData
 	{
 		"single_shot"	"Weapon_RPG.Single"
-//		"reload"		"Weapon_RPG.WorldReload"
+		"reload"		"Weapon_RPG.WorldReload"
 		"burst"			"Weapon_RPG.SingleCrit"	
-	
-		"special1"		"Weapon_QuakeRPG.SingleCrit"
-		"special2"		"Weapon_QuakeRPG.Single"
-		"special3"		"Weapon_QuakeRPG.Draw"
-		"reload_npc"	"Weapon_QuakeRPG.Reload"
+		"special3"		"Weapon_Quad.Ping"
 	}
 
 	// Weapon Sprite data is loaded by the Client DLL.

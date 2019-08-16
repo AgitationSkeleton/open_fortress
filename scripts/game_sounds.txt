@@ -815,16 +815,187 @@
 	"wave"			")misc/achievement_earned.wav"
 }
 
-"JumpPadSound"
-{
-	channel		        CHAN_STATIC
-	volume		        1.0
-	soundlevel			SNDLVL_85db
-	pitch				98,100
 
-	"wave"	"misc/triggerjump.wav"
+
+"Cart.Roll"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_84dB"
+	"wave"			")items/cart_rolling.wav"
 }
 
+"Cart.Grind"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_84dB"
+	"rndwave"	
+	{
+		"wave"	"items/cart_rolling_back_grind1.wav"
+		"wave"	"items/cart_rolling_back_grind2.wav"
+		"wave"	"items/cart_rolling_back_grind3.wav"
+		"wave"	"items/cart_rolling_back_grind4.wav"
+	}
+}
+
+"Cart.RollStart"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_84dB"
+	"wave"			")items/cart_rolling_start.wav"
+}
+
+"Cart.RollStop"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_84dB"
+	"wave"			")items/cart_rolling_stop.wav"
+}
+
+"Cart.Explode"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_NONE"
+	"wave"			")items/cart_explode.wav"
+}
+
+"Cart.Trigger"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_150dB"
+	"wave"			")items/cart_explode_trigger.wav"
+}
+
+"Cart.Falling"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_110dB"
+	"wave"			"items/cart_explode_falling.wav"
+}
+
+"Cart.Warning"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_104dB"
+	"wave"			")items/cart_warning.wav"
+}
+
+"Cart.WarningSingle"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_104dB"
+	"wave"			")items/cart_warning_single.wav"
+}
+ 
+"SawMill.BladeImpact"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_105dB"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	")ambient_mp3/sawblade_impact1.mp3"
+		"wave"	")ambient_mp3/sawblade_impact2.mp3"
+	}
+}
+
+"SawMill.Blade"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		".75"
+	"soundlevel"  	"SNDLVL_85dB"
+	"pitch"		"PITCH_NORM"
+
+	"wave"		")ambient/sawblade.wav"
+}
+
+"Ambient.NucleusElectricity"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_105dB"
+	"pitch"		"PITCH_NORM"
+
+	"wave"		")ambient/nucleus_electricity.wav"
+}
+
+"Nucleus.WalkWayMove"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		".25"
+	"soundlevel"  	"SNDLVL_150dB"
+	"pitch"		"PITCH_NORM"
+
+	"wave"		")ambient_mp3/walkway_move.mp3"
+}
+
+"Nucleus.ChamberOpen"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_150dB"
+	"pitch"		"PITCH_NORM"
+
+	"wave"		")ambient/chamber_open.wav"
+}
+
+"Medieval.DoorOpen"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"		"PITCH_NORM"
+
+	"wave"		"ambient_mp3/medieval_dooropen.mp3"
+}
+
+"Medieval.DoorClose"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"		"PITCH_NORM"
+
+	"wave"		"ambient_mp3/medieval_doorclose.mp3"
+}
+
+"Medieval.DoorOpenRaise"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"		"PITCH_NORM"
+
+	"wave"		"ambient_mp3/medieval_dooropenraise.mp3"
+}
+
+"Medieval.DoorOpenLower"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"		"PITCH_NORM"
+
+	"wave"		"ambient_mp3/medieval_dooropenlower.mp3"
+}
 
 "Medieval.Flag"
 {
@@ -844,4 +1015,41 @@
 	"pitch"		"PITCH_NORM"
 
 	"wave"		")ambient/medieval_brazier.wav"
+}
+
+"ArrowLight"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"wave"		")ambient_mp3/arrowlight.mp3"
+}
+
+"Yeti.StatueGrowl"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_84dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"	")ambient/lair/yeti_statue_growl1.wav"
+		"wave"	")ambient/lair/yeti_statue_growl2.wav"
+		"wave"	")ambient/lair/yeti_statue_growl3.wav"
+		"wave"	")ambient/lair/yeti_statue_growl4.wav"
+		"wave"	")ambient/lair/yeti_statue_growl5.wav"
+		"wave"	")ambient/lair/yeti_statue_growl6.wav"
+	}
+}
+
+"JumpPadSound"
+{
+	channel		        CHAN_STATIC
+	volume		        1.0
+	soundlevel			SNDLVL_85db
+	pitch				98,100
+
+	"wave"	"misc/triggerjump.wav"
 }
