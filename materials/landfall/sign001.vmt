@@ -1,0 +1,12 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "landfall/sign001"
+	"$decal" 1
+	"$decalscale" 0.25
+	"$translucent" 1
+	"%keywords" "tf"
+}
+
+// Texture by Wade "Nineaxis" Fabry
+// http://fabrydesign.com
+// http://tf2maps.net

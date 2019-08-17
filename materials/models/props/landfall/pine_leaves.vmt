@@ -1,0 +1,7 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "models/props/landfall/pine_leaves"
+	"$alphatest" "1"
+	"$nocull" "1"
+	"%keywords" "tf"
+}
