@@ -90,6 +90,7 @@ particles_manifest
 	"file"		"!particles/water_2007.pcf"
 	"file"		"!particles/weather_fx.pcf"
 	"file"		"!particles/weapon_fx.pcf"
+	"file"		"!particles/wiseau_fx.pcf"
 	//"file"		"!particles/weapon_unusual_isotope.pcf"
 	//"file"		"!particles/weapon_unusual_hot.pcf"	
 	//"file"		"!particles/weapon_unusual_cool.pcf"	

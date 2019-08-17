@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "models/weapons/v_bfg/glass"
+	"$translucent" 1
+}
