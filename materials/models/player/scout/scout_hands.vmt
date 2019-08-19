@@ -4,7 +4,7 @@
 	"$bumpmap" "models/player/scout/scout_hands_normal"
 
 	"$phong" "1"
-	"$phongexponent" "10"
+	"$phongexponent" "5"
 	"$phongboost" "0.1"	
 	"$lightwarptexture" "models/player/engineer/engineer_hands_lightwarp"
 	"$phongfresnelranges"	"[1 5 6]"

@@ -8,8 +8,8 @@
 	"$detailblendmode" 6
 	
 	"$phong" "1"
-	"$phongexponent" "180"
-	"$phongboost" "5"	
+	"$phongexponent" "15"
+	"$phongboost" "2"	
 	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
 	"$phongfresnelranges"	"[.3 1 8]"
 	"$halflambert" "0"

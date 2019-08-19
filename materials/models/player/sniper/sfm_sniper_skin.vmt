@@ -7,6 +7,8 @@
 	"$detailscale" "5"
 	"$detailblendfactor" .0
 	"$detailblendmode" 6
+	
+	"$yellow" "0"
 
 	"$phong" "1"
 	"$phongexponenttexture" "models/player/sniper/sfm_sniper_skin_exponent"
@@ -25,8 +27,6 @@
 	// Cloaking
 	"$cloakPassEnabled" "1"
 
-	"360?$color2" "[ 0.7 0.7 0.7 ]"
-
 	"Proxies"
 	{
 		"spy_invis"
@@ -42,6 +42,14 @@
 		{
 			"resultVar" "$detailblendfactor"
 		}
+		"YellowLevel"
+		{
+			"resultVar" "$yellow"
+		}
+		"Equals"
+		{
+			"srcVar1" "$yellow"
+			"resultVar" "$color2"
+		}
 	}
 }
-
