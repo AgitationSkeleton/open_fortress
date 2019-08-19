@@ -4,6 +4,6 @@
 	
 	insert
 	{
-		"$baseTexture" "models/player/sniper/sfm_sniper_custom"
+		"$baseTexture" "models/player/sniper/sniper_glove"
 	}
 }
