@@ -22,7 +22,8 @@ PlayerClass
 	"health_max"		"150"
 	"armor_max"			"0"
 	"tfc_speed_max"		"320"
-	"tfc_health_max"	"90"
+	//"tfc_health_max"	"90" //Uncomment this later when armor is implemented
+	"tfc_health_max"	"150"
 	"tfc_armor_max"		"100"
 
 	// Grenades.
