@@ -1,0 +1,11 @@
+"Patch"
+{
+	include "materials/models/player_classic/spy/hwm/spy_classic_head_base.vmt"
+	
+	insert
+	{
+		"$basetexture" "models/player_classic/spy/hwm/spy_classic_head_blue"
+		//"$compress"    "models/player_classic/spy/hwm/spy_classic_head_blue_compress"
+		//"$stretch"     "models/player_classic/spy/hwm/spy_classic_head_blue_stretch"
+	}
+}

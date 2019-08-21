@@ -1,0 +1,9 @@
+"Patch"
+{
+	include "materials/models/player_classic/spy/spy_classic_glow_base.vmt"
+	
+	insert
+	{
+		"$baseTexture" "models/player_classic/spy/spy_classic_glow_red"
+	}
+}
