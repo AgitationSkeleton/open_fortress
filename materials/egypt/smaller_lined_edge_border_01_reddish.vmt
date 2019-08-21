@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture"	"egypt\smaller_lined_edge_border_01_reddish"
+	"$bumpmap"	"egypt\smaller_flat_edge_border_01_normal"
+	"$surfaceprop" "concrete"
+	"%keywords" "tf"
+}

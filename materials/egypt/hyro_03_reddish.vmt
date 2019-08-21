@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture"	"egypt\hyro_flat_outdoors_01_reddish"
+	"$bumpmap"	"egypt\hyro_wall_normal"
+	"$surfaceprop" "concrete"
+	"%keywords" "tf"
+}
