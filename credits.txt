@@ -128,7 +128,7 @@ Open Fortress - List of community contributors:
 
 Cori - cl_showpos_xy and of_healonkill convars
 Msalinas -  Enabled Nav Mesh and implemented of_navmesh_spawns
-ChargingMeatloaf - dm_badworks
+ChargingMeatloaf - dm_badworks + Badworks music
 Occune - Russian translation
 Technochips - French translation
 The Engineer - Hungarian translation
