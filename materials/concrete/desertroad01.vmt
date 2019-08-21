@@ -1,0 +1,12 @@
+"LightMappedGeneric"
+{
+	"$basetexture"	"concrete/desertroad01"
+	"$surfaceprop"	"default"
+	"$basemapalphaphongmask" 1
+	
+	//phong properties
+	"$phong"	"1"
+	"$phongboost"	"3"
+	"$phongexponent"	"10"
+	"$phongfresnelranges"	"[1 2 2.5]"
+}

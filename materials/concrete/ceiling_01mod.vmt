@@ -1,0 +1,6 @@
+"LightMappedGeneric"
+{
+	"$basetexture"	"concrete/ceiling_01mod"
+	"$surfaceprop"	"concrete"
+	"%keywords" "tfm"
+}

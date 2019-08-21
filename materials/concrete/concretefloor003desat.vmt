@@ -1,9 +1,5 @@
 "LightMappedGeneric"
 {
 	"$basetexture"	"concrete/concretefloor003desat"
-	"%keywords" "tf, tf_movies"
-	"$detail" "overlays/detail001"
-	"$detailscale" "1.9"
-	"$detailblendmode" "0"
-	"$detailblendfactor" "1"
+	"$surfaceprop"	"concrete"
 }

@@ -1,0 +1,9 @@
+"LightMappedGeneric"
+{
+	"$basetexture"	"concrete/desertroad01overlay"
+	"$surfaceprop"	"default"
+	"$decal" "1"
+	//"$vertexcolor" "1"
+	//"$vertexalpha" "1"
+	"$translucent"	1
+}
