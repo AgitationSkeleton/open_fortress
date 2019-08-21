@@ -81,7 +81,7 @@
 	"volume"	"VOL_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"pitch"		"PITCH_NORM"
-	"wave"		"items/healthkit_overheal.wav"
+	"wave"		"items/dmpill.wav"
 }
 
 "HealthKitMega.Touch"
@@ -1051,5 +1051,5 @@
 	soundlevel			SNDLVL_85db
 	pitch				98,100
 
-	"wave"	"misc/triggerjump.wav"
+	"wave"	"misc/jumppad.wav"
 }
