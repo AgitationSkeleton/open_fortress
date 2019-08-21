@@ -41,6 +41,7 @@ Tyler McVicker
 Weapon and misc. player sound effects:
 Stachekip
 Omniary
+Meta
 
 Viewmodel rigging and animations:
 Polybagel
@@ -89,9 +90,10 @@ Chrissy (Polishing and fixes)
 Ficool2 (Invade Gamemode)
 
 www.openfortress.fun website:
-AgitationSkeleton
-Nbc66
-Nopey Nope
+EmNudge
+AgitationSkeleton (Placeholder Site)
+Nbc66 (Placeholder Site)
+Nopey Nope (Placeholder Site)
 
 Music:
 Magnus

@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture"	"egypt\flat_wall_skinny_02_reddish"
+	"$bumpmap"	"egypt\flat_wall_skinny_01_normal"
+	"$surfaceprop" "stone"
+	"%keywords" "tf"
+}
