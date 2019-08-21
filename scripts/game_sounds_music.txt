@@ -41,6 +41,7 @@
 //DeathmatchMusic.DMStuff
 //DeathmatchMusic.Mayann
 //DeathmatchMusic.OpenHazards
+//DeathmatchMusic.Badworks
 
 //By MrModez
 "DeathmatchMusic.AtFortressGate"
@@ -401,4 +402,14 @@
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"wave"			"#music/deathmatch/OpenHazards_Loop.wav"
+}
+
+//Badworks Music by ChargingLemon
+"DeathmatchMusic.BadWorks"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/badworks_loop.wav"
 }
