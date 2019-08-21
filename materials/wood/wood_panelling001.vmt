@@ -1,10 +1,5 @@
 "LightMappedGeneric"
 {
 	"$basetexture"	"wood/wood_panelling001"
-	"$surfaceprop"	"wood"
-	"$detail" "overlays/detail003"
-	"$detailscale" "1"
-	"$detailblendmode" "0"
-	"$detailblendfactor" "1"
-	"%keywords" "tf, tf_movies"
+	"$surfaceprop"	"Wood"
 }
