@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "custom_textures/no_fog_blendgroundtograss006"
+	"$surfaceprop" "Dirt"
+                "$nofog" "1"
+	"%keywords" "tf of custom"
+}
