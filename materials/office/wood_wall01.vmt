@@ -1,0 +1,14 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "office/wood_wall01"
+	"$surfaceprop" "wood"
+	"%keywords" "tf"
+	"$detail" "overlays/detail006"
+	"$detailscale" "1"
+	"$detailblendmode" "0"
+	"$detailblendfactor" "1"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "office/wood_wall01_mask"	
+	"$envmapcontrast" "1"
+	"$reflectivity" "[.7 .5 .35]"
+}
