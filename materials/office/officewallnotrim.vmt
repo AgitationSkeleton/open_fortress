@@ -1,0 +1,10 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "office/officewallnotrim"
+	"$surfaceprop" "wood"
+	"%keywords" "tf, pacific"
+	"$detail" "overlays/detail006"
+	"$detailscale" "1"
+	"$detailblendmode" "0"
+	"$detailblendfactor" "1"
+}
