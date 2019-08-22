@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/custom_cars/vw_beetle/vw_beetle_nor"
+	"%keywords" "tf prop vw_beetle normal"
+                "$envmaptint" "[.45 .45 .45]"
+                "$envmap" "env_cubemap"
+}

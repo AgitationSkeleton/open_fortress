@@ -1,0 +1,8 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/generator/generator_core/generator_core_glass"
+	"$surfaceprop" "Glass"
+	"%keywords" "tf prop"
+	"$translucent" 1
+                "$phong" "1"
+}

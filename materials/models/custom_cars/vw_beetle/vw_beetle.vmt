@@ -1,0 +1,15 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/custom_cars/vw_beetle/vw_beetle"
+	"$normalmap" "models/custom_cars/vw_beetle/vw_beetle_nor"
+	"%keywords" "tf prop vw_beetle"
+	"$basemapalphaphongmask" "1"
+	"$phong" "1"
+	"$phongexponent" "15"
+	"$phongboost" ".1"	
+	"$phongfresnelranges"	"[.7 15 20]"
+
+	"$envmap" "cubemaps/cubemap_sheen001"
+	"$envmaptint" "[.1 .1 .1]"
+	"$normalmapalphaenvmapmask" "1"
+}

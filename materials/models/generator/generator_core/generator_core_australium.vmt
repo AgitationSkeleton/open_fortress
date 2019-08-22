@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/generator/generator_core/generator_core_australium"
+	"$surfaceprop" "Metal"
+	"%keywords" "tf prop"
+                "$phong" "1"
+}

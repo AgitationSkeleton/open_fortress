@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/generator/generator_core/generator_core_glow"
+	"%keywords" "tf prop"
+}
