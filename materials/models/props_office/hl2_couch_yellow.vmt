@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "Models/props_office/hl2couch_yellow"
+    "$halflambert" "1"
+}
+
+
