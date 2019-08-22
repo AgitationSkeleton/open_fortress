@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props_generic/desk_001/desk_uv_1"
+	"$surfaceprop" "Metal"
+	"%keywords" "tf of"
+}

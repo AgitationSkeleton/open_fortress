@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props_generic/chair_001/chair_uv"
+	"$normalmap" "models/props_generic/chair_001/chair_nor"
+	"$surfaceprop" "Wood_Solid"
+	"%keywords" "tf of chair"
+}
