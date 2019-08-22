@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_office/desk_lamp"
+	"$basemapalphaphongmask" 1
+		
+	//phong properties
+	"$phong"	"1"
+	"$phongboost"	"1"
+	"$phongexponent"	"80"
+	"$phongfresnelranges"	"[1 2 2.5]"
+	
+}
