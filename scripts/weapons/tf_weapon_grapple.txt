@@ -4,7 +4,7 @@ WeaponData
 	"printname"				"#TF_Weapon_Grapple"
 	"BuiltRightHanded"		"0"
 	"weight"				"4"
-	"WeaponType"		"pda"
+	"WeaponType"		"melee"
 	"ITEM_FLAG_NOITEMPICKUP" 	"1"
 	
 	// Primary Attributes
