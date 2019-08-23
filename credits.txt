@@ -131,6 +131,7 @@ Open Fortress - List of community contributors:
 Cori - cl_showpos_xy and of_healonkill convars
 Msalinas -  Enabled Nav Mesh and implemented of_navmesh_spawns
 ChargingMeatloaf - dm_badworks + Badworks music
+Infomaniac - DM Shipment
 Occune - Russian translation
 Technochips - French translation
 The Engineer - Hungarian translation
@@ -147,7 +148,7 @@ Heyo Cutino (Borneo Assets)
 Dr. Spud and Nineaxis ( Landfall Assets <3 )
 Ian "Idolon" Spadin (Arena Byre)
 The Jabroni Brawl 3 team (for putting our Mercenary into their game <3)
-Obsidian Conflict team (for the grappling hook stuff)
+Obsidian Conflict team & Maestro Fénix (for the grappling hook stuff)
 Half Life 2 Comunity Edition ( for the original Alien Swarm UI port )
 tonysergi (for MP Gravity Gun carried objects fix)
 [Cosmetic Set "Top Fragger" - The Boomer Bucket/Lovecrafted Carapace/Earth Quakers by Drew, Yikes, Makkon and Hotrod McCoolguy, used with permission]
