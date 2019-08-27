@@ -1,7 +1,11 @@
 Open Fortress - List of developers:
 
-Project lead and programmer:
+Project lead:
 KaydemonLP
+
+Gameplay Coordinators:
+AgitationSkeleton
+Stachekip
 
 Programming:
 Alex Episode
@@ -9,30 +13,21 @@ MaartenS11
 Rara Cerberus
 Chrissy
 Jill Nesbit
+KaydemonLP
 Nbc66
 Avast Antipony
 Nopey Nope
 Swox
 Ficool2
 
-Gameplay Coordinators:
-AgitationSkeleton
-Stachekip
-
-Mercenary concepts and model:
-DrPyspy
-
 Mercenary gibs and gore effects:
 Ficool2
 
-Voice of the Mercenary:
-Stachekip
-
-New Soldier & Engineer Voice Acting:
-Drew
-
-New Scout Voice Acting:
-EverMatt
+Voice acting:
+Stachekip - Mercenary
+Drew - New Soldier & Engineer Voice Lines
+EverMatt - New Scout Voicelines
+Meta - TFC Demoman
 
 Announcers:
 Benjamin Rudman
@@ -44,34 +39,61 @@ Omniary
 Meta
 
 Viewmodel rigging and animations:
-Polybagel
-Ficool2
-Rara Cerberus
-Hex
+Polybagel - Mercenary First Person Animations
+Ficool2 - Animation Fixes, Original Akimbo Animations, Original Mercenary Gloves, Higher Poly version of the new gloves
+Rara Cerberus - C_Arm ports
+Hex - Railgun fire & Charge animation, Berserk Fist animations
+KaydemonLP - New Mercenary gloves, Concept Animation,
+
+Character concept art and models:
+DrPyspy - Mercenary Model and Concept Art, Early Civilian concept
+NoNotTheMemes - TFC Heavy and Soldier concept and head sculpt, Juggernaut Concept, Current Civilian concept and Head Sculpt
+Drew - TFC Spy Model
+Lena - TFC Soldier Head Concept
 
 Weapon and cosmetic concept artwork, models & textures:
 Ficool2
-DrPyspy
-Batandy (Tommy Gun)
-Suomimies55
+DrPyspy - Railgun Concept
+Batandy - Tommy Gun
+Suomimies55 - Chainsaw, Super Shotgun, Lightning Gun
 Gibus Cat
 Stachekip
 NoNotTheMemes
-Drew
-Skerion
+Drew - Super Shotgun
+Skerion - BFG
+Overpowered - Revolver
 
-Assorted models and prop assets:
-Boomsta
+Prop and scenary Models & Textures:
+Boomsta - Vending Machines, Pickup Truck, Cheese Shop Props & Misc
+ChargingTurnip - Barrel, Generator props, Loaded Crate, Beetle car, Pig, Chair, Desk
+Ficool2 - Couch
+NoNotTheMemes - Couch
+KaydemonLP - SkateBoard
+Suomimies55 - SkateBoard Textures
+Richter - Office Textures
 
 Placeholder TFC Model Ports:
 Ficool2
 
-Particles and Berserk model:
-FissionMetroid
+Particles:
+FissionMetroid - Stock Particle overhaul, BFG/Nailgun/Railgun/DM Medigun particles
+KaydemonLP - Lightning Gun Particles/BFG Smoke and flame particles
 
 Menu and promotional art:
 Gibus Cat
 iiboharz
+
+Main Menu UI Design:
+KaydemonLP - Original Main Menu & Loading Screen Overhaul
+Chrissy & PacMania - Font fixes, Main Menu Font Changes, Options Menu Fixes
+
+In Game HUD Elements:
+KaydemonLP - DM & Bomb Defusal Hud
+Nbc66 and PacMania67 - Scoreboards
+Krowing - TDM Hud
+Snowy Snowtime - Minimal Mode Fixes
+Chrissy - Polishing and fixes
+Ficool2 - Invade Gamemode
 
 Valve.bik Intro:
 Meta
@@ -80,20 +102,11 @@ MrModez
 In-game menu logo concept:
 HDMineFace
 
+Final Logo and Icon designs:
+KaydemonLP
+
 Ambient sounds:
 Omniary (Wiseau)
-
-HUD editing:
-Nbc66 and PacMania67 (Scoreboards)
-Snowy Snowtime (Minimal Mode Frag Counter)
-Chrissy (Polishing and fixes)
-Ficool2 (Invade Gamemode)
-
-www.openfortress.fun website:
-EmNudge
-AgitationSkeleton (Placeholder Site)
-Nbc66 (Placeholder Site)
-Nopey Nope (Placeholder Site)
 
 Music:
 Magnus
@@ -102,29 +115,41 @@ Thoopje
 Meta
 Withered Rose
 
+www.openfortress.fun website:
+EmNudge
+AgitationSkeleton (Placeholder Site)
+Nbc66 (Placeholder Site)
+Nopey Nope (Placeholder Site)
+
 Maps:
-Hambooga (The Bad Place, The Longest Yard, Aerowalk)
-DrPyspy (Blood Run, Parley, Push)
-Richter (Office [Textures])
-AgitationSkeleton (House of Chthon, The Bad Place, The Dark Zone, Dead Simple, Overkill, Crossfire, Xpress3)
-HDMineFace (Legacy, MCTF Splashdown, CTF and DM Greenback, Boxy [Updated Map])
-Chrissy (Office, House of Chthon, Crossfire)
-Fairweather (Pandora)
-Suomimes55 (Congo, DM+CTF Backfort, Boxy, Weapon devtest map, Knoxx)
-Ficool2 (DM Lumberyard, assistance with Weapon devtest map)
-MacD11 (Wiseau, Range, Dead Simple, Grain, Offblast)
-KayDemonLP (Harvest, 2Fort Weapontest [Indev], Devtest maps)
-Lena (Cargo, Dark Zone)
-Boomsta (Sawdust)
-Gibus Cat (Indev DM_2Fort)
-Bakscratch (DM Watergate, Skate, Bailey)
-PigPig (Knoxx)
-Hex (Skate, Lobster Shore, Knoxx)
-iiboharz (Wiseau, DM 2Fort, DM Ravine, DM Offblast)
-Savva (Hollow, port of CTF Redplanet by Spipper, MCTF Turbine)
-Spipper (CTF Redplanet)
-Muddy (Grain)
-HQDefault (Blood Covenant)
+Hambooga - The Bad Place, The Longest Yard, Aerowalk
+DrPyspy - Blood Run, Parley, Push
+AgitationSkeleton - House of Chthon, The Bad Place, The Dark Zone, Dead Simple, Overkill, Crossfire, Xpress3
+HDMineFace - Legacy, MCTF Splashdown, CTF and DM Greenback, Boxy [Updated Map]
+Chrissy - Office, House of Chthon, Crossfire
+Fairweather - Pandora
+Suomimes55 - Congo, DM+CTF Backfort, Boxy, Weapon devtest map, Knoxx
+Ficool2 - DM Lumberyard, assistance with Weapon devtest map
+MacD11 - Wiseau, Range, Dead Simple, Grain, Offblast
+KayDemonLP - DM Harvest, Devtest maps
+Lena - Cargo, Dark Zone
+Boomsta - Sawdust
+Gibus Cat - Indev DM_2Fort
+Bakscratch - DM Watergate, Skate, Bailey
+PigPig - Knoxx
+Hex - Skate, Lobster Shore, Knoxx
+iiboharz - Wiseau, DM 2Fort, DM Ravine, DM Offblast
+Savva - Hollow, port of CTF Redplanet by Spipper, MCTF Turbine
+Spipper - CTF Redplanet
+Muddy - Grain
+HQDefault - Blood Covenant
+Charging Turnip - Badworks
+
+Third party Assets Used with permission:
+Landfall Assets by Dr. Spud and Nineaxis
+Borneo Assets by Heyo Cutino
+Cosmetic Set "Top Fragger" by Drew, Yikes, Makkon and Hotrod McCoolguy
+Train Models by Freyja
 
 Open Fortress - List of community contributors:
 
@@ -142,15 +167,11 @@ Open Fortress - Special thanks:
 Trotim (for helping KaydemonLP with programming)
 Nicknine (for the TF_Port SDK 2013 codebase)
 Saul Rennison (for proper dynamic shadows using the L4D method)
-Freyja (Train Models)
 Train (for helping with all language support)
-Heyo Cutino (Borneo Assets)
-Dr. Spud and Nineaxis ( Landfall Assets <3 )
 Ian "Idolon" Spadin (Arena Byre)
 Randy Goffe - For allowing us to use Resonance
 The Jabroni Brawl 3 team (for putting our Mercenary into their game <3)
 Obsidian Conflict team & Maestro Fénix (for the grappling hook stuff)
 Half Life 2 Comunity Edition ( for the original Alien Swarm UI port )
 tonysergi (for MP Gravity Gun carried objects fix)
-[Cosmetic Set "Top Fragger" - The Boomer Bucket/Lovecrafted Carapace/Earth Quakers by Drew, Yikes, Makkon and Hotrod McCoolguy, used with permission]
 SuperBigBoy (food)
