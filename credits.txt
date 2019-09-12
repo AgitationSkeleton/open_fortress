@@ -157,6 +157,7 @@ Cori - cl_showpos_xy and of_healonkill convars
 Msalinas -  Enabled Nav Mesh and implemented of_navmesh_spawns
 ChargingMeatloaf - dm_badworks + Badworks music
 Infomaniac - DM Shipment
+MegapiemanPHD - dm_deadlock_a1
 Occune - Russian translation
 Technochips - French translation
 The Engineer - Hungarian translation
