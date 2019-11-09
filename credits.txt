@@ -20,9 +20,6 @@ Nopey Nope
 Swox
 Ficool2
 
-Mercenary gibs and gore effects:
-Ficool2
-
 Voice acting:
 Stachekip - Mercenary
 Drew - New Soldier & Engineer Voice Lines
@@ -75,6 +72,10 @@ Richter - Office Textures
 Placeholder TFC Model Ports:
 Ficool2
 
+Gibs, gore and dismemberment effects:
+Ficool2
+Populus
+
 Particles:
 FissionMetroid - Stock Particle overhaul, BFG/Nailgun/Railgun/DM Medigun particles
 KaydemonLP - Lightning Gun Particles/BFG Smoke and flame particles
@@ -124,8 +125,8 @@ Nopey Nope (Placeholder Site)
 Maps:
 Hambooga - The Bad Place, The Longest Yard, Aerowalk
 DrPyspy - Blood Run, Parley, Push
-AgitationSkeleton - House of Chthon, The Bad Place, The Dark Zone, Dead Simple, Overkill, Crossfire, Xpress3
-HDMineFace - Legacy, MCTF Splashdown, CTF and DM Greenback, Boxy [Updated Map]
+AgitationSkeleton - House of Chthon, The Bad Place, The Dark Zone, Dead Simple, Overkill, Crossfire, Xpress3, Shortwave
+HDMineFace - Legacy, MCTF Splashdown, CTF and DM Greenback, Boxy [Updated Map], Hydro (dm), Shortwave (Layout Adjustments)
 Chrissy - Office, House of Chthon, Crossfire
 Fairweather - Pandora
 Suomimes55 - Congo, DM+CTF Backfort, Boxy, Weapon devtest map, Knoxx
@@ -144,6 +145,7 @@ Spipper - CTF Redplanet
 Muddy - Grain
 HQDefault - Blood Covenant
 Charging Turnip - Badworks
+Reddking - Hydro (dm)
 
 Third party Assets Used with permission:
 Landfall Assets by Dr. Spud and Nineaxis
@@ -154,13 +156,16 @@ Train Models by Freyja
 Open Fortress - List of community contributors:
 
 Cori - cl_showpos_xy and of_healonkill convars
-Msalinas -  Enabled Nav Mesh and implemented of_navmesh_spawns
+Msalinas -  Enabled Nav Mesh and implemented of_navmesh_spawns, MP3 voiceline implementation
 ChargingMeatloaf - dm_badworks + Badworks music
 Infomaniac - DM Shipment
-MegapiemanPHD - dm_deadlock_a1
+MegapiemanPHD - dm_deadlock
+Ruby - dm_disaster
+comrade commie - dm_golddigger
 Occune - Russian translation
 Technochips - French translation
 The Engineer - Hungarian translation
+Nival, Arcus Merseneri and Amuno - Italian Translation
 Amy (@OctoGril1) - Female Merc design + Easter egg drawing on legacy
 Tyler McVicker - For streaming Open Fortress and offering to be an announcer
 
@@ -174,5 +179,8 @@ Randy Goffe - For allowing us to use Resonance
 The Jabroni Brawl 3 team (for Their Support and being a awesome mod)
 Obsidian Conflict team & Maestro Fénix (for the grappling hook stuff)
 Half Life 2 Comunity Edition ( for the original Alien Swarm UI port )
-tonysergi (for MP Gravity Gun carried objects fix)
+tonysergi (for MP Gravity Gun carried objects fix and MP vehicle fix)
+Secobmod ( for Multiplayer AI fixes )
+Blixibon ( for Mapbase: better env_projectedtextures, more logic entities etc )
+TotallyMehis ( for clientside ragdoll cleanup fix )
 SuperBigBoy (food)
