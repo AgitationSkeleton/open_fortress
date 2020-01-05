@@ -115,6 +115,8 @@ MrModez
 Thoopje
 Meta
 Withered Rose
+Lena
+Ranzki
 
 www.openfortress.fun website:
 EmNudge
@@ -125,8 +127,8 @@ Nopey Nope (Placeholder Site)
 Maps:
 Hambooga - The Bad Place, The Longest Yard, Aerowalk
 DrPyspy - Blood Run, Parley, Push
-AgitationSkeleton - House of Chthon, The Bad Place, The Dark Zone, Dead Simple, Overkill, Crossfire, Xpress3, Shortwave
-HDMineFace - Legacy, MCTF Splashdown, CTF and DM Greenback, Boxy [Updated Map], Hydro (dm), Shortwave (Layout Adjustments)
+AgitationSkeleton - House of Chthon, The Bad Place, The Dark Zone, Dead Simple, Overkill, Crossfire, Xpress3, Shortwave, Facing Worlds
+HDMineFace - Legacy, MCTF Splashdown, Greenback, Boxy [Updated Map], Hydro (dm), Shortwave (Layout Adjustments)
 Chrissy - Office, House of Chthon, Crossfire
 Fairweather - Pandora
 Suomimes55 - Congo, DM+CTF Backfort, Boxy, Weapon devtest map, Knoxx
@@ -141,11 +143,11 @@ PigPig - Knoxx
 Hex - Skate, Lobster Shore, Knoxx
 iiboharz - Wiseau, DM 2Fort, DM Ravine, DM Offblast
 Savva - Hollow, port of CTF Redplanet by Spipper, MCTF Turbine
+Skimbo (Formerly known as That's the plan.) - DM Moonbase, miscellaneous
 Spipper - CTF Redplanet
 Muddy - Grain
 HQDefault - Blood Covenant
 Charging Turnip - Badworks
-Reddking - Hydro (dm)
 
 Third party Assets Used with permission:
 Landfall Assets by Dr. Spud and Nineaxis
@@ -155,13 +157,13 @@ Train Models by Freyja
 
 Open Fortress - List of community contributors:
 
-Cori - cl_showpos_xy and of_healonkill convars
 Msalinas -  Enabled Nav Mesh and implemented of_navmesh_spawns, MP3 voiceline implementation
 ChargingMeatloaf - dm_badworks + Badworks music
-Infomaniac - DM Shipment
 MegapiemanPHD - dm_deadlock
-Ruby - dm_disaster
+Ruby - dm_entryway
+Professor Pootis - dm_cloister
 comrade commie - dm_golddigger
+Holey - dm_bloodcovenant updates
 Occune - Russian translation
 Technochips - French translation
 The Engineer - Hungarian translation
@@ -183,4 +185,7 @@ tonysergi (for MP Gravity Gun carried objects fix and MP vehicle fix)
 Secobmod ( for Multiplayer AI fixes )
 Blixibon ( for Mapbase: better env_projectedtextures, more logic entities etc )
 TotallyMehis ( for clientside ragdoll cleanup fix )
+HOME (permission to use Resonance in DM Harvest)
 SuperBigBoy (food)
+EArkham (permission to use sky_outpost_01)
+Krazy (for Doublecross Snow roof models)
