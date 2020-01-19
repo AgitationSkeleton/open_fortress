@@ -19,6 +19,13 @@ Avast Antipony
 Nopey Nope
 Swox
 Ficool2
+Msalinas2877
+
+Bots:
+Deathreus - Reverse Engineering most of TFBots & Halloween Bosses
+Pelipoika - Additional Reverse Engineering for TFBots
+sigsegv - Reverse Engineered documentation for TFBots + NextBot
+ficool2 - Integrating TFBots into Open Fortress and the DM gamemodes etc
 
 Voice acting:
 Stachekip - Mercenary
@@ -37,10 +44,9 @@ Meta
 
 Viewmodel rigging and animations:
 Polybagel - Mercenary First Person Animations
-Ficool2 - Animation Fixes, Original Akimbo Animations, Original Mercenary Gloves, Higher Poly version of the new gloves
-Rara Cerberus - C_Arm ports
+Ficool2 - C_Arm Conversions, Animation Fixes, New Mercenary Gloves, Thirdperson Mercenary animations
 Hex - Railgun fire & Charge animation, Berserk Fist animations
-KaydemonLP - New Mercenary gloves, Concept Animation,
+KaydemonLP - New Mercenary Gloves, Concept Animation
 
 Character concept art and models:
 DrPyspy - Mercenary Model and Concept Art, Early Civilian concept
@@ -87,12 +93,11 @@ iiboharz
 Main Menu UI Design:
 KaydemonLP - Original Main Menu & Loading Screen Overhaul
 Chrissy & PacMania - Font fixes, Main Menu Font Changes, Options Menu Fixes
+Ficool2 - Xbox 360 UI port
+Doomgal - Xbox 360 UI banner
 
 In Game HUD Elements:
 KaydemonLP - DM & Bomb Defusal Hud
-Nbc66 and PacMania67 - Scoreboards
-Krowing - TDM Hud
-Snowy Snowtime - Minimal Mode Fixes
 Chrissy - Polishing and fixes
 Ficool2 - Invade Gamemode
 
@@ -131,13 +136,15 @@ AgitationSkeleton - House of Chthon, The Bad Place, The Dark Zone, Dead Simple, 
 HDMineFace - Legacy, MCTF Splashdown, Greenback, Boxy [Updated Map], Hydro (dm), Shortwave (Layout Adjustments)
 Chrissy - Office, House of Chthon, Crossfire
 Fairweather - Pandora
-Suomimes55 - Congo, DM+CTF Backfort, Boxy, Weapon devtest map, Knoxx
-Ficool2 - DM Lumberyard, assistance with Weapon devtest map
+Suomimes55 - Congo, DM+CTF Backfort, Boxy, Weapon devtest map, Knoxx, DM Minecraft, DM Bricks
+Ficool2 - DM Lumberyard, DM Minecraft, DM Bricks, DM CS1.6 Mansion, Weapon devtest map
 MacD11 - Wiseau, Range, Dead Simple, Grain, Offblast
 KayDemonLP - DM Harvest, Devtest maps
-Lena - Cargo, Dark Zone
+Lena - Cargo, Dark Zone, DM Chestnut
+Phe - DM Chestnut
 Boomsta - Sawdust
 Gibus Cat - Indev DM_2Fort
+HDMineFace - DM Hydro
 Bakscratch - DM Watergate, Skate, Bailey
 PigPig - Knoxx
 Hex - Skate, Lobster Shore, Knoxx
@@ -157,13 +164,16 @@ Train Models by Freyja
 
 Open Fortress - List of community contributors:
 
-Msalinas -  Enabled Nav Mesh and implemented of_navmesh_spawns, MP3 voiceline implementation
 ChargingMeatloaf - dm_badworks + Badworks music
 MegapiemanPHD - dm_deadlock
+Reddking - dm_hydro
 Ruby - dm_entryway
 Professor Pootis - dm_cloister
 comrade commie - dm_golddigger
 Holey - dm_bloodcovenant updates
+Nbc66 and PacMania67 - Final DM Scoreboard design
+Snowy Snowtime - Minimal Mode Fixes
+cbkl - HUD consistancy updates
 Occune - Russian translation
 Technochips - French translation
 The Engineer - Hungarian translation
@@ -172,6 +182,7 @@ Amy (@OctoGril1) - Female Merc design + Easter egg drawing on legacy
 Tyler McVicker - For streaming Open Fortress and offering to be an announcer
 
 Open Fortress - Special thanks:
+TF2Vintage ( where the bots originally came from, with permission given from Deathreus to utilise them )
 Trotim (for helping KaydemonLP with programming)
 Nicknine (for the TF_Port SDK 2013 codebase)
 Saul Rennison (for proper dynamic shadows using the L4D method)
