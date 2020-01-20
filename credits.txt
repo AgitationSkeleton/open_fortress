@@ -191,7 +191,7 @@ Ian "Idolon" Spadin (Arena Byre)
 Randy Goffe - For allowing us to use Resonance
 The Jabroni Brawl 3 team (for Their Support and being a awesome mod)
 Obsidian Conflict team & Maestro Fénix (for the grappling hook stuff)
-Half Life 2 Comunity Edition ( for the original Alien Swarm UI port )
+Half Life 2 Community Edition ( for the original Alien Swarm UI port )
 tonysergi (for MP Gravity Gun carried objects fix and MP vehicle fix)
 Secobmod ( for Multiplayer AI fixes )
 Blixibon ( for Mapbase: better env_projectedtextures, more logic entities etc )
