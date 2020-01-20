@@ -11,7 +11,7 @@ Programming:
 Alex Episode
 MaartenS11
 Rara Cerberus
-Chrissy
+Chris
 Jill Nesbit
 KaydemonLP
 Nbc66
@@ -64,7 +64,7 @@ Stachekip
 NoNotTheMemes
 Drew - Super Shotgun
 Skerion - BFG
-Overpowered - Revolver
+Overpovered - Revolver
 
 Prop and scenary Models & Textures:
 Boomsta - Vending Machines, Pickup Truck, Cheese Shop Props & Misc
@@ -92,13 +92,13 @@ iiboharz
 
 Main Menu UI Design:
 KaydemonLP - Original Main Menu & Loading Screen Overhaul
-Chrissy & PacMania - Font fixes, Main Menu Font Changes, Options Menu Fixes
+Chris & PacMania - Font fixes, Main Menu Font Changes, Options Menu Fixes
 Ficool2 - Xbox 360 UI port
 Doomgal - Xbox 360 UI banner
 
 In Game HUD Elements:
 KaydemonLP - DM & Bomb Defusal Hud
-Chrissy - Polishing and fixes
+Chris - Polishing and fixes
 Ficool2 - Invade Gamemode
 
 Valve.bik Intro:
@@ -134,7 +134,7 @@ Hambooga - The Bad Place, The Longest Yard, Aerowalk
 DrPyspy - Blood Run, Parley, Push
 AgitationSkeleton - House of Chthon, The Bad Place, The Dark Zone, Dead Simple, Overkill, Crossfire, Xpress3, Shortwave, Facing Worlds
 HDMineFace - Legacy, MCTF Splashdown, Greenback, Boxy [Updated Map], Hydro (dm), Shortwave (Layout Adjustments)
-Chrissy - Office, House of Chthon, Crossfire
+Chris - Office, House of Chthon, Crossfire
 Fairweather - Pandora
 Suomimes55 - Congo, DM+CTF Backfort, Boxy, Weapon devtest map, Knoxx, DM Minecraft, DM Bricks
 Ficool2 - DM Lumberyard, DM Minecraft, DM Bricks, DM CS1.6 Mansion, Weapon devtest map
