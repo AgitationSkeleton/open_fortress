@@ -11,7 +11,7 @@ Programming:
 Alex Episode
 MaartenS11
 Rara Cerberus
-Chris
+Chrissy
 Jill Nesbit
 KaydemonLP
 Nbc66
@@ -44,13 +44,13 @@ Meta
 
 Viewmodel rigging and animations:
 Polybagel - Mercenary First Person Animations
+N-Cognito - Mercenary First Person Animations
 Ficool2 - C_Arm Conversions, Animation Fixes, New Mercenary Gloves, Thirdperson Mercenary animations
 Hex - Railgun fire & Charge animation, Berserk Fist animations
 KaydemonLP - New Mercenary Gloves, Concept Animation
 
 Character concept art and models:
 DrPyspy - Mercenary Model and Concept Art, Early Civilian concept
-NoNotTheMemes - TFC Heavy and Soldier concept and head sculpt, Juggernaut Concept, Current Civilian concept and Head Sculpt
 Drew - TFC Spy Model
 Lena - TFC Soldier Head Concept
 
@@ -61,10 +61,9 @@ Batandy - Tommy Gun
 Suomimies55 - Chainsaw, Super Shotgun, Lightning Gun
 Gibus Cat
 Stachekip
-NoNotTheMemes
 Drew - Super Shotgun
 Skerion - BFG
-Overpovered - Revolver
+Overpowered - Revolver
 
 Prop and scenary Models & Textures:
 Boomsta - Vending Machines, Pickup Truck, Cheese Shop Props & Misc
@@ -73,7 +72,8 @@ Ficool2 - Couch
 NoNotTheMemes - Couch
 KaydemonLP - SkateBoard
 Suomimies55 - SkateBoard Textures
-Richter - Office Textures
+Richter - Office Textures, Yoda Spray
+Denied - Powerup sprays
 
 Placeholder TFC Model Ports:
 Ficool2
@@ -89,16 +89,17 @@ KaydemonLP - Lightning Gun Particles/BFG Smoke and flame particles
 Menu and promotional art:
 Gibus Cat
 iiboharz
+Denied
 
 Main Menu UI Design:
 KaydemonLP - Original Main Menu & Loading Screen Overhaul
-Chris & PacMania - Font fixes, Main Menu Font Changes, Options Menu Fixes
+Chrissy & PacMania - Font fixes, Main Menu Font Changes, Options Menu Fixes
 Ficool2 - Xbox 360 UI port
 Doomgal - Xbox 360 UI banner
 
 In Game HUD Elements:
 KaydemonLP - DM & Bomb Defusal Hud
-Chris - Polishing and fixes
+Chrissy - Polishing and fixes
 Ficool2 - Invade Gamemode
 
 Valve.bik Intro:
@@ -132,9 +133,8 @@ Nopey Nope (Placeholder Site)
 Maps:
 Hambooga - The Bad Place, The Longest Yard, Aerowalk
 DrPyspy - Blood Run, Parley, Push
-AgitationSkeleton - House of Chthon, The Bad Place, The Dark Zone, Dead Simple, Overkill, Crossfire, Xpress3, Shortwave, Facing Worlds
+AgitationSkeleton - House of Chthon, The Bad Place, The Dark Zone, Dead Simple, Overkill, Xpress3, Shortwave, Facing Worlds
 HDMineFace - Legacy, MCTF Splashdown, Greenback, Boxy [Updated Map], Hydro (dm), Shortwave (Layout Adjustments)
-Chris - Office, House of Chthon, Crossfire
 Fairweather - Pandora
 Suomimes55 - Congo, DM+CTF Backfort, Boxy, Weapon devtest map, Knoxx, DM Minecraft, DM Bricks
 Ficool2 - DM Lumberyard, DM Minecraft, DM Bricks, DM CS1.6 Mansion, Weapon devtest map
@@ -166,7 +166,6 @@ Open Fortress - List of community contributors:
 
 ChargingMeatloaf - dm_badworks + Badworks music
 MegapiemanPHD - dm_deadlock
-Reddking - dm_hydro
 Ruby - dm_entryway
 Professor Pootis - dm_cloister
 comrade commie - dm_golddigger
@@ -191,7 +190,7 @@ Ian "Idolon" Spadin (Arena Byre)
 Randy Goffe - For allowing us to use Resonance
 The Jabroni Brawl 3 team (for Their Support and being a awesome mod)
 Obsidian Conflict team & Maestro Fénix (for the grappling hook stuff)
-Half Life 2 Community Edition ( for the original Alien Swarm UI port )
+Half Life 2 Comunity Edition ( for the original Alien Swarm UI port )
 tonysergi (for MP Gravity Gun carried objects fix and MP vehicle fix)
 Secobmod ( for Multiplayer AI fixes )
 Blixibon ( for Mapbase: better env_projectedtextures, more logic entities etc )
