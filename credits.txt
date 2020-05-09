@@ -45,25 +45,29 @@ Meta
 Viewmodel rigging and animations:
 Polybagel - Mercenary First Person Animations
 N-Cognito - Mercenary First Person Animations
+Coolchou Zhao - Mercenary First Person Animations
 Ficool2 - C_Arm Conversions, Animation Fixes, New Mercenary Gloves, Thirdperson Mercenary animations
-Hex - Railgun fire & Charge animation, Berserk Fist animations
-KaydemonLP - New Mercenary Gloves, Concept Animation
+Hex - Railgun fire & Charge animation, GIB animations
+KaydemonLP - Concept Animation
 
 Character concept art and models:
+Alaxe - New Mercenary model and textures
 DrPyspy - Mercenary Model and Concept Art, Early Civilian concept
 Drew - TFC Spy Model
 Lena - TFC Soldier Head Concept
 
-Weapon and cosmetic concept artwork, models & textures:
+Weapon and cosmetic concepts and modelling:
 Ficool2
-DrPyspy - Railgun Concept
+DrPyspy
 Batandy - Tommy Gun
-Suomimies55 - Chainsaw, Super Shotgun, Lightning Gun
+Suomimies55
 Gibus Cat
 Stachekip
-Drew - Super Shotgun
-Skerion - BFG
-Overpowered - Revolver
+Drew
+Extra Ram
+Skerion - GIB
+Overpowered
+iiboharz - Hardhat
 
 Prop and scenary Models & Textures:
 Boomsta - Vending Machines, Pickup Truck, Cheese Shop Props & Misc
@@ -92,15 +96,17 @@ iiboharz
 Denied
 
 Main Menu UI Design:
-KaydemonLP - Original Main Menu & Loading Screen Overhaul
-Chrissy & PacMania - Font fixes, Main Menu Font Changes, Options Menu Fixes
+KaydemonLP - Original Main Menu & Loading Screen Overhaul, Loadout Screen
+Chris & PacMania - Font fixes, Main Menu Font Changes, Options Menu Fixes
 Ficool2 - Xbox 360 UI port
 Doomgal - Xbox 360 UI banner
 
 In Game HUD Elements:
 KaydemonLP - DM & Bomb Defusal Hud
-Chrissy - Polishing and fixes
+Chris - Polishing and fixes
 Ficool2 - Invade Gamemode
+Cbkl - Hud fixes and updates, New DM kills Hud
+Blamo, Meta, Drew - Mercenary & Zombie class portraits
 
 Valve.bik Intro:
 Meta
@@ -123,6 +129,7 @@ Meta
 Withered Rose
 Lena
 Ranzki
+Mace
 
 www.openfortress.fun website:
 EmNudge
@@ -131,7 +138,7 @@ Nbc66 (Placeholder Site)
 Nopey Nope (Placeholder Site)
 
 Maps:
-Hambooga - The Bad Place, The Longest Yard, Aerowalk
+Hambooga - The Bad Place, The Longest Yard, Aerowalk original Blockout
 DrPyspy - Blood Run, Parley, Push
 AgitationSkeleton - House of Chthon, The Bad Place, The Dark Zone, Dead Simple, Overkill, Xpress3, Shortwave, Facing Worlds
 HDMineFace - Legacy, MCTF Splashdown, Greenback, Boxy [Updated Map], Hydro (dm), Shortwave (Layout Adjustments)
@@ -149,12 +156,13 @@ Bakscratch - DM Watergate, Skate, Bailey
 PigPig - Knoxx
 Hex - Skate, Lobster Shore, Knoxx
 iiboharz - Wiseau, DM 2Fort, DM Ravine, DM Offblast
-Savva - Hollow, port of CTF Redplanet by Spipper, MCTF Turbine
-Skimbo (Formerly known as That's the plan.) - DM Moonbase, miscellaneous
+Savva - Hollow, port of CTF Redplanet by Spipper, MCTF Turbine, MCTF Doublecross, MCTF Badlands, Shingle
 Spipper - CTF Redplanet
 Muddy - Grain
 HQDefault - Blood Covenant
 Charging Turnip - Badworks
+Suzie🕷Scattersilk - The Badplace new Artpass
+Ruby - dm_entryway, duel_aerowalk artpass
 
 Third party Assets Used with permission:
 Landfall Assets by Dr. Spud and Nineaxis
@@ -164,21 +172,24 @@ Train Models by Freyja
 
 Open Fortress - List of community contributors:
 
-ChargingMeatloaf - dm_badworks + Badworks music
 MegapiemanPHD - dm_deadlock
-Ruby - dm_entryway
 Professor Pootis - dm_cloister
 comrade commie - dm_golddigger
 Holey - dm_bloodcovenant updates
 Nbc66 and PacMania67 - Final DM Scoreboard design
 Snowy Snowtime - Minimal Mode Fixes
-cbkl - HUD consistancy updates
+Derpster55 - Chainsaw, DM RL kill icons
+Sn-0W - Merc viewmodel cosmetic models
 Occune - Russian translation
 Technochips - French translation
 The Engineer - Hungarian translation
 Nival, Arcus Merseneri and Amuno - Italian Translation
 Amy (@OctoGril1) - Female Merc design + Easter egg drawing on legacy
 Tyler McVicker - For streaming Open Fortress and offering to be an announcer
+Private Polygon - Player Colored party hat
+Jan - Linux builds and fixes
+Solar light - Hud Fixes
+White Russian Bear - Infection poster ( w/Meta )
 
 Open Fortress - Special thanks:
 TF2Vintage ( where the bots originally came from, with permission given from Deathreus to utilise them )
