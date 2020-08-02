@@ -31,16 +31,18 @@ Voice acting:
 Stachekip - Mercenary
 Drew - New Soldier & Engineer Voice Lines
 EverMatt - New Scout Voicelines
-Meta - TFC Demoman
+Cazsu - TFC Demoman
 
 Announcers:
 Benjamin Rudman
-Tyler McVicker
+Cazsu
+GetGianni
+Stachekip
 
 Weapon and misc. player sound effects:
 Stachekip
 Omniary
-Meta
+Cazsu
 
 Viewmodel rigging and animations:
 Polybagel - Mercenary First Person Animations
@@ -55,6 +57,9 @@ Alaxe - New Mercenary model and textures
 DrPyspy - Mercenary Model and Concept Art, Early Civilian concept
 Drew - TFC Spy Model
 Lena - TFC Soldier Head Concept
+Square
+Swanky Swaggernaut
+Cherry
 
 Weapon and cosmetic concepts and modelling:
 Ficool2
@@ -78,6 +83,7 @@ KaydemonLP - SkateBoard
 Suomimies55 - SkateBoard Textures
 Richter - Office Textures, Yoda Spray
 Denied - Powerup sprays
+Krazy - Vehicles
 
 Placeholder TFC Model Ports:
 Ficool2
@@ -93,6 +99,7 @@ KaydemonLP - Lightning Gun Particles/BFG Smoke and flame particles
 Menu and promotional art:
 Gibus Cat
 iiboharz
+Blamo
 Denied
 
 Main Menu UI Design:
@@ -106,10 +113,10 @@ KaydemonLP - DM & Bomb Defusal Hud
 Chris - Polishing and fixes
 Ficool2 - Invade Gamemode
 Cbkl - Hud fixes and updates, New DM kills Hud
-Blamo, Meta, Drew - Mercenary & Zombie class portraits
+Blamo, Cazsu, Drew - Mercenary & Zombie class portraits
 
 Valve.bik Intro:
-Meta
+Cazsu
 MrModez
 
 In-game menu logo concept:
@@ -125,17 +132,20 @@ Music:
 Magnus
 MrModez
 Thoopje
-Meta
+Cazsu
 Withered Rose
 Lena
 Ranzki
 Mace
+
+Main Menu specific tracks "Bahp!" (based on "Apple Jump" by Dexter Gordon) and "Virtual Proof" by Enrico Bergamini
 
 www.openfortress.fun website:
 EmNudge
 AgitationSkeleton (Placeholder Site)
 Nbc66 (Placeholder Site)
 Nopey Nope (Placeholder Site)
+Gibus Cat & Blamo - Merc Renders & Promo Art
 
 Maps:
 Hambooga - The Bad Place, The Longest Yard, Aerowalk original Blockout
@@ -161,8 +171,10 @@ Spipper - CTF Redplanet
 Muddy - Grain
 HQDefault - Blood Covenant
 Charging Turnip - Badworks
-Suzie🕷Scattersilk - The Badplace new Artpass
+SuzieðŸ•·Scattersilk - The Badplace new Artpass
 Ruby - dm_entryway, duel_aerowalk artpass
+Aichten / Dot.ico
+White Russian Bear
 
 Third party Assets Used with permission:
 Landfall Assets by Dr. Spud and Nineaxis
@@ -185,11 +197,10 @@ Technochips - French translation
 The Engineer - Hungarian translation
 Nival, Arcus Merseneri and Amuno - Italian Translation
 Amy (@OctoGril1) - Female Merc design + Easter egg drawing on legacy
-Tyler McVicker - For streaming Open Fortress and offering to be an announcer
 Private Polygon - Player Colored party hat
 Jan - Linux builds and fixes
 Solar light - Hud Fixes
-White Russian Bear - Infection poster ( w/Meta )
+White Russian Bear
 
 Open Fortress - Special thanks:
 TF2Vintage ( where the bots originally came from, with permission given from Deathreus to utilise them )
@@ -198,15 +209,13 @@ Nicknine (for the TF_Port SDK 2013 codebase)
 Saul Rennison (for proper dynamic shadows using the L4D method)
 Train (for helping with all language support)
 Ian "Idolon" Spadin (Arena Byre)
-Randy Goffe - For allowing us to use Resonance
 The Jabroni Brawl 3 team (for Their Support and being a awesome mod)
-Obsidian Conflict team & Maestro Fénix (for the grappling hook stuff)
+Obsidian Conflict team & Maestro FÃ©nix (for the grappling hook stuff)
 Half Life 2 Comunity Edition ( for the original Alien Swarm UI port )
 tonysergi (for MP Gravity Gun carried objects fix and MP vehicle fix)
 Secobmod ( for Multiplayer AI fixes )
 Blixibon ( for Mapbase: better env_projectedtextures, more logic entities etc )
 TotallyMehis ( for clientside ragdoll cleanup fix )
-HOME (permission to use Resonance in DM Harvest)
 SuperBigBoy (food)
 EArkham (permission to use sky_outpost_01)
 Krazy (for Doublecross Snow roof models)
